@@ -32,10 +32,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
-  "spriteMaskId": {
-    "name": "spr_MinecartrailSlopeEditor",
-    "path": "sprites/spr_MinecartrailSlopeEditor/spr_MinecartrailSlopeEditor.yy",
+  "spriteId": {
+    "name": "spr_MinecartrailSlope",
+    "path": "sprites/spr_MinecartrailSlope/spr_MinecartrailSlope.yy",
   },
+  "spriteMaskId": null,
   "visible": false,
 }

@@ -1,7 +1,7 @@
 function state_player_grind()
 {
     vsp = 0;
-    sprite_index = spr_grindrail;
+    sprite_index = spr_player_PZ_walk_dance;
     image_speed = 0.35;
     hsp = xscale * movespeed;
     
