@@ -134,7 +134,7 @@ function scr_gameInit()
     global.NephewFollow = false;
     global.currentrank = "D";
     global.panic = false;
-    global.PlayerPaletteIndex = 2;
+    global.PlayerPaletteIndex = 1;
     global.InternalLevelName = "none";
     global.LevelFirstRoom = hub_paintstudio;
     global.secretfound = 0;

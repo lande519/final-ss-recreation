@@ -24,7 +24,7 @@ for (i = 0; i < 3; i++)
     if (file_exists(savePath[i]))
     {
         ini_open(savePath[i]);
-        filePalette[i] = ini_read_real("Misc", string("playerPaletteIndex_{0}", scr_getCharacterPrefix(Characters.Pizzelle)), 2);
+        filePalette[i] = ini_read_real("Misc", string("playerPaletteIndex_{0}", scr_getCharacterPrefix(Characters.Pizzelle)), 1);
         fileOpened[i] = ini_read_real("Game", "seconds", 0) != 0 || ini_read_real("Game", "minutes", 0) != 0;
         ini_close();
         filePercentage[i] = scr_completion_percent(savePath[i]);
