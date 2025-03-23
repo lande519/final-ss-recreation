@@ -46,6 +46,11 @@
     {"name":"inst_5218EDFC","path":"rooms/hub_w1/hub_w1.yy",},
     {"name":"inst_190D75A3","path":"rooms/hub_w1/hub_w1.yy",},
     {"name":"inst_289628F3","path":"rooms/hub_w1/hub_w1.yy",},
+    {"name":"inst_4B4F048E","path":"rooms/hub_w1/hub_w1.yy",},
+    {"name":"inst_3B64DE55","path":"rooms/hub_w1/hub_w1.yy",},
+    {"name":"inst_320AD7BD","path":"rooms/hub_w1/hub_w1.yy",},
+    {"name":"inst_24D7097E","path":"rooms/hub_w1/hub_w1.yy",},
+    {"name":"inst_BD71F69","path":"rooms/hub_w1/hub_w1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -111,9 +116,19 @@
           ],"rotation":0.027976455,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":1632.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_190D75A3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hubelevator","path":"objects/obj_hubelevator/obj_hubelevator.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":736.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_289628F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorC","path":"objects/obj_doorC/obj_doorC.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":1600.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B4F048E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorE","path":"objects/obj_doorE/obj_doorE.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":704.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B64DE55","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"level","path":"objects/obj_startGate/obj_startGate.yy",},"value":"\"steamy\";",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2304.0,"y":1184.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_320AD7BD","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"level","path":"objects/obj_startGate/obj_startGate.yy",},"value":"\"mineshaft\";",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1696.0,"y":608.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_24D7097E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"level","path":"objects/obj_startGate/obj_startGate.yy",},"value":"\"steamy\";",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3584.0,"y":1248.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BD71F69","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_paletteChangerMirror","path":"objects/obj_paletteChangerMirror/obj_paletteChangerMirror.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":1201.0,"y":1199.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_BG1","assets":[
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7F221E8D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"bg_w1sign","path":"sprites/bg_w1sign/bg_w1sign.yy",},"x":1383.0,"y":1044.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3CDB19AA","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"bg_paintersign","path":"sprites/bg_paintersign/bg_paintersign.yy",},"x":1172.0,"y":361.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_532474F2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"bg_cottonposter","path":"sprites/bg_cottonposter/bg_cottonposter.yy",},"x":2720.0,"y":1344.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_6459ECC4","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"bg_w1animesign","path":"sprites/bg_w1animesign/bg_w1animesign.yy",},"x":2048.0,"y":288.0,},

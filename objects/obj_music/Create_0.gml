@@ -71,6 +71,15 @@ addRoomMusic(hub_w1, "event:/music/hub", undefined, function(argument0, argument
     if (!is_undefined(event_state))
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
+addRoomMusic(hub_w2, "event:/music/hub", undefined, function(argument0, argument1, argument2)
+{
+    var event_state;
+    
+    event_state = 0;
+    
+    if (!is_undefined(event_state))
+        fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
+});
 addRoomMusic(hub_soundTest, undefined, undefined, undefined);
 addRoomMusic(hub_hallway, "event:/music/hub", undefined, function(argument0, argument1, argument2)
 {

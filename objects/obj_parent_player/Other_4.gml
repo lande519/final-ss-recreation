@@ -10,6 +10,9 @@ with (obj_coneball_timesUp)
     image_alpha = 0;
 }
 
+if is_hub()
+	instance_create(x,y,obj_randomnpc)	
+
 with (obj_parent_confecti)
 {
     ds_queue_clear(followQueue);
