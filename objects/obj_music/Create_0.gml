@@ -62,7 +62,7 @@ addRoomMusic(rm_mainmenu, "event:/music/titlescreen_demo", undefined, function(a
 addRoomMusic(rm_credits, "event:/music/credits", undefined, undefined);
 addRoomMusic(rm_devroom, "event:/music/devroom", undefined, undefined);
 addRoomMusic(tutorial_1, "event:/music/tutorial", undefined, undefined);
-addRoomMusic(hub_paintstudio, "event:/music/hub", undefined, function(argument0, argument1, argument2)
+addRoomMusic(hub_w1, "event:/music/hub", undefined, function(argument0, argument1, argument2)
 {
     var event_state;
     
@@ -72,7 +72,7 @@ addRoomMusic(hub_paintstudio, "event:/music/hub", undefined, function(argument0,
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
 addRoomMusic(hub_soundTest, undefined, undefined, undefined);
-addRoomMusic(hub_demohallway, "event:/music/hub", undefined, function(argument0, argument1, argument2)
+addRoomMusic(hub_hallway, "event:/music/hub", undefined, function(argument0, argument1, argument2)
 {
     var event_state;
     

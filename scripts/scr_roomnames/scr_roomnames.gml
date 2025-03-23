@@ -43,11 +43,11 @@ function scr_gamecaptions(argument0 = room)
             game_caption = "winname_credit";
             break;
         
-        case hub_paintstudio:
+        case hub_w1:
             game_caption = "winname_hub";
             break;
         
-        case hub_demohallway:
+        case hub_hallway:
             game_caption = "winname_hub";
             break;
         
@@ -105,11 +105,11 @@ function scr_roomnames(argument0 = room)
             room_name = "romname_missing";
             break;
         
-        case hub_paintstudio:
+        case hub_w1:
             room_name = "romname_mainhub";
             break;
         
-        case hub_demohallway:
+        case hub_hallway:
             room_name = "romname_hallway";
             break;
         

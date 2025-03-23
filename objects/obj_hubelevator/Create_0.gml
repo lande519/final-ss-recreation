@@ -5,7 +5,6 @@ state = States.frozen;
 i = 0;
 hub_array[i++] = [hub_w2, "FLOOR 2"];
 hub_array[i++] = [hub_w1, "FLOOR 1"];
-hub_array[i++] = [hub_basement, "BASEMENT"];
 drawx = 0;
 drawy = 0;
 surface2 = -4;

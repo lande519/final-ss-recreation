@@ -52,7 +52,7 @@ if (abs(conveyor_hsp) > 0)
 else if (abs(conveyor_hsp) <= 0)
     conveyorHsp = approach(conveyorHsp, 0, grounded ? 0.75 : 0.5);
 
-if (!hasSeenProgressionPrompt && (room == hub_demohallway || room == hub_paintstudio) && !instance_exists(obj_fadeoutTransition))
+if (!hasSeenProgressionPrompt && (room == hub_hallway || room == hub_w1) && !instance_exists(obj_fadeoutTransition))
 {
     hasSeenProgressionPrompt = true;
     scr_queueToolTipPrompt(lang_get("demo_judgement_hint"));

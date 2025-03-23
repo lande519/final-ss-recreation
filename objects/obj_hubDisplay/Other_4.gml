@@ -2,8 +2,8 @@ var pg, e, realLevels, p, i, lv, s, c, taskedAreas, tasks, j, pal;
 
 switch (room)
 {
-    case hub_demohallway:
-    case hub_paintstudio:
+    case hub_hallway:
+    case hub_w1:
     case hub_molasses:
         addLevel("entryway", 0).setIcon(spr_tvdisplay_levels, 0);
         addLevel("steamy", 1).setIcon(spr_tvdisplay_levels, 1);

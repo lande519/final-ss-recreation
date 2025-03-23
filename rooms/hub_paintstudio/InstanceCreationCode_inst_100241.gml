@@ -1,1 +1,1 @@
-targetRoom = hub_demohallway;
+targetRoom = hub_hallway;

@@ -18,7 +18,7 @@ function is_hub(argument0 = room)
 {
     var hub_rooms;
     
-    hub_rooms = [hub_soundTest, hub_demohallway, hub_paintstudio, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits];
+    hub_rooms = [hub_soundTest, hub_hallway, hub_w1, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits];
     return array_contains(hub_rooms, argument0);
 }
 

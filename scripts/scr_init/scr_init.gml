@@ -136,7 +136,7 @@ function scr_gameInit()
     global.panic = false;
     global.PlayerPaletteIndex = 1;
     global.InternalLevelName = "none";
-    global.LevelFirstRoom = hub_paintstudio;
+    global.LevelFirstRoom = hub_w1;
     global.secretfound = 0;
     global.gamePauseState = 0;
     global.LevelFrames = 0;

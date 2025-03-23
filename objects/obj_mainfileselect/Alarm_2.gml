@@ -2,7 +2,7 @@ global.SaveFileName = savePath[selectedFile];
 global.NewFile = !filePresent[selectedFile];
 global.UseOfftopic = false;
 scr_saveinit();
-obj_parent_player.targetRoom = hub_demohallway;
+obj_parent_player.targetRoom = hub_hallway;
 obj_parent_player.targetDoor = "A";
 obj_parent_player.state = States.door;
 

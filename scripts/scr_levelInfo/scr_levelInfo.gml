@@ -24,7 +24,7 @@ function scr_defineLevel(argument0, argument1, argument2, argument3, argument4 =
     });
 }
 
-scr_defineLevel(0, "demohub", "Demo 2 Hub", hub_demohallway);
+scr_defineLevel(0, "demohub", "Demo 2 Hub", hub_hallway);
 scr_defineLevel(0, "tutorial", "Tutorial", tutorial_1);
 scr_defineLevel(0, "entryway", "Crunchy Construction", entryway_1, ["Entryway"], 16500, new scr_defineTitleCard(0, "event:/music/w1/entryway_titlecard", 37, 42));
 scr_defineLevel(0, "steamy", "Cottontown", steamy_1, ["Cottontown"], 22500, new scr_defineTitleCard(1, "event:/music/w1/cottontown_titlecard", 37, 498));
