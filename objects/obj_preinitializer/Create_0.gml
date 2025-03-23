@@ -314,7 +314,7 @@ enum UnknownTitlecard
 	Eight
 }
 
-#macro isDemo 0 + 1
+#macro isDemo 0
 
 var temparray, i;
 
