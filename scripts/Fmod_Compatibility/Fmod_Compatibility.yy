@@ -1,13 +1,11 @@
 {
-  "$GMScript":"v1",
-  "%Name":"Fmod_Compatibility",
-  "isCompatibility":false,
-  "isDnD":false,
-  "name":"Fmod_Compatibility",
-  "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "Fmod_Compatibility",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
-  "resourceType":"GMScript",
-  "resourceVersion":"2.0",
 }

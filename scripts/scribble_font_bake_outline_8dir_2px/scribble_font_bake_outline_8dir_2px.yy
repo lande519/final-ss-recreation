@@ -1,13 +1,11 @@
 {
-  "$GMScript":"v1",
-  "%Name":"scribble_font_bake_outline_8dir_2px",
-  "isCompatibility":false,
-  "isDnD":false,
-  "name":"scribble_font_bake_outline_8dir_2px",
-  "parent":{
-    "name":"Legacy",
-    "path":"folders/Extensions/Scribble/Legacy.yy",
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "scribble_font_bake_outline_8dir_2px",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Legacy",
+    "path": "folders/Extensions/Scribble/Legacy.yy",
   },
-  "resourceType":"GMScript",
-  "resourceVersion":"2.0",
 }
