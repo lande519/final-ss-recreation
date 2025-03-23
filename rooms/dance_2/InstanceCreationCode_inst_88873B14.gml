@@ -1,1 +1,1 @@
-targetRoom = dance_1;
+targetRoom = dance_1
