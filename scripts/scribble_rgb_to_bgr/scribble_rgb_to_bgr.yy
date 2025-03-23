@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scribble_rgb_to_bgr",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Legacy",
-    "path": "folders/Extensions/Scribble/Legacy.yy",
+  "$GMScript":"v1",
+  "%Name":"scribble_rgb_to_bgr",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scribble_rgb_to_bgr",
+  "parent":{
+    "name":"Legacy",
+    "path":"folders/Extensions/Scribble/Legacy.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
