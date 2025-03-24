@@ -37,7 +37,7 @@ scr_defineLevel(1, "cafe", "Chocoa Cafe", cafe_1, ["Cafe"]);
 scr_defineLevel(1, "boss_pizzabro", "Boss 2", rm_missing);
 scr_defineLevel(2, "dance", "Dance Off", dance_1, ["Dance"]);
 scr_defineLevel(2, "bee", "Sting Operation", bee_1, ["Bee"]);
-scr_defineLevel(2, "casino", "Coneboy Casino", cafe_1, ["Casino"]);
+scr_defineLevel(2, "casino", "Coneboy Casino", casino_1, ["Casino"]);
 scr_defineLevel(2, "boss_pizzabro", "Boss 2", rm_missing);
 
 function scr_gotoLevel(argument0)

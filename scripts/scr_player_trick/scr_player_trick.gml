@@ -4,14 +4,14 @@ function state_player_trick()
     
     hsp = movespeed * xscale;
     
-    if (sprite_index != spr_player_PZ_trick_intro && sprite_index != spr_player_PZ_trick)
+    if (sprite_index != spr_player_PZ_mach2_longJump_intro && sprite_index != spr_player_PZ_mach2_longJump)
     {
-        sprite_index = spr_player_PZ_trick_intro;
+        sprite_index = spr_player_PZ_mach2_longJump_intro;
         image_index = 0;
     }
-    else if (sprite_animation_end() && sprite_index == spr_player_PZ_trick_intro)
+    else if (sprite_animation_end() && sprite_index == spr_player_PZ_mach2_longJump_intro)
     {
-        sprite_index = spr_player_PZ_trick;
+        sprite_index = spr_player_PZ_mach2_longJump;
     }
     
     if (key_attack && (!grounded || slopeCheck(x + xscale, y)) && scr_solid(x + xscale, y, true) && !place_meeting(x + xscale, y, obj_destructibles) && global.playerCharacter == Characters.Pizzelle)
