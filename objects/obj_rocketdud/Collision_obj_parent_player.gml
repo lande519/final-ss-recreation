@@ -1,6 +1,6 @@
 if (collide == 1)
 {
-    instance_destroy(id, false);
+    image_alpha = 0
     
     with (obj_parent_player)
     {

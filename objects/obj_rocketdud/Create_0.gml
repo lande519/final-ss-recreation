@@ -1,6 +1,3 @@
-collide = 0;
-hsp = obj_parent_player.movespeed;
-image_xscale = obj_parent_player.xscale;
-alarm[0] = 10;
-alarm[1] = 240;
+collide = 1;
+hsp = 0
 image_speed = 0.35;
