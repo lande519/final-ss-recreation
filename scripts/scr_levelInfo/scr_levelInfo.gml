@@ -38,7 +38,11 @@ scr_defineLevel(1, "boss_pizzabro", "Boss 2", rm_missing);
 scr_defineLevel(2, "dance", "Dance Off", dance_1, ["Dance"]);
 scr_defineLevel(2, "bee", "Sting Operation", bee_1, ["Bee"]);
 scr_defineLevel(2, "casino", "Coneboy Casino", casino_1, ["Casino"]);
-scr_defineLevel(2, "boss_pizzabro", "Boss 2", rm_missing);
+scr_defineLevel(2, "boss_pizzabro", "Pizzano", rm_missing);
+scr_defineLevel(3, "sucrose", "Sucrose Snowstorm", sucrose_1, ["Sucrose"]);
+scr_defineLevel(3, "licorice", "Licorice Castle", licorice_intro, ["Licorice"]);
+scr_defineLevel(3, "sour", "Souractive Stratosphere", sour_1, ["Sour"]);
+scr_defineLevel(3, "boss_pizzabro", "Coneball", rm_missing);
 
 function scr_gotoLevel(argument0)
 {
