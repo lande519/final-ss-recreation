@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_tile_casino",
-  "bbox_bottom": 287,
-  "bbox_left": 32,
-  "bbox_right": 191,
-  "bbox_top": 32,
+  "bbox_bottom": 1185,
+  "bbox_left": 0,
+  "bbox_right": 1149,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4fe763d-6716-4aff-8ae9-ab4b7c3a0559",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe6bf740-b14e-440c-a07f-fcbb67d7cf05",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 288,
+  "height": 1188,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3dcd0410-ec1c-460e-a1b6-683b55f3f749","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c2395f48-43f0-4e2b-9364-a2a96ff6d11b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e4fe763d-6716-4aff-8ae9-ab4b7c3a0559","path":"sprites/tilespr_tile_casino/tilespr_tile_casino.yy",},},},"Disabled":false,"id":"e2f6b235-eda8-4d22-ab01-fe8797b6756f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe6bf740-b14e-440c-a07f-fcbb67d7cf05","path":"sprites/tilespr_tile_casino/tilespr_tile_casino.yy",},},},"Disabled":false,"id":"03ef8560-345c-44f8-b3d2-c14c4456460e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 192,
+  "width": 1152,
 }
