@@ -221,5 +221,6 @@ function scr_gameInit()
     global.doorsave = ds_list_create();
     global.afterimage_list = ds_list_create();
     global.doorindex = 0;
+    global.SecretsFound = [false, false, false];	
 }
 

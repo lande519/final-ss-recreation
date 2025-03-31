@@ -2203,6 +2203,7 @@
     {"id":{"name":"spr_candysona_idle41","path":"sprites/spr_candysona_idle41/spr_candysona_idle41.yy",},},
     {"id":{"name":"spr_candysona_idle42","path":"sprites/spr_candysona_idle42/spr_candysona_idle42.yy",},},
     {"id":{"name":"spr_painteridle_newyears","path":"sprites/spr_painteridle_newyears/spr_painteridle_newyears.yy",},},
+    {"id":{"name":"obj_betonbaconOLD","path":"objects/obj_betonbaconOLD/obj_betonbaconOLD.yy",},},
     {"id":{"name":"spr_updown_arrow","path":"sprites/spr_updown_arrow/spr_updown_arrow.yy",},},
     {"id":{"name":"spr_player_PZ_idleAnim_credits","path":"sprites/spr_player_PZ_idleAnim_credits/spr_player_PZ_idleAnim_credits.yy",},},
     {"id":{"name":"spr_rankclipboard_stamp","path":"sprites/spr_rankclipboard_stamp/spr_rankclipboard_stamp.yy",},},

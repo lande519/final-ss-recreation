@@ -49,6 +49,13 @@ if (instance_exists(ID))
                     hitboxcreate = 0;
                     instance_destroy(other.id);
                 }
+            
+            case obj_betonbacon:
+                if (state != 2)
+                {
+                    hitboxcreate = 0;
+                    instance_destroy(other.id);
+                }
                 
                 break;
             
