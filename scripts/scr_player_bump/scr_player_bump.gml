@@ -6,7 +6,7 @@ function state_player_bump()
     
     if (sprite_index != spr_player_PZ_geyser)
     {
-        if (sprite_index != spr_splat && sprite_index != spr_tumbleend && sprite_index != spr_mach3hitwall)
+        if (sprite_index != spr_splat && sprite_index != spr_tumbleend && sprite_index != spr_mach3hitwall && sprite_index != spr_player_ratmountbump && sprite_index != spr_lonegustavo_bump)
             sprite_index = spr_bump;
         
         if (sprite_index == spr_splat)
@@ -24,13 +24,19 @@ function state_player_bump()
         
         if (sprite_animation_end())
         {
-            state = States.jump;
+			if !isgustavo
+				state = States.jump;
+			else
+				state = States.ratmount;
             sprite_index = shotgunAnim ? spr_shotgun_jump : spr_jump;
         }
     }
     else if (grounded)
     {
-        state = States.jump;
+		if !isgustavo
+			state = States.jump;
+		else
+			state = States.ratmount;
     }
     
     image_speed = 0.35;

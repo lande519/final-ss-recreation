@@ -430,6 +430,34 @@ function scr_playerstate()
         case States.freeflight:
             state_function = state_player_freeflight;
             break;
+        
+        case States.ratmount:
+            state_function = scr_player_ratmount;
+            break;
+        
+        case States.ratmountjump:
+            state_function = scr_player_ratmountjump;
+            break;
+        
+        case States.ratmountskid:
+            state_function = scr_player_ratmountskid;
+            break;
+        
+        case States.ratmountclimbwall:
+            state_function = scr_player_ratmountclimbwall;
+            break;
+        
+        case States.ratmountbounce:
+            state_function = scr_player_ratmountbounce;
+            break;
+        
+        case States.ratmountpunch:
+            state_function = scr_player_ratmountpunch;
+            break;
+        
+        case States.ratmountgroundpound:
+            state_function = scr_player_ratmountgroundpound;
+            break;
     }
     
     stateName = string("State : {0}", state);

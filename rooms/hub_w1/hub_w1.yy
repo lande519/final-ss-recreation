@@ -51,6 +51,7 @@
     {"name":"inst_320AD7BD","path":"rooms/hub_w1/hub_w1.yy",},
     {"name":"inst_24D7097E","path":"rooms/hub_w1/hub_w1.yy",},
     {"name":"inst_BD71F69","path":"rooms/hub_w1/hub_w1.yy",},
+    {"name":"inst_56889FB9","path":"rooms/hub_w1/hub_w1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -127,6 +128,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"level","path":"objects/obj_startGate/obj_startGate.yy",},"value":"\"steamy\";",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3584.0,"y":1248.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BD71F69","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_paletteChangerMirror","path":"objects/obj_paletteChangerMirror/obj_paletteChangerMirror.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":1201.0,"y":1199.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_56889FB9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rosettetrans","path":"objects/obj_rosettetrans/obj_rosettetrans.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":1856.0,"y":1184.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_BG1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3CDB19AA","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"bg_paintersign","path":"sprites/bg_paintersign/bg_paintersign.yy",},"x":1172.0,"y":361.0,},

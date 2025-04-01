@@ -68,9 +68,9 @@ function scr_collide_destructibles()
         check_and_destroy(x, y + vsp + 2, obj_destructibles);
     }
     
-    if (vsp >= 0 && (state == States.puddle || state == States.frostburnjump || state == States.superslam || state == States.wallkick || (state == States.freefall || state == States.freefallland)))
+    if (vsp >= 0 && (state == States.puddle || state == States.ratmountbounce || state == States.ratmountpunch || state == States.frostburnjump || state == States.superslam || state == States.wallkick || (state == States.freefall || state == States.freefallland)))
     {
-        if (state == States.puddle || (state == States.frostburnjump && sprite_index == spr_player_PZ_frostburn_spin) || (state == States.superslam && freeFallSmash >= 10) || ((state == States.freefall || state == States.freefallland) && freeFallSmash >= 10))
+        if (state == States.puddle || state == States.ratmountbounce || (state == States.frostburnjump && sprite_index == spr_player_PZ_frostburn_spin) || (state == States.superslam && freeFallSmash >= 10) || ((state == States.freefall || state == States.freefallland) && freeFallSmash >= 10))
         {
             check_and_destroy(x, y + vsp, obj_metalblock);
             check_and_destroy(x, y + sign(vsp), obj_metalblock);
@@ -115,6 +115,8 @@ function scr_collide_destructibles()
         check_and_destroy(x, y + vsp, obj_parent_clutterDestroyable);
         check_and_destroy(x, y + sign(vsp), obj_parent_clutterDestroyable);
     }
+    
+    
     
     mask_index = old_mask;
 }

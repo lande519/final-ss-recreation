@@ -2,6 +2,14 @@ var i;
 
 scr_collision_init();
 scr_playersounds_init();
+gustavokicktimer = 5;
+isgustavo = false;
+gustavodash = 0;
+ratmount_fallingspeed = 0;
+ratgrabbedID = -4;
+brick = false;
+ratmount_movespeed = 8;
+gusdashpadbuffer = 0;
 hasSeenProgressionPrompt = false;
 slipSlopeBounces = 7;
 stepEffectBuffer = 0;

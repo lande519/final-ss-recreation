@@ -127,6 +127,35 @@ function meta_roomcheck()
     };
 }
 
+
+function sh_rosette(argument0)
+{
+    var arg1;
+    arg1 = scr_parseBool(argument0[1], !global.showcollisions);
+	
+	if arg1{
+		obj_player1.state = States.ratmount;
+		obj_player1.brick = 1;
+		obj_player1.isgustavo = 1
+	}
+	else{
+		obj_player1.state = States.normal;
+		obj_player1.brick = 0;
+		obj_player1.isgustavo = 0		
+	}	
+}
+
+function meta_rosette()
+{
+    return 
+    {
+        description: "Become rosette",
+        arguments: ["<bool>"],
+        suggestions: [["true", "false",]],
+        argumentDescriptions: ["fucking"]
+    };
+}
+
 function sh_unlock(argument0)
 {
     var type, levels, i, int_level, level_info, z, clothes_info, cheftask_info;

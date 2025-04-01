@@ -96,7 +96,17 @@ enum States
 	fling_launch = 93,
 	freeflight = 94,
 	burrow = 100,
-	charcherryrun = 101	
+	charcherryrun = 101,
+	ratmount = 102,
+	backbreaker = 103,
+	ratmountgroundpound = 104,
+	ratmountskid = 105,
+	ratmountjump = 106,
+	ratmountpunch = 107,
+	ratmountcrouch = 108,
+	ratmountbounce = 109,
+	ratmountclimbwall = 110,
+	ratmounthurt = 111
 }
 
 enum Characters

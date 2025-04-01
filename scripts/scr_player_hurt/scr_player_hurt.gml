@@ -21,7 +21,10 @@ function state_player_hurt()
     {
         if (state == States.hurt)
         {
-            state = States.normal;
+			if !isgustavo	
+				state = States.normal;
+			else
+				state = States.ratmount;
             movespeed = 0;
         }
     }
