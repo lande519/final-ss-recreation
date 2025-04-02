@@ -46,9 +46,9 @@ function scr_collide_destructibles()
         mask_index = spr_player_mask;
     
     _player_dir = sign(obj_player1.hsp) ? max(obj_player1.xscale, obj_player1.hsp) : min(obj_player1.xscale, obj_player1.hsp);
-    side_to_side_states = [States.mach2, States.charge, States.slipnslide, States.frostburnnormal, States.frostburnjump, States.frostburnslide, States.grind, States.hang, States.trick, States.geyser, States.mach3, States.run, States.unknownrun, States.machroll, States.cottonroll, States.machtumble2, States.dodgetumble, States.uppercut, States.parry, States.puddle, States.tumble, States.door, States.comingoutdoor, States.minecart, States.doughmount, States.doughmountspin, States.fireassdash, States.cottondig, States.machtumble, States.wallkick];
+    side_to_side_states = [States.mach2, States.charge, States.slipnslide, States.frostburnnormal, States.frostburnjump, States.frostburnslide, States.grind, States.hang, States.trick, States.ratmountpunch, States.geyser, States.mach3, States.run, States.unknownrun, States.machroll, States.cottonroll, States.machtumble2, States.dodgetumble, States.uppercut, States.parry, States.puddle, States.tumble, States.door, States.comingoutdoor, States.minecart, States.doughmount, States.doughmountspin, States.fireassdash, States.cottondig, States.machtumble, States.wallkick];
     
-    if (array_contains(side_to_side_states, state) || (state == States.grab && sprite_index == spr_swingDing) || (state == States.bottlerocket && substate == 0))
+    if (array_contains(side_to_side_states, state) || (state == States.grab && sprite_index == spr_swingDing) || (state == States.ratmount && sprite_index == spr_player_ratmountmach3) || (state == States.bottlerocket && substate == 0))
     {
         check_and_destroy(x + hsp, y, obj_destructibles);
         check_and_destroy(x + sign(hsp), y, obj_destructibles);
@@ -117,6 +117,12 @@ function scr_collide_destructibles()
     }
     
     
+    if (state == States.ratmountbounce)
+    {
+        check_and_destroy(x, y + 1, obj_parent_clutterDestroyable);
+        check_and_destroy(x, y + vsp, obj_parent_clutterDestroyable);
+        check_and_destroy(x, y + sign(vsp), obj_parent_clutterDestroyable);
+    }
     
     mask_index = old_mask;
 }

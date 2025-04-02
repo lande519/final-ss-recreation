@@ -5,7 +5,7 @@ function scr_player_ratmountjump()
 		image_speed = 0.6;
 	else
 		image_speed = 0.35;
-	if !jumpstop && vsp < 0.5 && !key_jump2
+	if !jumpstop && vsp < 0.5 && !key_jump2 && sprite_index != spr_lonegustavo_launch
 	{
 		vsp /= 10;
 		jumpstop = true;
@@ -140,23 +140,13 @@ function scr_player_ratmountjump()
 		inputBufferSlap = 0;
 		ratmount_kickbrick();
 	}
-	if inputBufferSlap > 0 && !key_up
+	if inputBufferSlap > 0 && !key_up && brick = true
 	{
 		inputBufferSlap = 0;
-		if brick == 1
-		{
-			with (instance_create(x, y, obj_brickcomeback))
-				wait = true;
-		}
-		brick = false;
-		state = States.ratmountpunch;
-		gustavohitwall = false;
-		ratmountpunchtimer = 25;
+		state = States.launchprep;
 		image_index = 0;
 		if move != 0
 			xscale = move;
-		movespeed = xscale * 12;
-		sprite_index = spr_lonegustavo_punch;
 	}
 	var bounce = true;
 	if (inputBufferJump > 0 && can_jump && gusdashpadbuffer == 0)

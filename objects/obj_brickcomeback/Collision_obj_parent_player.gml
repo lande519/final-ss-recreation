@@ -1,6 +1,6 @@
 if !trapped
 {
-	if comeback == 1 && obj_player1.state != States.ratmountpunch && obj_player1.sprite_index != spr_lonegustavo_hurt && obj_player1.state != States.ratmountgroundpound
+	if comeback == 1 && obj_player1.sprite_index != spr_lonegustavo_launch && obj_player1.sprite_index != spr_lonegustavo_hurt && obj_player1.state != States.ratmountgroundpound && other.state != States.launchprep
 	{
 		other.brick = true;
 		if other.state != States.ratmountcrouch && other.state != States.backbreaker && other.state != States.bump && other.state != States.ratmounthurt
@@ -21,7 +21,7 @@ if !trapped
 		instance_destroy();
 	}
 }
-else if other.state == States.ratmountpunch && baddieID == noone
+else if (other.sprite_index != spr_lonegustavo_launch or other.state == States.launchprep) && baddieID == noone
 {
 	vsp = -6;
 	hsp = other.xscale * 8;

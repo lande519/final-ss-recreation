@@ -221,23 +221,13 @@ function scr_player_ratmount()
 			hsp = movespeed;
 		}
 	}
-	if inputBufferSlap > 0 && !key_up && gusdashpadbuffer == 0
+	if inputBufferSlap > 0 && !key_up && brick = true
 	{
 		inputBufferSlap = 0;
-		if brick == 1
-		{
-			with (instance_create(x, y, obj_brickcomeback))
-				wait = true;
-		}
-		brick = false;
-		ratmountpunchtimer = 25;
-		gustavohitwall = false;
-		state = States.ratmountpunch;
+		state = States.launchprep;
 		image_index = 0;
 		if move != 0
 			xscale = move;
-		movespeed = xscale * 12;
-		sprite_index = spr_lonegustavo_punch;
 	}
 	with ratgrabbedID
 		scr_enemy_ratgrabbed();

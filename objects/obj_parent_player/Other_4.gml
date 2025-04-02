@@ -1,5 +1,5 @@
 scr_roomStart_SetPosition_player(id);
-
+brick = true
 if (global.Combo <= 0 && room != global.LevelFirstRoom && !instance_exists(obj_exitgate) && !instance_exists(obj_lapPortal))
     global.ComboLost = true;
 

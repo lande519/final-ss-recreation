@@ -40,23 +40,12 @@ function scr_player_ratmountskid()
 		hsp = movespeed;
 		ratmount_movespeed = 8;
 	}
-	if inputBufferSlap > 0 && !key_up
+	if inputBufferSlap > 0 && !key_up && brick = true
 	{
 		inputBufferSlap = 0;
-		if brick == 1
-		{
-			with (instance_create(x, y, obj_brickcomeback))
-				wait = true;
-		}
-		brick = false;
-		movespeed = -movespeed;
-		ratmountpunchtimer = 25;
-		gustavohitwall = false;
-		state = States.ratmountpunch;
+		state = States.launchprep;
 		image_index = 0;
 		if move != 0
 			xscale = move;
-		movespeed = xscale * 12;
-		sprite_index = spr_lonegustavo_punch;
 	}
 }

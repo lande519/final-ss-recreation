@@ -455,6 +455,10 @@ function scr_playerstate()
             state_function = scr_player_ratmountpunch;
             break;
         
+        case States.launchprep:
+            state_function = scr_player_launchprep;
+            break;
+        
         case States.ratmountgroundpound:
             state_function = scr_player_ratmountgroundpound;
             break;

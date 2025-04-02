@@ -106,7 +106,8 @@ enum States
 	ratmountcrouch = 108,
 	ratmountbounce = 109,
 	ratmountclimbwall = 110,
-	ratmounthurt = 111
+	ratmounthurt = 111,
+	launchprep = 112
 }
 
 enum Characters
