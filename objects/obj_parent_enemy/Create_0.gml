@@ -1,5 +1,13 @@
 depth = 0;
 scr_collision_init();
+phase = 0
+movepicked = 0
+hitcountdown = 100
+startcountdown = 100
+screamcountdown = 150
+bombcooldown = 300
+bouncecount = 0
+bombthrewcount = 0
 grav = 0.5;
 defaultMovespeed = 1;
 defaultMovespeedAcc = undefined;

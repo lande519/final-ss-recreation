@@ -101,6 +101,42 @@ switch (state)
             enemyCustomStates();
         
         break;
+		
+	    case 10:
+			state_bossNmovestart();
+	        break;
+		
+	    case 11:
+			state_bossNbombchuckstart();
+	        break;
+		
+	    case 12:
+			state_bossNhatthrow();
+	        break;
+		
+	    case 13:
+			state_bossN_fly();
+	        break;
+		
+	    case 14:
+			state_boss_intro();
+	        break;
+		
+	    case 15:
+			state_bossN_end();
+	        break;
+		
+	    case 300:
+			state_bossNbombchuck();
+	        break;
+		
+	    case 301:
+			state_bosscanhit();
+	        break;
+		
+	    case 302:
+			state_bosshitbounce();
+	        break;		
 }
 
 enemyAttackTimer = max(enemyAttackTimer - 1, 0);
