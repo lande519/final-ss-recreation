@@ -14,7 +14,7 @@ if (escapeBlockedDoor && global.panic)
 
 with (obj_parent_player)
 {
-    if (place_meeting(x, y, other.id) && !instance_exists(obj_fadeoutTransition) && key_up && grounded && (state == States.normal || state == States.Sjumpprep || state == States.mach2 || state == States.mach3 || state == States.run) && state != States.door && state != States.victory && state != States.comingoutdoor)
+    if (place_meeting(x, y, other.id) && !instance_exists(obj_fadeoutTransition) && key_up && grounded && (state == States.normal || state == States.ratmount || state == States.Sjumpprep || state == States.mach2 || state == States.mach3 || state == States.run) && state != States.door && state != States.victory && state != States.comingoutdoor)
     {
         image_index = 0;
         state = States.door;

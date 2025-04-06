@@ -207,7 +207,7 @@ function scr_scareenemy()
     
     player_object = get_nearestPlayer();
     
-    if (!jumpedFromBlock && scr_enemy_playerisnear(400, 130, undefined, 90, player_object) && collision_line(x, y, player_object.x, player_object.y, obj_solid, false, true) == -4 && (player_object.state == States.mach3 || (player_object.state == States.ratmount && sprite_index = spr_player_ratmountmach3) || player_object.state == States.ratmount && (player_object.sprite_index = spr_player_ratmountdashjump or player_object.sprite_index = spr_player_ratmountmach3)|| ((player_object.state == States.doughmount && object_index != obj_fancypancake) && abs(movespeed) >= 12) || player_object.state == States.doughmountspin || (player_object.movespeed >= 10 && player_object.state == States.minecart)))
+    if (!jumpedFromBlock && scr_enemy_playerisnear(400, 130, undefined, 90, player_object) && collision_line(x, y, player_object.x, player_object.y, obj_solid, false, true) == -4 && (player_object.state == States.mach3 || (player_object.state == States.ratmount && player_object.sprite_index = spr_player_ratmountmach3) || (player_object.state == States.ratmountjump && player_object.sprite_index = spr_player_PZ_mach2_spinJump) || player_object.state == States.ratmount && (player_object.sprite_index = spr_player_ratmountdashjump or player_object.sprite_index = spr_player_ratmountmach3)|| ((player_object.state == States.doughmount && object_index != obj_fancypancake) && abs(movespeed) >= 12) || player_object.state == States.doughmountspin || (player_object.movespeed >= 10 && player_object.state == States.minecart)))
     {
         if (state != States.run && state != States.climbwall && state != States.charge && state != States.stun)
         {

@@ -77,6 +77,7 @@ function cutscene_elevator_start()
         cutscene_event_end();
 }
 
+
 function cutscene_elevator_premiddle()
 {
     var elevator;

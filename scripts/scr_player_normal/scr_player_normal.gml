@@ -6,6 +6,12 @@ function state_player_normal()
     
     idle_sprites = [spr_idle1, spr_idle2, spr_idle3, spr_idle4, spr_idle5, spr_idle6];
     
+	if isgustavo{
+		state = States.ratmount
+		sprite_index = spr_player_ratmountidle
+		exit;
+	}
+	
     if (dir != xscale)
     {
         dir = xscale;

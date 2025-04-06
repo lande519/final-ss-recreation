@@ -62,6 +62,7 @@ addRoomMusic(rm_mainmenu, "event:/music/titlescreen_demo", undefined, function(a
 addRoomMusic(rm_credits, "event:/music/credits", undefined, undefined);
 addRoomMusic(rm_devroom, "event:/music/devroom", undefined, undefined);
 addRoomMusic(tutorial_1, "event:/music/tutorial", undefined, undefined);
+addRoomMusic(rosette_tut1, "event:/music/tutorial", undefined, undefined);
 addRoomMusic(hub_w1, "event:/music/hub", undefined, function(argument0, argument1, argument2)
 {
     var event_state;
@@ -102,6 +103,8 @@ addRoomMusic(hub_molasses, "event:/music/hub", undefined, function(argument0, ar
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
 addRoomMusic(entryway_1, "event:/music/w1/entryway", "event:/music/w1/entryway_secret", undefined);
+addRoomMusic(sour_1, "event:/music/w2/molasses", "event:/music/w2/molasses_secret", undefined);
+addRoomMusic(sour_2, "event:/music/w2/molasses", "event:/music/w2/molasses_secret", undefined);
 addRoomMusic(steamy_1, "event:/music/w1/cottontown", "event:/music/w1/cottontown_secret", function(argument0, argument1, argument2)
 {
     var event_state;
