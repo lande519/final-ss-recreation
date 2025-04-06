@@ -30,7 +30,7 @@ function scr_player_ratmountskid()
 		jumpAnim = true;
 		state = States.ratmountjump;
 		vsp = -11;
-		jumpstop = false;
+		jumpStop = false;
 	}
 	if (((inputBufferSlap > 0 && key_up) || key_shoot2) && brick)
 	{

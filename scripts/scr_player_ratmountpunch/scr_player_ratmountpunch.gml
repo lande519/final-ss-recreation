@@ -31,20 +31,20 @@ function scr_player_launchprep()
 
 function scr_player_ratmountpunch()
 {
-	sprite_index = spr_lonegustavo_launch
+	sprite_index = spr_player_PZ_mach2_spinJump
 	state = States.ratmountjump
     if (!key_up)
     {
-		sprite_index = spr_lonegustavo_launch;
+		sprite_index = spr_player_PZ_mach2_spinJump;
 		image_index = 0;
-		movespeed = 20 * xscale;
+		movespeed = 25 * xscale;
 		vsp = -5;
 		fmod_studio_event_instance_start(sndMachStart);
 		fmod_studio_event_instance_start(sndWallkickCancel);
 	}
 	else
 	{
-		sprite_index = spr_lonegustavo_launch;
+		sprite_index = spr_player_PZ_mach2_spinJump;
 		image_index = 0;
 		vsp = -25;
 		fmod_studio_event_instance_start(sndMachStart);

@@ -67,7 +67,7 @@ function scr_player_ratmountgroundpound()
 				sprite_index = spr_lonegustavo_groundpoundland;
 				image_index = 0;
 				jumpAnim = true;
-				jumpstop = false;
+				jumpStop = false;
 				with obj_camera
 				{
 					shake_mag = 5;

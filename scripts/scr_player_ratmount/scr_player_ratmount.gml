@@ -187,7 +187,7 @@ function scr_player_ratmount()
 		jumpAnim = true;
 		state = States.ratmountjump;
 		vsp = -11;
-		jumpstop = false;
+		jumpStop = false;
 	}
 	if !grounded
 	{

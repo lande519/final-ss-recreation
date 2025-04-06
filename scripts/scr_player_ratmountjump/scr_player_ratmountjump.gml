@@ -5,10 +5,10 @@ function scr_player_ratmountjump()
 		image_speed = 0.6;
 	else
 		image_speed = 0.35;
-	if !jumpstop && vsp < 0.5 && !key_jump2 && sprite_index != spr_lonegustavo_launch
+	if !jumpStop && vsp < 0.5 && !key_jump2 && sprite_index != spr_player_PZ_mach2_spinJump
 	{
 		vsp /= 10;
-		jumpstop = true;
+		jumpStop = true;
 	}
 	hsp = movespeed;
 	if ((place_meeting(x + xscale, y, obj_solid) && !place_meeting(x + hsp, y, obj_destructibles)) || (abs(movespeed) < 8 && move != xscale) || abs(movespeed) <= 6)
@@ -168,7 +168,7 @@ function scr_player_ratmountjump()
 		jumpAnim = true;
 		state = States.ratmountjump;
 		vsp = -11;
-		jumpstop = false;
+		jumpStop = false;
 	}
 	if key_jump && brick && bounce
 	{
@@ -182,7 +182,7 @@ function scr_player_ratmountjump()
 		doublejump = false;
 		state = States.ratmount;
 		landAnim = true;
-		jumpstop = false;
+		jumpStop = false;
 		if brick && !key_attack
 			sprite_index = spr_player_ratmountland;
 		else

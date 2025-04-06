@@ -146,7 +146,7 @@ function baddieOnPlayerCollisions()
             exit;
         }
         
-        if (baddieInvincibilityBuffer <= 0 && state != States.climbwall && (player_object.state == States.mach2 || player_object.state == States.mach3 || player_object.state == States.run || player_object.state == States.machroll))
+        if (baddieInvincibilityBuffer <= 0 && state != States.climbwall && (player_object.state == States.mach2 || player_object.state == States.ratmount && (player_object.sprite_index = spr_player_ratmountattack or player_object.sprite_index = spr_lonegustavo_dash) || player_object.state == States.mach3 || player_object.state == States.run || player_object.state == States.machroll))
         {
             event_play_multiple("event:/SFX/player/mach2bump", x, y);
             global.ComboFreeze = 15;
