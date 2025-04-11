@@ -5,7 +5,7 @@ function scr_player_ratmountjump()
 		image_speed = 0.6;
 	else
 		image_speed = 0.35;
-	if !jumpStop && vsp < 0.5 && !key_jump2 && sprite_index != spr_player_PZ_mach2_spinJump
+	if !jumpStop && vsp < 0.5 && !key_jump2 && sprite_index != spr_lonegustavo_punch
 	{
 		vsp /= 10;
 		jumpStop = true;
