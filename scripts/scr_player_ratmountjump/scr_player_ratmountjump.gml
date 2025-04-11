@@ -133,7 +133,7 @@ function scr_player_ratmountjump()
 		movespeed = hsp;
 		state = States.ratmountgroundpound;
 		image_index = 0;
-		sprite_index = spr_lonegustavo_groundpoundstart;
+		sprite_index = spr_lonegustavo_poundstart;
 	}
 	if (((inputBufferSlap > 0 && key_up) || key_shoot2) && brick)
 	{

@@ -31,11 +31,11 @@ function scr_player_launchprep()
 
 function scr_player_ratmountpunch()
 {
-	sprite_index = spr_player_PZ_mach2_spinJump
+	sprite_index = spr_lonegustavo_punch
 	state = States.ratmountjump
     if (!key_up)
     {
-		sprite_index = spr_player_PZ_mach2_spinJump;
+		sprite_index = spr_lonegustavo_punch;
 		image_index = 0;
 		movespeed = 25 * xscale;
 		vsp = -5;
@@ -44,7 +44,7 @@ function scr_player_ratmountpunch()
 	}
 	else
 	{
-		sprite_index = spr_player_PZ_mach2_spinJump;
+		sprite_index = spr_lonegustavo_punch;
 		image_index = 0;
 		vsp = -25;
 		fmod_studio_event_instance_start(sndMachStart);

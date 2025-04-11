@@ -32,19 +32,19 @@ function scr_player_ratmountgroundpound()
 	}
 	if move != 0
 	{
-		if sprite_index == spr_lonegustavo_groundpoundland
+		if sprite_index == spr_lonegustavo_poundland
 			movespeed = approach(movespeed, move * ratmount_movespeed, 0.25);
 		else
 			movespeed = approach(movespeed, move * ratmount_movespeed, 0.5);
 	}
 	else
 		movespeed = approach(movespeed, 0, 0.5);
-	if (sprite_index == spr_lonegustavo_groundpoundstart && floor(image_index) == image_number - 1)
+	if (sprite_index == spr_lonegustavo_poundstart && floor(image_index) == image_number - 1)
 	{
 		image_index = 0;
-		sprite_index = spr_lonegustavo_groundpound;
+		sprite_index = spr_lonegustavo_pound;
 	}
-	if (sprite_index == spr_lonegustavo_groundpound || sprite_index == spr_lonegustavo_groundpoundstart)
+	if (sprite_index == spr_lonegustavo_pound || sprite_index == spr_lonegustavo_poundstart)
 	{
 		vsp++;
 		if (grounded && vsp > 0 && !place_meeting(x, y + vsp, obj_destructibles) && !place_meeting(x, y + vsp + 2, obj_destructibles) && !place_meeting(x, y + 10, obj_destructibles))
@@ -64,7 +64,7 @@ function scr_player_ratmountgroundpound()
 			{
 				if move != 0
 					movespeed = xscale * 3;
-				sprite_index = spr_lonegustavo_groundpoundland;
+				sprite_index = spr_lonegustavo_poundland;
 				image_index = 0;
 				jumpAnim = true;
 				jumpStop = false;
@@ -76,7 +76,7 @@ function scr_player_ratmountgroundpound()
 			}
 		}
 	}
-	if (sprite_index == spr_lonegustavo_groundpoundland && floor(image_index) == image_number - 1)
+	if (sprite_index == spr_lonegustavo_poundland && floor(image_index) == image_number - 1)
 	{
 		if (sign(hsp) != 0)
 			xscale = sign(hsp);

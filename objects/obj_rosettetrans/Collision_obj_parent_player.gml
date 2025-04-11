@@ -1,3 +1,3 @@
 other.state = States.ratmount;
 other.brick = true;
-other.isgustavo = 1
+other.isgustavo = 1;
