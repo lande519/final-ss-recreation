@@ -1,1 +1,1 @@
-targetRoom = sour_1
+targetRoom = sour_1b

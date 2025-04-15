@@ -5,7 +5,7 @@ if obj_player1.isgustavo == 0
 }
 if !trapped
 {
-	if (obj_player1.state == States.ratmountcrouch)
+	if (obj_player1.state == States.ratmountcrouch or obj_player1.state == States.ratmountlaunchprep or obj_player1.state == States.ratmountslide)
 	{
 		wait = true;
 		sprite_index = spr_lonebrick_wait;

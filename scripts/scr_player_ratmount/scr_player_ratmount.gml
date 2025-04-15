@@ -224,7 +224,7 @@ function scr_player_ratmount()
 	if inputBufferSlap > 0 && !key_up && brick = true
 	{
 		inputBufferSlap = 0;
-		state = States.launchprep;
+		state = States.ratmountlaunchprep;
 		image_index = 0;
 		if move != 0
 			xscale = move;
@@ -277,5 +277,18 @@ function ratmount_shootpowerup()
 				break;
 		}
 		ratshootbuffer = 30;
+	}
+	
+	if sprite_index = spr_player_ratmountmach3 && key_down2{
+		sprite_index = spr_marble_crouch
+		state = States.ratmountslide	
+		with (instance_create(x, y, obj_brickcomeback))
+		{
+			wait = true;
+			instance_create(x, y, obj_poofeffect);
+		}
+		image_index = 0;
+		image_speed = 0.35;
+		brick = false;	
 	}
 }

@@ -1,1 +1,0 @@
-text = "press the jump key while in the air to double jump!"

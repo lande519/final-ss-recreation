@@ -143,7 +143,7 @@ function scr_player_ratmountjump()
 	if inputBufferSlap > 0 && !key_up && brick = true
 	{
 		inputBufferSlap = 0;
-		state = States.launchprep;
+		state = States.ratmountlaunchprep;
 		image_index = 0;
 		if move != 0
 			xscale = move;

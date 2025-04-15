@@ -455,12 +455,16 @@ function scr_playerstate()
             state_function = scr_player_ratmountpunch;
             break;
         
-        case States.launchprep:
+        case States.ratmountlaunchprep:
             state_function = scr_player_launchprep;
             break;
         
         case States.ratmountgroundpound:
             state_function = scr_player_ratmountgroundpound;
+            break
+			
+        case States.ratmountslide:
+            state_function = scr_player_ratmountslide;
             break;
     }
     
