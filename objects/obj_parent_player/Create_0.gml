@@ -1,7 +1,8 @@
 var i;
-
 scr_collision_init();
 scr_playersounds_init();
+gustavohitwall = false;
+ratmountpunchtimer = 25
 gustavokicktimer = 5;
 isgustavo = false;
 gustavodash = 0;

@@ -1,54 +1,42 @@
-function scr_player_launchprep()
-{
-	hsp = 0
-	vsp = 0
-	movespeed = 0
-	sprite_index = spr_player_ratmountwalljump
-	move = key_left + key_right;
-	if move != 0{
-		xscale = move
-		dir = move
-	}
-	if !key_slap{
-		state = States.ratmountpunch
-		if !key_up{
-			vsp = -10
-			movespeed = 20 * xscale
-		}
-		if key_up{
-			vsp = -25
-				
-		}
-		if brick == 1
-		{
-			with (instance_create(x, y, obj_brickcomeback))
-				wait = true;
-		}
-		brick = 0;		
-		exit;
-	}
-}
-
 function scr_player_ratmountpunch()
 {
-	sprite_index = spr_lonegustavo_punch
-	state = States.ratmountjump
-    if (!key_up)
+    image_speed = abs(movespeed) / 12;
+    hsp = movespeed;
+    move = key_left + key_right;
+    landAnim = false;
+    sprite_index = spr_lonegustavo_punch;
+    
+    if (grounded)
+        movespeed = approach(movespeed, xscale * 4, 0.1);
+    
+    ratmountpunchtimer--;
+    
+    if (ratmountpunchtimer < 0 && (!key_slap || gustavohitwall))
     {
-		sprite_index = spr_lonegustavo_punch;
-		image_index = 0;
-		movespeed = 25 * xscale;
-		vsp = -5;
-		fmod_studio_event_instance_start(sndMachStart);
-		fmod_studio_event_instance_start(sndWallkickCancel);
+        sprite_index = spr_lonegustavo_walk;
+        state = States.ratmount;
+        
+        if (hsp != 0)
+        {
+            dir = sign(hsp);
+            xscale = dir;
+        }
+    }
+    
+    if (place_meeting(x + hsp, y, obj_solid) && !place_meeting(x + hsp, y, obj_slope) && !place_meeting(x + hsp, y, obj_slopePlatform) && !place_meeting(x + hsp, y, obj_destructibles))
+    {
+        event_play_oneshot("event:/SFX/player/bumpwall", x, y);
+        p1Vibration(5, 5);
+        ratmountpunchtimer = 10;
+        gustavohitwall = true;
+		sprite_index = spr_lonegustavo_dashjump
+		vsp = -15
+		state = States.ratmountjump
+        instance_create(x + hsp, y, obj_bangEffect);
+        movespeed *= -1;
+    }
+	if inputBufferJump > 0 && can_jump && grounded{
+		vsp = -11
+		inputBufferJump = 0	
 	}
-	else
-	{
-		sprite_index = spr_lonegustavo_punch;
-		image_index = 0;
-		vsp = -25;
-		fmod_studio_event_instance_start(sndMachStart);
-		fmod_studio_event_instance_start(sndWallkickCancel);
-	}
-	
 }

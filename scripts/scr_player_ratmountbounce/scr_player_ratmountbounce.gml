@@ -43,10 +43,22 @@ function scr_player_ratmountbounce()
 		if inputBufferSlap > 0 && !key_up && brick = true
 		{
 			inputBufferSlap = 0;
-			state = States.ratmountlaunchprep;
+			state = States.ratmountpunch;
 			image_index = 0;
 			if move != 0
 				xscale = move;
+			
+	        if (brick == true)
+	        {
+	            with (instance_create(x, y, obj_brickcomeback))
+	                wait = true;
+	        }
+	        brick = false;
+	        ratmountpunchtimer = 25;
+	        gustavohitwall = false;
+	        image_index = 0;
+	        movespeed = xscale * 12;
+	        sprite_index = spr_lonegustavo_punch;		
 		}
 		ratmount_fallingspeed += 0.5;
 		if (brick && scr_solid(x + sign(hsp), y) && (!place_meeting(x + sign(hsp), y, obj_slope) || scr_solid_slope(x + sign(hsp), y)))

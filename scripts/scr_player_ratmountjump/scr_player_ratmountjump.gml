@@ -143,10 +143,22 @@ function scr_player_ratmountjump()
 	if inputBufferSlap > 0 && !key_up && brick = true
 	{
 		inputBufferSlap = 0;
-		state = States.ratmountlaunchprep;
+		state = States.ratmountpunch;
 		image_index = 0;
 		if move != 0
 			xscale = move;
+			
+        if (brick == true)
+        {
+            with (instance_create(x, y, obj_brickcomeback))
+                wait = true;
+        }
+        brick = false;
+        ratmountpunchtimer = 25;
+        gustavohitwall = false;
+        image_index = 0;
+        movespeed = xscale * 12;
+        sprite_index = spr_lonegustavo_punch;		
 	}
 	var bounce = true;
 	if (inputBufferJump > 0 && can_jump && gusdashpadbuffer == 0)
@@ -180,6 +192,8 @@ function scr_player_ratmountjump()
 	if grounded && vsp > 0 && sprite_index != spr_lonegustavo_kick
 	{
 		doublejump = false;
+		if sprite_index = spr_marble_jump
+			movespeed = 6 * xscale
 		state = States.ratmount;
 		landAnim = true;
 		jumpStop = false;
