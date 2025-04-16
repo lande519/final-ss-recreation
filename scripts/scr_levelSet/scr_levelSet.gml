@@ -140,6 +140,7 @@ function scr_levelSet()
     
     with (obj_parent_player)
     {
+		isgustavo = false
         hasSeenProgressionPrompt = !pre_check;
         wetTimer = 0;
         oldPromptText = "";

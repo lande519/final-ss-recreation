@@ -11,9 +11,7 @@
     {"name":"inst_46702103","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_761738B9","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_72CBF155","path":"rooms/licorice_2/licorice_2.yy",},
-    {"name":"inst_66276ABE","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_2038E9DC","path":"rooms/licorice_2/licorice_2.yy",},
-    {"name":"inst_1FC21F0D","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_4ADA926D","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_131D85D8","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_5F8949AA","path":"rooms/licorice_2/licorice_2.yy",},
@@ -21,6 +19,8 @@
     {"name":"inst_25BF0B3","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_3833B906","path":"rooms/licorice_2/licorice_2.yy",},
     {"name":"inst_9E122","path":"rooms/licorice_2/licorice_2.yy",},
+    {"name":"inst_66276ABE","path":"rooms/licorice_2/licorice_2.yy",},
+    {"name":"inst_1FC21F0D","path":"rooms/licorice_2/licorice_2.yy",},
   ],
   "isDnd": false,
   "layers": [
