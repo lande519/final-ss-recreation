@@ -35,6 +35,11 @@ phase_atks = [
 boss_create_attack(bossstates.vulnerable, 90, 30)],
 //2
 [boss_create_attack(bossstates.pizzanoretro, 0, 15),
+boss_create_attack(bossstates.vulnerable, 90, 30)],
+
+//3
+[boss_create_attack(bossstates.pizzanodash, 0, 15),
+boss_create_attack(bossstates.pizzanothunder, 0, 15),
 boss_create_attack(bossstates.vulnerable, 90, 30)]
 
 ]
