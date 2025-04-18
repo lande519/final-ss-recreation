@@ -27,8 +27,8 @@ with (HUDObject_tooltipPrompts)
         y = approach(y, 425, 0.5);
 }
 
-if (is_hub() || !scr_roomcheck() || room == mineshaft_elevator)
-    exit;
+if (is_hub() || is_boss() || !scr_roomcheck() || room == mineshaft_elevator)
+	exit;
 
 target_player = get_primaryPlayer();
 

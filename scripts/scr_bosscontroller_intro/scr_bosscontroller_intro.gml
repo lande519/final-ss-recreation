@@ -1,5 +1,11 @@
 function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
 {
+	if instance_exists(obj_painter)
+		obj_painter.state = bossstates.nothing	
+		
+	if instance_exists(obj_bosspizzano)
+		obj_bosspizzano.state = bossstates.nothing	
+		
     if showing_player
     {
         player_scale = approach(player_scale, 1, 0.8)
@@ -53,6 +59,13 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
         case 3:
             fadeout = approach(fadeout, 0, 0.1)
             state = (1 << 0)
+			
+			obj_player1.state = States.normal
+			if instance_exists(obj_painter)
+				obj_painter.state = bossstates.normal	
+
+			if instance_exists(obj_bosspizzano)
+				obj_bosspizzano.state = bossstates.normal	
             break
     }
 

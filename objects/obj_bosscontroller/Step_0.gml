@@ -18,23 +18,3 @@
 	    case (61 << 0):
 	        break
 	}
-
-	if instance_exists(obj_bosspizzano){
-		if state = 27{
-			obj_player1.state = 309
-		}
-		else{
-			if instance_exists(obj_bosspizzano){
-				if obj_bosspizzano.state = -1
-					obj_bosspizzano.state = 10
-			}
-		}
-
-		if bosshp = 0 && obj_bosspizzano.phase = 0{
-			bosshp = 10
-			fadealpha = 2
-			obj_bosspizzano.phase += 1
-	
-		}
-
-	}

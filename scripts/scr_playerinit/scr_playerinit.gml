@@ -462,6 +462,10 @@ function scr_playerstate()
         case States.ratmountslide:
             state_function = scr_player_ratmountslide;
             break;
+			
+        case States.bossdefeat:
+            state_function = state_player_bossdefeat;
+            break;
     }
     
     stateName = string("State : {0}", state);

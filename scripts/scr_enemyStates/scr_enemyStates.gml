@@ -283,11 +283,11 @@ function state_bossNmovestart(){
 			movetaking = irandom_range(11,12) //change the last value for more moves
 			movepicked = 1 
 		}
-		sprite_index = spr_player_PA_spin
+		sprite_index = spr_player_PA_speen
 		image_speed = 0.35
 		hsp = image_xscale * 1;
 	
-		if sprite_animation_end() && sprite_index = spr_player_PA_spin{	
+		if sprite_animation_end() && sprite_index = spr_player_PA_speen{	
 			if movetaking = 12
 				sprite_index = spr_player_PA_flycancel_start
 			if movetaking = 13

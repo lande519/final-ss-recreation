@@ -1,9 +1,13 @@
 function scr_hurtplayer(argument0 = obj_parent_player, argument1)
 {
+	
     var i, _string, _oldcollect, _repeat;
     
     if (!global.freezeframe && argument0.state != States.actor && argument0.state != States.parry && argument0.state != States.dodgetumble && argument0.state != States.hurt)
     {
+		if obj_bosscontroller.playhp = 0
+			exit;
+		
         with (argument0)
         {
             if (cutscene)
@@ -49,7 +53,6 @@ function scr_hurtplayer(argument0 = obj_parent_player, argument1)
                         hsp = -image_xscale * 16;
                     }
                 }
-                
                 event_play_oneshot("event:/SFX/player/hurt", x, y);
                 create_particle(x, y, spr_bangEffect);
                 create_particle(x, y, spr_parryeffect);
@@ -57,7 +60,19 @@ function scr_hurtplayer(argument0 = obj_parent_player, argument1)
                 alarm[7] = 120;
                 scr_sleep_ext(100);
                 hurted = true;
-                
+                if instance_exists(obj_bosscontroller){
+					with obj_bosscontroller
+						event_user(1)
+						
+					if obj_bosscontroller.playhp = 0{
+						state = States.bossdefeat
+						vsp = -14
+						hsp = -xscale * 30;
+						sprite_index = spr_player_PZ_outofpizza1
+						instance_create(0,0,obj_bossdark)	
+						exit;
+					}
+				}
                 if (chance(50))
                     fmod_studio_event_instance_start(voiceHurt);
                 

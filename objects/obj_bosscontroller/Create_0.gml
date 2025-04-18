@@ -1,5 +1,10 @@
 playhp = 6
-bosshp = 10
+
+if room = boss_painter
+	bosshp = 10
+if room = boss_pizzano
+	bosshp = 8
+	
 boss_func = -4
 lastbosshp = bosshp
 playmaxhp = playhp

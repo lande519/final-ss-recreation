@@ -109,7 +109,30 @@ enum States
 	ratmounthurt = 111,
 	ratmountslide = 112,
 	intro = 113,
-	intropt2 = 114
+	intropt2 = 114,
+	bossdefeat = 115
+}
+
+enum bossstates{
+	nothing,	//0
+	intro,		//1
+	painter_bomb,//2
+	waiting,	//3
+	normal,		//4
+	hurt,		//5
+	grabbed,	//6
+	frozen,		//7
+	painterdash,	//8
+	painterlunge,	//9
+	parry,		//10
+	paintball,	//11
+	vulnerable,	//12
+	painter_createenem,	//13
+	test,	//14
+	pizzanothunder,	//15
+	pizzanoretro,	//16
+	pizzanodash,	//17
+	pizzanolava	//18
 }
 
 enum Characters

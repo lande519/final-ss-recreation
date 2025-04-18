@@ -22,6 +22,15 @@ function is_hub(argument0 = room)
     return array_contains(hub_rooms, argument0);
 }
 
+
+function is_boss(argument0 = room)
+{
+    var boss_rooms;
+    
+    boss_rooms = [boss_pizzano, boss_painter];
+    return array_contains(boss_rooms, argument0);
+}
+
 function is_tutorial(argument0 = room)
 {
     var tut_rooms;
