@@ -5,8 +5,10 @@ function scr_hurtplayer(argument0 = obj_parent_player, argument1)
     
     if (!global.freezeframe && argument0.state != States.actor && argument0.state != States.parry && argument0.state != States.dodgetumble && argument0.state != States.hurt)
     {
-		if obj_bosscontroller.playhp = 0
-			exit;
+		if instance_exists(obj_bosscontroller){
+			if obj_bosscontroller.playhp = 0
+				exit;
+		}
 		
         with (argument0)
         {
