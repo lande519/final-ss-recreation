@@ -24,7 +24,6 @@ tgtNeg = 160
 tgtPos = 800
 thrown = false;
 can_parry = true;
-sprite_index = spr_player_idlefrown
 
 enum peppinostates
 {
