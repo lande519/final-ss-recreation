@@ -24,6 +24,7 @@ tgtNeg = 160
 tgtPos = 800
 thrown = false;
 can_parry = true;
+pistoltime = 100;
 
 enum peppinostates
 {
@@ -31,8 +32,7 @@ enum peppinostates
 	mach = 701,
 	breakdance = 702,
 	pistol = 703,
-	bodyslam = 704,
-	breakdancestart = 705
+	breakdancestart = 704
 }
 
 phase_atks = [
@@ -41,6 +41,9 @@ phase_atks = [
 boss_create_attack(bossstates.vulnerable, 90, 30)],
 //2
 [boss_create_attack(peppinostates.breakdancestart, 0, 15),
+boss_create_attack(bossstates.vulnerable, 90, 30)],
+
+[boss_create_attack(peppinostates.pistol, 0, 15),
 boss_create_attack(bossstates.vulnerable, 90, 30)]
 
 ]

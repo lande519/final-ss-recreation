@@ -51,3 +51,34 @@ function scr_peppino_breakdance(){
 		sprite_index = spr_player_buttattack
 	}
 }
+
+function scr_peppino_pistol(){
+	static ammo = 3;
+	static shooting = false;
+	
+	if pistoltime > 0 {
+		pistoltime--
+	}
+	
+	if ammo > 0 and pistoltime <= 0 and shooting == false {
+		ammo--
+		pistoltime = 100;
+		shooting = true;
+		sprite_index = spr_player_pistolshot;
+		
+		with (instance_create(x, y, obj_snowMintProjectile))
+			image_xscale = other.image_xscale;
+	}
+	
+	if sprite_animation_end() {
+		switch (sprite_index) {
+			case spr_player_pistolintro:
+				sprite_index = spr_player_pistolidle;
+			break;
+			case spr_player_pistolshot:
+				shooting = false;
+				sprite_index = spr_player_pistolidle;
+			break;
+		}
+	}
+}
