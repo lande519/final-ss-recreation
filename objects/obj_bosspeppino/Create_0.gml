@@ -24,7 +24,9 @@ tgtNeg = 160
 tgtPos = 800
 thrown = false;
 can_parry = true;
-pistoltime = 100;
+pistoltime = 25;
+pistolammo = 3;
+firing = false;
 
 enum peppinostates
 {

@@ -53,21 +53,24 @@ function scr_peppino_breakdance(){
 }
 
 function scr_peppino_pistol(){
-	static ammo = 3;
-	static shooting = false;
-	
 	if pistoltime > 0 {
 		pistoltime--
 	}
 	
-	if ammo > 0 and pistoltime <= 0 and shooting == false {
-		ammo--
-		pistoltime = 100;
-		shooting = true;
-		sprite_index = spr_player_pistolshot;
+	if pistoltime <= 0 and firing == false {
+		if pistolammo > 0 {
+			pistolammo--
+			pistoltime = 25;
+			firing = true;
+			sprite_index = spr_player_pistolshot;
 		
-		with (instance_create(x, y, obj_snowMintProjectile))
-			image_xscale = other.image_xscale;
+			with (instance_create(x, y, obj_snowMintProjectile))
+				image_xscale = -other.image_xscale;
+		}
+		else {
+			state = bossstates.vulnerable
+			instance_create(x,y,obj_poofeffect)	
+		}
 	}
 	
 	if sprite_animation_end() {
