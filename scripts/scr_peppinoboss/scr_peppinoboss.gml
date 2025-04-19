@@ -70,6 +70,7 @@ function scr_peppino_pistol(){
 		else {
 			state = bossstates.vulnerable
 			instance_create(x,y,obj_poofeffect)	
+			pistolammo = 3;
 		}
 	}
 	
