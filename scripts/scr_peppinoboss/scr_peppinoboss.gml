@@ -33,16 +33,14 @@ function scr_peppino_breakdancestart(){
 }
 
 function scr_peppino_breakdance(){
+	hsp = movespeed*xscale
 	if grounded {
-		hsp = approach(hsp, 0, 0.3);
+		movespeed = approach(movespeed, 0, 0.2);
 		sprite_index = spr_player_buttattackend;
 		if hsp <= 0 {
 			state = bossstates.vulnerable
 			instance_create(x,y,obj_poofeffect)	
 		}
-	}
-	else {
-		hsp = movespeed*xscale
 	}
 	
 	if scr_solid(x+xscale, y) {
