@@ -51,6 +51,12 @@ switch state {
  	case peppinostates.pistol:
 		scr_peppino_pistol()
 	break;
+ 	case peppinostates.tackle:
+		scr_peppino_tackle()
+	break;
+ 	case peppinostates.tacklebegin:
+		scr_peppino_tacklebegin()
+	break;
 }
 
 if flash && alarm[0] <= 0

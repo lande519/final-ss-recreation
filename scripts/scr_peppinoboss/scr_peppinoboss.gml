@@ -114,3 +114,34 @@ function scr_peppino_pistol(){
 		}
 	}
 }
+function scr_peppino_tacklebegin() {
+	sprite_index = spr_player_tackle;
+	image_speed = 0.35;
+	image_index = 0;
+	movespeed = 8;
+	hsp = movespeed*xscale;
+	xscale = -getFacingDirection(get_nearestPlayer().x, x);
+	
+	state = peppinostates.tackle;
+}
+
+function scr_peppino_tackle() {
+	sprite_index = spr_player_tackle;
+	image_speed = 0.35;
+	hsp = movespeed*xscale;
+	movespeed = approach(movespeed, 0, 0.2);
+	
+	if movespeed <= 0 or sprite_animation_end() {
+		if intensity <= 0 {
+			flash = true
+			state = bossstates.vulnerable
+			intensity = 120
+			delay = 60
+			instance_create(x,y,obj_poofeffect)	
+		}
+		else {
+			state = bossstates.normal
+			instance_create(x,y,obj_poofeffect)	
+		}
+	}
+}

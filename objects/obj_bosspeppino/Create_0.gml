@@ -31,10 +31,11 @@ firing = false;
 enum peppinostates
 {
 	lunge = 700,
-	mach = 701,
+	tackle = 701,
 	breakdance = 702,
 	pistol = 703,
-	breakdancestart = 704
+	breakdancestart = 704,
+	tacklebegin = 705
 }
 
 phase_atks = [
@@ -45,11 +46,18 @@ phase_atks = [
 
 [boss_create_attack(peppinostates.pistol, 0, 15)],
 
+[boss_create_attack(peppinostates.tackle, 0, 15)],
+
 [boss_create_attack(peppinostates.lunge, 1, 15),
 boss_create_attack(peppinostates.breakdancestart, 0, 15)],
 
 [boss_create_attack(peppinostates.lunge, 1, 15),
 boss_create_attack(peppinostates.breakdancestart, 1, 15),
-boss_create_attack(peppinostates.pistol, 0, 15)]
+boss_create_attack(peppinostates.pistol, 0, 15)],
+
+[boss_create_attack(peppinostates.lunge, 1, 15),
+boss_create_attack(peppinostates.breakdancestart, 1, 15),
+boss_create_attack(peppinostates.pistol, 1, 15),
+boss_create_attack(peppinostates.tackle, 0, 15)]
 
 ]
