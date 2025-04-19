@@ -83,7 +83,7 @@ function scr_peppino_pistol(){
 			firing = true;
 			sprite_index = spr_player_pistolshot;
 		
-			with (instance_create(x, y, obj_snowMintProjectile))
+			with (instance_create(x, y, obj_pepbullet))
 				image_xscale = -getFacingDirection(get_nearestPlayer().x, x);
 		}
 		else {
