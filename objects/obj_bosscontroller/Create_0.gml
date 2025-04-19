@@ -2,6 +2,8 @@ playhp = 6
 
 if room = boss_painter
 	bosshp = 10
+if room = boss_gumbob
+	bosshp = 10
 if room = boss_pizzano
 	bosshp = 8
 if room = boss_peppino

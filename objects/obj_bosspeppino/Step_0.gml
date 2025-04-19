@@ -24,6 +24,9 @@ switch state {
 	case bossstates.frozen:
 		scr_boss_frozen()
 	break;
+	case bossstates.intro:
+		scr_boss_intro()
+	break;	
 	case bossstates.normal:
 		scr_boss_normal()
 	break;
