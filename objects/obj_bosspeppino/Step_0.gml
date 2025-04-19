@@ -39,6 +39,12 @@ switch state {
  	case peppinostates.lunge:
 		scr_peppino_lunge()
 	break;
+ 	case peppinostates.breakdancestart:
+		scr_peppino_breakdancestart()
+	break;
+ 	case peppinostates.breakdance:
+		scr_peppino_breakdance()
+	break;
 }
 
 if flash && alarm[0] <= 0

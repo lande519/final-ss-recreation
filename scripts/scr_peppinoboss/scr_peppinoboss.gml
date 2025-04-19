@@ -9,7 +9,47 @@ function scr_peppino_lunge(){
 	
 	if scr_solid(x+xscale, y) or sprite_animation_end()
 	{
-		state = bossstates.normal
+		state = bossstates.vulnerable
 		instance_create(x,y,obj_poofeffect)	
+	}
+}
+
+function scr_peppino_breakdancestart(){
+	sprite_index = spr_player_breakdance;
+	image_speed = 0.35
+	hsp = approach(hsp, 2*xscale, 0.4);
+	
+	if image_index >= 11 and sprite_index == spr_player_breakdance {
+		state = peppinostates.breakdance
+		xscale = -getFacingDirection(get_nearestPlayer().x, x)
+		sprite_index = spr_player_buttattackstart;
+		vsp = -7;
+		movespeed = 15;
+	}
+	
+	if scr_solid(x+xscale, y) {
+		xscale *= -1
+	}
+}
+
+function scr_peppino_breakdance(){
+	if grounded {
+		hsp = approach(hsp, 0, 0.3);
+		sprite_index = spr_player_buttattackend;
+		if hsp <= 0 {
+			state = bossstates.vulnerable
+			instance_create(x,y,obj_poofeffect)	
+		}
+	}
+	else {
+		hsp = movespeed*xscale
+	}
+	
+	if scr_solid(x+xscale, y) {
+		xscale *= -1
+	}
+	
+	if (sprite_animation_end()) and (sprite_index == spr_player_buttattackstart) {
+		sprite_index = spr_player_buttattack
 	}
 }

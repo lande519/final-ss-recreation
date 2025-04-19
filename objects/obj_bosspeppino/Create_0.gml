@@ -31,7 +31,8 @@ enum peppinostates
 	mach = 701,
 	breakdance = 702,
 	pistol = 703,
-	bodyslam = 704
+	bodyslam = 704,
+	breakdancestart = 705
 }
 
 phase_atks = [
@@ -39,7 +40,7 @@ phase_atks = [
 [boss_create_attack(peppinostates.lunge, 0, 15),
 boss_create_attack(bossstates.vulnerable, 90, 30)],
 //2
-[boss_create_attack(peppinostates.lunge, 0, 15),
+[boss_create_attack(peppinostates.breakdancestart, 0, 15),
 boss_create_attack(bossstates.vulnerable, 90, 30)]
 
 ]
