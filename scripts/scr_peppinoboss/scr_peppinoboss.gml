@@ -9,11 +9,17 @@ function scr_peppino_lunge(){
 	
 	if scr_solid(x+xscale, y) or sprite_animation_end()
 	{
-		flash = true
-		state = bossstates.vulnerable
-		intensity = 120
-		delay = 60
-		instance_create(x,y,obj_poofeffect)	
+		if intensity <= 0 {
+			flash = true
+			state = bossstates.vulnerable
+			intensity = 120
+			delay = 60
+			instance_create(x,y,obj_poofeffect)	
+		}
+		else {
+			state = bossstates.normal
+			instance_create(x,y,obj_poofeffect)	
+		}
 	}
 }
 
@@ -41,11 +47,17 @@ function scr_peppino_breakdance(){
 		movespeed = approach(movespeed, 0, 0.2);
 		sprite_index = spr_player_buttattackend;
 		if hsp <= 0 {
-			flash = true
-			state = bossstates.vulnerable
-			intensity = 120
-			delay = 60
-			instance_create(x,y,obj_poofeffect)	
+			if intensity <= 0 {
+				flash = true
+				state = bossstates.vulnerable
+				intensity = 120
+				delay = 60
+				instance_create(x,y,obj_poofeffect)	
+			}
+			else {
+				state = bossstates.normal
+				instance_create(x,y,obj_poofeffect)	
+			}
 		}
 	}
 	
@@ -75,12 +87,18 @@ function scr_peppino_pistol(){
 				image_xscale = -getFacingDirection(get_nearestPlayer().x, x);
 		}
 		else {
-			flash = true
-			state = bossstates.vulnerable
-			intensity = 120
-			delay = 60
-			instance_create(x,y,obj_poofeffect)	
 			pistolammo = 3;
+			if intensity <= 0 {
+				flash = true
+				state = bossstates.vulnerable
+				intensity = 120
+				delay = 60
+				instance_create(x,y,obj_poofeffect)	
+			}
+			else {
+				state = bossstates.normal
+				instance_create(x,y,obj_poofeffect)	
+			}
 		}
 	}
 	
