@@ -79,7 +79,7 @@ function scr_peppino_pistol(){
 				sprite_index = spr_player_pistolidle;
 			break;
 			case spr_player_pistolshot:
-				shooting = false;
+				firing = false;
 				sprite_index = spr_player_pistolidle;
 			break;
 		}
