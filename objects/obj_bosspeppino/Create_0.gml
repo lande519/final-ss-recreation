@@ -39,13 +39,10 @@ enum peppinostates
 
 phase_atks = [
 //1
-[boss_create_attack(peppinostates.lunge, 0, 15),
-boss_create_attack(bossstates.vulnerable, 90, 30)],
+[boss_create_attack(peppinostates.lunge, 0, 15)],
 //2
-[boss_create_attack(peppinostates.breakdancestart, 0, 15),
-boss_create_attack(bossstates.vulnerable, 90, 30)],
+[boss_create_attack(peppinostates.breakdancestart, 0, 15)],
 
-[boss_create_attack(peppinostates.pistol, 0, 15),
-boss_create_attack(bossstates.vulnerable, 90, 30)]
+[boss_create_attack(peppinostates.pistol, 0, 15)]
 
 ]
