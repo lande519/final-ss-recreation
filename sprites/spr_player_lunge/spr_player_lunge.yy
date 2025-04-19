@@ -42,7 +42,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ed1ecfe8-a04c-4805-9920-6b5d08491e70","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "peppinoboss",
     "path": "folders/Sprites/peppinoboss.yy",
@@ -98,7 +98,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 84,
-    "yorigin": 47,
+    "yorigin": 45,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
