@@ -3,7 +3,7 @@ if flash
 else
 	draw_player_sprite_ext(sprite_index, image_index, x, y, xscale, image_yscale, 0, c_white, image_alpha,Characters.Pizzelle, 1)
 
-
+/*
 draw_text(x,y,state)
-draw_text(x,y-25,hsp)
+draw_text(x,y-25,vsp)
 draw_text(x,y-50,movespeed)

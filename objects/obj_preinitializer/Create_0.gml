@@ -135,7 +135,9 @@ enum bossstates{
 	bounce,	//18
 	spray,	//19
 	fly,	//20
-	walker //21
+	walker, //21
+	phasetrans, //22
+	phasetranssetup //23
 }
 
 enum Characters

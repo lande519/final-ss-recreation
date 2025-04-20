@@ -28,6 +28,7 @@ can_parry = true;
 retrozanotimer = 250
 dashtimer = 300
 balltimer = 300
+waitTimer = 50
 
 phase_atks = [
 //1

@@ -2,20 +2,7 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
 {
 	obj_player1.hsp = 0
 	obj_player1.vsp = 0
-	if instance_exists(obj_painter)
-		obj_painter.state = bossstates.nothing	
-		
-	if instance_exists(obj_bosspizzano)
-		obj_bosspizzano.state = bossstates.nothing	
-		
-	if instance_exists(obj_bossgumbob)
-		obj_bossgumbob.state = bossstates.nothing
-		
-	if instance_exists(obj_bosspeppino)
-		obj_bosspeppino.state = bossstates.nothing
-		
-	if instance_exists(obj_bossthewalker)
-		obj_bossthewalker.state = bossstates.nothing
+	par_boss.state = bossstates.nothing	
 		
     if showing_player
     {
@@ -72,21 +59,7 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
             state = (1 << 0)
 			
 			obj_player1.state = States.actor
-			if instance_exists(obj_painter)
-				obj_painter.state = bossstates.intro	
-
-			if instance_exists(obj_bosspizzano)
-				obj_bosspizzano.state = bossstates.intro	
-				
-			if instance_exists(obj_bossgumbob)
-				obj_bossgumbob.state = bossstates.intro	
-				
-			if instance_exists(obj_bosspeppino)
-				obj_bosspeppino.state = bossstates.intro	
-				
-			if instance_exists(obj_bossthewalker)
-				obj_bossthewalker.state = bossstates.intro	
-				
+			par_boss.state = bossstates.intro	
             break
     }
 

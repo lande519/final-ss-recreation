@@ -15,3 +15,5 @@ if (surface_get_width(guiSurface) != guiW || surface_get_height(guiSurface) != g
     surface_resize(guiSurface, guiW, guiH);
 
 screen_draw_app_surf();
+
+

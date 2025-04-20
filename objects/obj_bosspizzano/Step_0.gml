@@ -51,8 +51,13 @@ switch state {
 	case bossstates.bounce:
 		scr_pizzano_bounce()
 	break;
+	case bossstates.phasetranssetup:
+		scr_pizzano_phasetranssetup()
+	break;
+	case bossstates.phasetrans:
+		scr_pizzano_phasetrans()
+	break;
 }
 
 if flash && alarm[0] <= 0
 	alarm[0] = (0.15 * room_speed)
-x = clamp(x, 60, 900)	

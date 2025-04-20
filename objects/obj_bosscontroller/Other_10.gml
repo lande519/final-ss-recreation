@@ -13,3 +13,6 @@ with (instance_create(_x, _y, obj_baddieDead))
     spr_palette = 727
     paletteselect = 2 - _layer
 }
+
+if bosshp = 0
+	par_boss.state = bossstates.phasetranssetup
