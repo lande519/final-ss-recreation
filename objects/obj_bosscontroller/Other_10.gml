@@ -7,7 +7,7 @@ with (instance_create(_x, _y, obj_baddieDead))
 {
     hsp = -10
     vsp = -10
-    sprite_index = spr_pizzellehp
+    sprite_index = other.bosshpspr
     image_xscale = 1
     depth = -900
     spr_palette = 727

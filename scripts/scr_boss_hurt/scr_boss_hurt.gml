@@ -46,7 +46,17 @@ function scr_boss_hurt() {
 		xscale *= -1
 		movespeed *= 0.66
 		with(obj_bosscontroller)
-		event_user(0)		
+			event_user(0)		
+		
+		if object_index = obj_bossthewalker{
+			repeat(400){
+				with(obj_bosscontroller)
+					event_user(0)	
+				x = -6699
+				y = -6699	
+			}
+		}
+		
 		thrown = false
 		flash = true;
 	}

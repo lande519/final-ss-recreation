@@ -3,6 +3,7 @@ grabbed_spr = spr_gumbob_hurt
 hurt_spr = spr_gumbob_hurt
 normal_spr = spr_gumbob_idle
 vulnerable_spr = spr_gumbob_vulnerable
+fall_spr = spr_gumbob_fall
 image_speed = 0.35
 depth = -30
 state = bossstates.intro
@@ -28,14 +29,16 @@ sprite_index = intro_spr
 obj_player1.sprite_index = spr_player_PZ_idle
 image_index = 0
 obj_player1.image_index = 0
+flytimer = 200
+throwtimer = 50
 
 phase_atks = [
 //1
-[boss_create_attack(bossstates.spray, 0, 15),
+[boss_create_attack(bossstates.fly, 0, 15),
 boss_create_attack(bossstates.vulnerable, 90, 30)],
 
 //2
-[boss_create_attack(peppinostates.lunge, 0, 15),
+[boss_create_attack(bossstates.spray, 0, 15),
 boss_create_attack(bossstates.vulnerable, 90, 30)]
 
 ]

@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_pizzano_thunder(){
-	if sprite_index = spr_player_PA_idle{
+	if sprite_index = spr_player_PA_idle or sprite_index = spr_player_PA_fall{
 		sprite_index = spr_player_PZ_pileDriver_intro
 		vsp = -10
 	}
@@ -25,7 +25,7 @@ function scr_pizzano_thunder(){
 }
 
 function scr_pizzano_retro(){
-	if sprite_index = spr_player_PA_idle
+	if sprite_index = spr_player_PA_idle or sprite_index = spr_player_PA_fall
 		sprite_index = spr_player_PA_button
 		
 	if sprite_animation_end(){

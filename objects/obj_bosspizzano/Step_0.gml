@@ -48,6 +48,9 @@ switch state {
 	case bossstates.pizzanodash:
 		scr_pizzano_dash()
 	break;
+	case bossstates.bounce:
+		scr_pizzano_bounce()
+	break;
 }
 
 if flash && alarm[0] <= 0

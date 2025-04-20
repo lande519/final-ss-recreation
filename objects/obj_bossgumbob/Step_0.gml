@@ -18,7 +18,7 @@ if state != bossstates.grabbed {
 	depth = -30
 	scr_collision()	
 }
-switch state {
+switch state{
 	case bossstates.waiting:
 	break;
 	case bossstates.frozen:
@@ -39,8 +39,11 @@ switch state {
 	case bossstates.grabbed:
 		scr_boss_grabbed()
 	break;
- 	case peppinostates.lunge:
-		scr_peppino_lunge()
+	case bossstates.fly:
+		scr_gumbob_fly()
+	break;
+ 	case bossstates.spray:
+		scr_gumbob_spray()
 	break;
 }
 

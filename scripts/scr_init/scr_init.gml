@@ -92,7 +92,7 @@ function scr_gameInit()
             break;
         
         p_s = string_lower(parameter_string(p_i));
-        
+        /*
         switch (p_s)
         {
             case "-dev":
@@ -107,7 +107,8 @@ function scr_gameInit()
                 dbg_mode = DebugType.Playtest;
                 break;
         }
-        
+        */
+		dbg_mode = DebugType.Dev;
         p_i++;
     }
     

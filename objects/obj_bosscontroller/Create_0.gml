@@ -8,6 +8,8 @@ if room = boss_pizzano
 	bosshp = 8
 if room = boss_peppino
 	bosshp = 8
+if room = boss_thewalker
+	bosshp = 22
 	
 boss_func = -4
 lastbosshp = bosshp

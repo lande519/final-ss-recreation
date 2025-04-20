@@ -132,7 +132,10 @@ enum bossstates{
 	pizzanothunder,	//15
 	pizzanoretro,	//16
 	pizzanodash,	//17
-	spray	//18
+	bounce,	//18
+	spray,	//19
+	fly,	//20
+	walker //21
 }
 
 enum Characters

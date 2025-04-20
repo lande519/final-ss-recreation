@@ -14,6 +14,9 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
 	if instance_exists(obj_bosspeppino)
 		obj_bosspeppino.state = bossstates.nothing
 		
+	if instance_exists(obj_bossthewalker)
+		obj_bossthewalker.state = bossstates.nothing
+		
     if showing_player
     {
         player_scale = approach(player_scale, 1, 0.8)
@@ -80,6 +83,9 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
 				
 			if instance_exists(obj_bosspeppino)
 				obj_bosspeppino.state = bossstates.intro	
+				
+			if instance_exists(obj_bossthewalker)
+				obj_bossthewalker.state = bossstates.intro	
 				
             break
     }
