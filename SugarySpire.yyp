@@ -3074,6 +3074,7 @@
     {"id":{"name":"obj_pileOfLeaves","path":"objects/obj_pileOfLeaves/obj_pileOfLeaves.yy",},},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
     {"id":{"name":"obj_debris2","path":"objects/obj_debris2/obj_debris2.yy",},},
+    {"id":{"name":"forest_2","path":"rooms/forest_2/forest_2.yy",},},
     {"id":{"name":"bg_hub2_2","path":"sprites/bg_hub2_2/bg_hub2_2.yy",},},
     {"id":{"name":"obj_bigdestructibles","path":"objects/obj_bigdestructibles/obj_bigdestructibles.yy",},},
     {"id":{"name":"obj_bombExplosionMini","path":"objects/obj_bombExplosionMini/obj_bombExplosionMini.yy",},},
@@ -3560,6 +3561,7 @@
     {"roomId":{"name":"boss_thewalker","path":"rooms/boss_thewalker/boss_thewalker.yy",},},
     {"roomId":{"name":"rm_devroom","path":"rooms/rm_devroom/rm_devroom.yy",},},
     {"roomId":{"name":"forest_1","path":"rooms/forest_1/forest_1.yy",},},
+    {"roomId":{"name":"forest_2","path":"rooms/forest_2/forest_2.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
