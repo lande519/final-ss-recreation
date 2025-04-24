@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "forest_2",
-  "creationCodeFile": "${project_dir}/rooms/forest_2/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/forest_2/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
@@ -94,6 +94,8 @@
     {"name":"inst_7988DAD9","path":"rooms/forest_2/forest_2.yy",},
     {"name":"inst_1AAD24B5","path":"rooms/forest_2/forest_2.yy",},
     {"name":"inst_D2DACC1","path":"rooms/forest_2/forest_2.yy",},
+    {"name":"inst_7C045D75","path":"rooms/forest_2/forest_2.yy",},
+    {"name":"inst_238493BA","path":"rooms/forest_2/forest_2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -185,6 +187,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7988DAD9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable","path":"objects/obj_secretdestroyable/obj_secretdestroyable.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1760.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1AAD24B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable","path":"objects/obj_secretdestroyable/obj_secretdestroyable.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1760.0,"y":704.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D2DACC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretdestroyable","path":"objects/obj_secretdestroyable/obj_secretdestroyable.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":704.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C045D75","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gumslime","path":"objects/obj_gumslime/obj_gumslime.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1632.0,"y":1312.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_238493BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_noisegoblin","path":"objects/obj_noisegoblin/obj_noisegoblin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":304.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":57,"SerialiseWidth":82,"TileCompressedData":[
 -110,0,1,54,-250,0,1,8,-62,0,1,52,-18,0,1,22,-54,0,1,53,-26,0,1,36,-169,0,1,53,-84,0,1,66,-7,0,1,52,-63,0,2,108,109,-80,0,2,122,123,-19,0,2,80,81,-7,0,5,53,0,0,6,7,-68,0,2,94,95,-10,0,2,20,21,-80,0,2,34,35,-248,0,1,54,-14,0,1,8,
