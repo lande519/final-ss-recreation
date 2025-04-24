@@ -42,6 +42,7 @@ function scr_levelSet()
     instance_destroy(obj_minesgem);
 	instance_destroy(obj_collect_giver);
 	instance_destroy(obj_licoriceplayer);
+	instance_destroy(obj_gnome_checklist);
     global.CafeDrawer = -4;
     global.cutsceneManager = -4;
     
@@ -55,6 +56,8 @@ function scr_levelSet()
     global.greyscalefade = 0;
     global.EscapeTime = 4000;
     global.ComboFreeze = 0;
+	global.showgnomelist = 0;
+	global.pizzadelivery = 0;	
     global.ComboScore = 0;
     global.secretfound = 0;
     global.SecretsFound = [false, false, false];

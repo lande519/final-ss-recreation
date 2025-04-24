@@ -466,6 +466,10 @@ function scr_playerstate()
         case States.bossdefeat:
             state_function = state_player_bossdefeat;
             break;
+			
+        case States.guscutscene:
+            state_function = state_player_guscutscene;
+            break;
     }
     
     stateName = string("State : {0}", state);

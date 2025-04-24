@@ -110,7 +110,8 @@ enum States
 	ratmountslide = 112,
 	intro = 113,
 	intropt2 = 114,
-	bossdefeat = 115
+	bossdefeat = 115,
+	guscutscene = 116
 }
 
 enum bossstates{
