@@ -389,6 +389,7 @@
     {"id":{"name":"spr_player_ratmountmushroombounce","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},},
     {"id":{"name":"spr_beegee_dome","path":"sprites/spr_beegee_dome/spr_beegee_dome.yy",},},
     {"id":{"name":"spr_eyescreamsandwich_popout","path":"sprites/spr_eyescreamsandwich_popout/spr_eyescreamsandwich_popout.yy",},},
+    {"id":{"name":"forest_15","path":"rooms/forest_15/forest_15.yy",},},
     {"id":{"name":"spr_gummyWormBump","path":"sprites/spr_gummyWormBump/spr_gummyWormBump.yy",},},
     {"id":{"name":"bg_mines1_escape","path":"sprites/bg_mines1_escape/bg_mines1_escape.yy",},},
     {"id":{"name":"spr_tvHUD_janitorTreasure","path":"sprites/spr_tvHUD_janitorTreasure/spr_tvHUD_janitorTreasure.yy",},},
@@ -3621,6 +3622,7 @@
     {"roomId":{"name":"forest_3","path":"rooms/forest_3/forest_3.yy",},},
     {"roomId":{"name":"forest_4","path":"rooms/forest_4/forest_4.yy",},},
     {"roomId":{"name":"forest_5","path":"rooms/forest_5/forest_5.yy",},},
+    {"roomId":{"name":"forest_15","path":"rooms/forest_15/forest_15.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

@@ -3,7 +3,8 @@ with (other)
     if (!cutscene && !global.freezeframe && (state != States.taunt && state != States.freefall && state != States.freefallprep && state != States.freefallland))
     {
         jumpStop = true;
-        vsp = -18;
+		
+	    vsp = -13;
         
         if (state == States.normal || state == States.crouch || state == States.grabdash || state == States.machslide)
             state = States.jump;
