@@ -115,7 +115,7 @@ function scr_gameInit()
     global.DebugMode = dbg_mode;
     surface_depth_disable(true);
     global.coopGame = false;
-    global.SaveFileName = "saveData1.ini";
+    global.SaveFileName = "saveData1_FR.ini";
     global.NewFile = false;
     global.PainterTopperIndex = irandom_range(0, sprite_get_number(spr_paintertopper) - 1);
     global.RespawnBlockMoving = false;

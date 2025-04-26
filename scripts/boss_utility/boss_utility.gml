@@ -9,7 +9,7 @@ function boss_create_attack(state, intensity, timer = 100, sub1 = -4, sub2 = -4)
 	return { atk : state, diff : intensity, time : timer, suba_1 : sub1, suba_2 : sub2 }	
 	
 }
-
+ 
 function boss_next_attack() {
 	
 	if ds_queue_empty(atkqueue) {

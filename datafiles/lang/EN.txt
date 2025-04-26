@@ -503,6 +503,9 @@
 "opt_game_timer_type_both"  : "BOTH"
 "opt_game_timerspeedrun"    : "SPEEDRUN TIMER"
 "opt_game_livesplit"        : "AUTO LIVESPLIT"
+"opt_game_title_type"       : "TITLE TYPE"
+"opt_game_title_vinnie"     : "VINNIE"
+"opt_game_title_minty"     : "MINTY"
 
 # Accessibility Submenu
 "opt_access_lang" : "LANGUAGE"

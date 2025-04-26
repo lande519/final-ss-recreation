@@ -5,12 +5,12 @@ selectedFile = 0;
 activated = false;
 fileSelectHeightRatio = [0, 0, 0];
 sndEmpty = fmod_createEventInstance("event:/SFX/fileselect/emptymenu");
-savePath = ["saveData1_EN.ini", "saveData2_EN.ini", "saveData3_EN.ini"];
-saves_idle = [spr_titlePizzelle_exhib1, spr_titlePizzelle_exhib2, spr_titlePizzelle_exhib3];
+savePath = ["saveData1_FR.ini", "saveData2_FR.ini", "saveData3_FR.ini"];
+saves_idle = [spr_titlePizzelle1, spr_titlePizzelle2, spr_titlePizzelle3];
 saves_left = [spr_titlePizzelle_exhib1l, spr_titlePizzelle_exhib2l, spr_titlePizzelle_exhib3l];
 saves_right = [spr_titlePizzelle_exhib1r, spr_titlePizzelle_exhib2r, spr_titlePizzelle_exhib3r];
 saves_visual = 0;
-saves_sprite = spr_titlePizzelle_exhib1;
+saves_sprite = spr_titlePizzelle1;
 saves_index = 0;
 saves_queue = ds_queue_create();
 filePalette = [];
@@ -18,6 +18,8 @@ filePercentage = [];
 filePresent = [];
 fileJudgment = [];
 fileOpened = [];
+files = true
+selectedoption = 1
 
 for (i = 0; i < 3; i++)
 {
@@ -45,8 +47,8 @@ hudAlpha = 0;
 abletomove = false;
 blockedInputs = false;
 movePizzy = false;
-pizzyX = 936;
-pizzyY = 237;
+pizzyX = 0
+pizzyY = 0;
 painterIndex = 0;
 flashbuffer = 0;
 flashshake[0] = 0;
@@ -58,6 +60,7 @@ image_speed = 0;
 fileDoodleW = 145;
 fileDoodleH = 192;
 fileDoodleSurf = [surface_create(fileDoodleW, fileDoodleH), surface_create(fileDoodleW, fileDoodleH), surface_create(fileDoodleW, fileDoodleH)];
+transanim = 1
 
 doodle_surface_manage = function()
 {
