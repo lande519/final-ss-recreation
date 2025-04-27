@@ -27,7 +27,7 @@ function is_boss(argument0 = room)
 {
     var boss_rooms;
     
-    boss_rooms = [boss_pizzano, boss_painter, boss_peppino, boss_gumbob, boss_thewalker];
+    boss_rooms = [boss_pizzano, boss_painter, boss_peppino, boss_gumbob, boss_thewalker, boss_coneball];
     return array_contains(boss_rooms, argument0);
 }
 

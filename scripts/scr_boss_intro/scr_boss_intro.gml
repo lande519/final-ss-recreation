@@ -32,3 +32,31 @@ function scr_boss_intro(){
 		}
 	}
 }
+
+function scr_boss_introconeballpt1(){
+	grav = 0
+	if y != topy{
+		y += 1
+		obj_player1.sprite_index = spr_player_PZ_bossintro1
+		sprite_index = spr_coneball_new
+	}
+	else
+	{
+		if sprite_index != spr_coneball_intro{
+			hsp = 0
+			vsp = 0
+			sprite_index = spr_coneball_intro				
+			image_index = 0
+		}
+		obj_player1.sprite_index = spr_player_PZ_bossintro2
+		if sprite_index = spr_coneball_intro && sprite_animation_end()
+		{
+			state = bossstates.normal
+			obj_player1.state = States.normal
+			sprite_index = spr_coneball_new		
+			obj_player1.sprite_index = obj_player1.spr_idle
+			alarm[2] = 300
+		}
+	}
+}
+

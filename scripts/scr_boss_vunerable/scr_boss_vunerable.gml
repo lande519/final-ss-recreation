@@ -1,4 +1,5 @@
 function scr_boss_vunerable(){
+	grav = 0.5
 	if grounded {
 		hsp = approach(hsp, 0, 0.1)
 		if vsp > 0

@@ -1,5 +1,5 @@
 function scr_boss_grabbed() {
-	
+	grav = 0.5
 	sprite_index = grabbed_spr
 	depth = 0
 	
@@ -34,6 +34,7 @@ function scr_boss_grabbed() {
 	
 
 function scr_boss_hurt() {
+	grav = 0.5
 	hsp = xscale * -movespeed
 	movespeed = approach(movespeed, 0, 0.05)
 	if stunned > 90
@@ -64,6 +65,7 @@ function scr_boss_hurt() {
 		vsp = -4
 	if stunned <= 0 {
 		//hsp = 0
+		alarm[4] = 1
 		state = bossstates.normal
 		xscale = face_center_room()
 		thrown = false

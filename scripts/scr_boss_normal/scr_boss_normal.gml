@@ -23,6 +23,50 @@ function scr_boss_normal(){
 		image_index = 0
 		boss_next_attack()
 	}
-	
+}
 
+function scr_boss_normal_coneball(){
+	xscale = 1
+	hsp = movespeed * dir
+	sprite_index = spr_coneball_new
+	if place_meeting(x+50*dir,y,obj_solid)
+		dir *= -1
+	grav = 0	
+	if y > topy
+		y -= 4
+	else{
+		vsp = 0
+		alarm[4] = -1
+		alarm[3] = -1
+	}
+	
+	if obj_bosscontroller.bosshp = 8
+	{
+		throwround = 1
+		movespeed = 5
+	}
+
+	if obj_bosscontroller.bosshp = 7
+	{
+		movespeed = 6	
+		throwround = 2	
+	}
+
+	if obj_bosscontroller.bosshp = 6
+	{
+		movespeed = 7	
+		throwround = 3	
+	}
+	
+	if obj_bosscontroller.bosshp < 5
+		sprite_index = spr_coneball_weak
+	
+	if obj_bosscontroller.bosshp = 4{
+		sprite_index = spr_coneball_weak
+		throwround = 4
+	}
+	if obj_bosscontroller.bosshp = 2
+	{
+		throwround = 5
+	}	
 }

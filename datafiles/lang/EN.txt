@@ -152,7 +152,7 @@
 # Level Names
 #-----------------------#
 
-"floor_demoEN"    : "Exhibition Night"
+"floor_demoEN"    : "Sugary Spire"
 "level_entryway"  : "Crunchy Construction"
 "level_steamy"    : "Cottontown"
 "level_mineshaft" : "Sugarshack Mines"
@@ -164,7 +164,7 @@
 # Achievements
 #-----------------------#
 
-# Exhibition Night
+# 8:27 PM 26/04/2025
 "task_en_all_s"                  : "S Ranked"
 "task_en_all_s_desc"             : "Get all S ranks in the demo"
 "task_en_all_p"                  : "P Ranked"
@@ -382,9 +382,8 @@
 
 # Currently, only hub rooms use names.
 "romname_missing"  : "MISSING ROOM? THEN GO FIND IT!"
-"romname_hallway"  : "Exhibition Night"
-"romname_mainhub"  : "Beautiful Mystical Gallery"
-"romname_molasses" : "Weird Mystical Painting"
+"romname_hallway"  : "Sugary Entrance"
+"romname_mainhub"  : "Mystical Showroom"
 
 
 
@@ -393,29 +392,29 @@
 #-----------------------#
 
 # Levels
-"winname_tutorial" : "A quick warm-up for the Exhibition Night"
-"winname_entryway" : "A city under construction in the Exhibition Night"
-"winname_cotton"   : "A very steamy and cottony Exhibition Night"
-"winname_mines"    : "A dark and scary cave below the Exhibition Night"
-"winname_swamp"    : "A sticky and shitty bog, just like the Exhibition Night"
+"winname_tutorial" : "A quick warm-up for the Sugary Spire"
+"winname_entryway" : "A city under construction at the Sugary Spire"
+"winname_cotton"   : "A very steamy and cottony Sugary Spire"
+"winname_mines"    : "A dark and scary cave in the Sugary Spire"
+"winname_swamp"    : "A sticky and shitty bog, unlike the Sugary Spire"
 
 # Hub
-"winname_hub": "Welcome to the Exhibition Night!"
-"winname_mind": "Hmmm.... Exhibition Night..."
+"winname_hub": "Welcome to the Sugary Spire!"
+"winname_mind": "Hmmm.... Sugary Spire..."
 
 
 
 # Menus/Misc Rooms
-"winname_init"        : "Sugary Spire: Exhibition Night"
-"winname_intro"       : "Exhibition Night: The Movie"
-"winname_logos"       : "Paint's still drying at the Exhibition Night"
-"winname_disclaimer"  : "A quick warning before the Exhibition Night"
-"winname_fileselect"  : "Place a bid at the Exhibition Night"
-"winname_levelselect" : "Choosing your stuff at the Exhibition Night"
-"winname_devroom"     : "The brushwork behind the Exhibition Night"
-"winname_titlecard"   : "Like what you see at the Exhibition Night?"
-"winname_rank"        : "Did you do it? Exhibition Night!"
-"winname_credit"	  : "Behind the scenes of the Exhibition Night"
+"winname_init"        : "Sugary Spire"
+"winname_intro"       : "Sugary Spire: The Movie"
+"winname_logos"       : "Sugary Spire: The Logos"
+"winname_disclaimer"  : "A quick warning before the Sugary Spire"
+"winname_fileselect"  : "Pick a file at the Sugary Spire"
+"winname_levelselect" : "Choosing your stuff at the Sugary Spire"
+"winname_devroom"     : "SUPER MARIO AT THE Sugary Spire"
+"winname_titlecard"   : "Like what you see at the Sugary Spire?"
+"winname_rank"        : "Did you do it? Sugary Spire!"
+"winname_credit"	  : "Behind the scenes of the Sugary Spire"
 
 
 
