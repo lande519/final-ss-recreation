@@ -65,7 +65,6 @@ function scr_boss_hurt() {
 		vsp = -4
 	if stunned <= 0 {
 		//hsp = 0
-		alarm[4] = 1
 		state = bossstates.normal
 		xscale = face_center_room()
 		thrown = false

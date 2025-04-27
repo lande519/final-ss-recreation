@@ -36,8 +36,6 @@ function scr_boss_normal_coneball(){
 		y -= 4
 	else{
 		vsp = 0
-		alarm[4] = -1
-		alarm[3] = -1
 	}
 	
 	if obj_bosscontroller.bosshp = 8
@@ -57,6 +55,11 @@ function scr_boss_normal_coneball(){
 		movespeed = 7	
 		throwround = 3	
 	}
+	if obj_bosscontroller.bosshp = 5
+	{
+		movespeed = 7	
+		throwround = 3	
+	}
 	
 	if obj_bosscontroller.bosshp < 5
 		sprite_index = spr_coneball_weak
@@ -64,9 +67,16 @@ function scr_boss_normal_coneball(){
 	if obj_bosscontroller.bosshp = 4{
 		sprite_index = spr_coneball_weak
 		throwround = 4
+		movespeed = 7
 	}
 	if obj_bosscontroller.bosshp = 2
 	{
 		throwround = 5
+		movespeed = 7
+	}	
+	if obj_bosscontroller.bosshp = 1
+	{
+		throwround = 5
+		movespeed = 7
 	}	
 }
