@@ -1,3 +1,8 @@
+if room = ctop_1
+	global.EscapeMusicInst = fmod_createEventInstance("event:/music/ctop");
+else
+	global.EscapeMusicInst = fmod_createEventInstance("event:/music/escape");
+	
 var sfxreverb_rooms, target_room_music, previous_room_music, music_timeline_percent, secret_pos;
 
 sfxreverb_rooms = [hub_mindpalace, hub_mindvault];

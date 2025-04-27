@@ -3,6 +3,7 @@ var event_state;
 if (global.gamePauseState)
     exit;
 
+
 if (event_instance_isplaying(global.RankMusicInst) && room != rank_room && !instance_exists(obj_endlevelfade) && !instance_exists(obj_rank))
     fmod_studio_event_instance_stop(global.RankMusicInst, true);
 
