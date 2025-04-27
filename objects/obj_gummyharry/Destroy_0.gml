@@ -9,7 +9,12 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
         create_debris(x, y, spr_baddieGibs);
     }
     
-    instance_create(x, y, obj_harrydead);
+	if room != ctop_1
+		instance_create(x, y, obj_harrydead);
+	else{
+		with instance_create(x, y, obj_harrydead)
+			sprite_index = spr_harryctop
+	}
     time_array = scr_escapetimes();
     global.panic = true;
     global.EscapeTime = time_in_frames(time_array[0], time_array[1]);

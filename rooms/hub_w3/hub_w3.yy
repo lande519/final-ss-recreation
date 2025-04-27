@@ -40,7 +40,7 @@
   ],
   "parent": {
     "name": "Spire",
-    "path": "folders/Rooms/Spire.yy",
+    "path": "folders/Objects/Rooms/Spire.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

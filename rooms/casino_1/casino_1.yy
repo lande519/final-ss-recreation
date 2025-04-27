@@ -112,7 +112,7 @@
   ],
   "parent": {
     "name": "Unused",
-    "path": "folders/Rooms/Unused.yy",
+    "path": "folders/Objects/Rooms/Unused.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

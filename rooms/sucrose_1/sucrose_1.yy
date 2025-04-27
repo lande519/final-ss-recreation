@@ -304,7 +304,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BE19F904","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_eventtrigger","path":"objects/obj_eventtrigger/obj_eventtrigger.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":6.0,"x":1120.0,"y":1760.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33DD677C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_eventtrigger","path":"objects/obj_eventtrigger/obj_eventtrigger.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":6.0,"x":1376.0,"y":1344.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D34435C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorP","path":"objects/obj_doorP/obj_doorP.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2656.0,"y":1568.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2731E31A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rocketdud","path":"objects/obj_rocketdud/obj_rocketdud.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":1440.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2731E31A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bottlerocket","path":"objects/obj_bottlerocket/obj_bottlerocket.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":1440.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Ground1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":72,"SerialiseWidth":188,"TileCompressedData":[
 -378,0,-4,491,-2,0,-2,491,-2,0,5,491,0,491,0,0,-4,491,1,0,-4,491,7,0,491,0,0,491,0,491,-77,0,4,14,15,15,20,-76,0,1,491,-4,0,5,491,0,0,491,0,-3,491,-2,0,1,491,-4,0,1,491,-5,0,5,491,0,491,0,491,-77,0,4,51,66,66,57,-76,0,9,491,0,491,491,0,491,0,0,491,-3,0,3,491,0,0,-4,491,1,0,-3,491,-3,0,-2,491,-2,0,1,491,-77,0,4,162,167,62,170,-8,15,1,20,-67,0,5,491,0,0,491,0,-4,491,-2,0,1,491,-6,0,3,491,0,491,-4,0,3,491,0,491,-82,0,1,51,-9,66,2,52,500,-66,0,-4,491,7,0,491,0,0,491,0,491,-4,0,-4,491,1,0,-4,491,7,0,491,0,0,491,0,491,-77,0,4,14,15,173,59,-8,
@@ -392,7 +392,7 @@
   ],
   "parent": {
     "name": "Sucrose",
-    "path": "folders/Rooms/Levels/Sucrose.yy",
+    "path": "folders/Objects/Rooms/Levels/Sucrose.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

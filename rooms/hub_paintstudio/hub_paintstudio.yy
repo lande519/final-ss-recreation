@@ -151,7 +151,7 @@
   ],
   "parent": {
     "name": "Hub",
-    "path": "folders/Rooms/Hub.yy",
+    "path": "folders/Objects/Rooms/Hub.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

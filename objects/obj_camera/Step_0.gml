@@ -2,7 +2,7 @@ var _oldcollect, i, vw, vh, target, _cam_x, _cam_y, shake_value_x, shake_value_y
 
 DrawHUD = true;
 
-if (room == timesuproom || room == rank_room || room == rm_credits || room == rm_titlecard || room == hub_hallway || room == hub_w2 || room == hub_w1 || room == mineshaft_elevator || is_hub() || is_boss() || is_tutorial())
+if (room == timesuproom || room == rank_room || room == rm_credits || room == rm_titlecard || room == hub_hallway || room == hub_w2 || room == hub_w1 || room == mineshaft_elevator || (is_hub() && !global.panic) || is_boss() || is_tutorial())
     DrawHUD = false;
 
 if (get_panic())

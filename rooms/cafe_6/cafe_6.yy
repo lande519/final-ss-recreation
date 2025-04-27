@@ -248,7 +248,7 @@
   ],
   "parent": {
     "name": "Chocoa Cafe",
-    "path": "folders/Rooms/Unused/Chocoa Cafe.yy",
+    "path": "folders/Objects/Rooms/Unused/Chocoa Cafe.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

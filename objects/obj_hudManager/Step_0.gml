@@ -27,7 +27,12 @@ with (HUDObject_tooltipPrompts)
         y = approach(y, 425, 0.5);
 }
 
-if (is_hub() || is_boss() || !scr_roomcheck() || room == mineshaft_elevator)
+if is_hub() && global.panic = false
+	global.ShowHUD = false
+else
+	global.ShowHUD = true
+
+if is_boss() || !scr_roomcheck() || room == mineshaft_elevator
 	exit;
 
 target_player = get_primaryPlayer();

@@ -38,7 +38,7 @@
   ],
   "parent": {
     "name": "Sugarshack Mines",
-    "path": "folders/Rooms/Levels/Sugarshack Mines.yy",
+    "path": "folders/Objects/Rooms/Levels/Sugarshack Mines.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -27,7 +27,7 @@
   ],
   "parent": {
     "name": "Technical",
-    "path": "folders/Rooms/Technical.yy",
+    "path": "folders/Objects/Rooms/Technical.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

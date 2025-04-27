@@ -102,7 +102,7 @@
   ],
   "parent": {
     "name": "Danceoff",
-    "path": "folders/Rooms/Levels/Danceoff.yy",
+    "path": "folders/Objects/Rooms/Levels/Danceoff.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
