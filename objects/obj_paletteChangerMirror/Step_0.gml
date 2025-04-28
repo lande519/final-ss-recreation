@@ -1,3 +1,6 @@
+if global.panic
+	exit;
+	
 var arrow_condition;
 
 if (!place_meeting(x, y, obj_parent_player))

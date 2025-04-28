@@ -1,3 +1,6 @@
+if global.panic
+	exit;
+
 var inp, inpup, inpdown;
 
 with (other)

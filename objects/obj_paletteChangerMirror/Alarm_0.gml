@@ -1,3 +1,6 @@
+if global.panic
+	exit;
+	
 if (savedIndex != global.PlayerPaletteIndex)
 {
     ini_open(global.SaveFileName);

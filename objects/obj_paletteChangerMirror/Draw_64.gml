@@ -1,3 +1,6 @@
+if global.panic
+	exit;
+
 var lang_key, lang_key_desc, scrib;
 
 if (!global.ShowHUD)
