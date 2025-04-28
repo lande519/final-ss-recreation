@@ -392,7 +392,7 @@
   ],
   "parent": {
     "name": "Sucrose",
-    "path": "folders/Objects/Rooms/Levels/Sucrose.yy",
+    "path": "folders/Rooms/Levels/Sucrose.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

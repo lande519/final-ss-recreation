@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Rooms",
-    "path": "folders/Objects/Rooms.yy",
+    "path": "folders/Rooms.yy",
   },
   "parentObjectId": null,
   "persistent": false,

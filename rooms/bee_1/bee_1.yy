@@ -163,7 +163,7 @@
   ],
   "parent": {
     "name": "Bee",
-    "path": "folders/Objects/Rooms/Levels/Bee.yy",
+    "path": "folders/Rooms/Levels/Bee.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

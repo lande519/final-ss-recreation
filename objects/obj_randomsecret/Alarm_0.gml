@@ -2,7 +2,7 @@ if (!start)
     exit;
 
 
-if !instance_exists(obj_secretPortal)
+if room != secret_entrance
 {
     seconds--;
     

@@ -44,7 +44,7 @@
   ],
   "parent": {
     "name": "Levels",
-    "path": "folders/Objects/Rooms/Levels.yy",
+    "path": "folders/Rooms/Levels.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

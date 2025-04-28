@@ -1,7 +1,7 @@
 if (!global.ShowHUD)
     exit;
 
-if (start)
+if (start && room != secret_entrance)
 {
     var _mins = minutes;
     var _secs = string(seconds);

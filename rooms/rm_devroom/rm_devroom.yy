@@ -95,8 +95,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43B5BEAE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorD","path":"objects/obj_doorD/obj_doorD.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":752.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4696D7C1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"showDoorSprite","path":"objects/obj_door/obj_door.yy",},"value":"false;",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":976.0,"y":704.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36E5BBDE","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_debug_text","path":"objects/obj_debug_text/obj_debug_text.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1008.0,"y":688.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1040.0,"y":704.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36E5BBDE","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_debug_text","path":"objects/obj_debug_text/obj_debug_text.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1072.0,"y":688.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"ImportedMap","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":29,"SerialiseWidth":60,"TileCompressedData":[
 -61,1,2,2,3,-54,4,13,5,6,1,1,7,8,9,10,11,12,13,14,15,-5,13,2,16,17,-7,13,2,11,12,-11,13,2,18,19,-12,13,2,268435473,19,-4,13,6,20,21,1,1,4,1610612749,-34,0,2,22,23,-6,24,2,268435479,268435478,
@@ -121,7 +121,7 @@
   ],
   "parent": {
     "name": "Technical",
-    "path": "folders/Objects/Rooms/Technical.yy",
+    "path": "folders/Rooms/Technical.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
