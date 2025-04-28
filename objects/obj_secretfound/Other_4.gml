@@ -1,3 +1,6 @@
+if instance_exists(obj_randomsecret)
+	exit;
+
 var room_name, secret_number, ordinals, _string, time;
 
 if (ds_list_find_index(global.SaveRoom, id) == -1)

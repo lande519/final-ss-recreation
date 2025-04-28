@@ -1,3 +1,6 @@
+if instance_exists(obj_randomsecret)
+	exit;
+
 var i, b;
 
 draw_set_color(c_white);

@@ -1,3 +1,10 @@
+if (global.panic)
+{
+    instance_destroy();
+    instance_create(x, y + 144, obj_rubble);
+    exit;
+}
+
 var _rank, i, collected, offset, gatespeeds, gatedelays;
 
 ini_open(global.SaveFileName);

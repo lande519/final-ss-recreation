@@ -1,4 +1,4 @@
-var a, i, z, _lay, _n, back_id, asset_id, q, o, _sp, _sn, _ls, _parallax_value, original_x, new_x, original_y, new_y;
+var a, i, z, _lay, _n, back_id, asset_id, q, _o, _sp, _sn, _ls, _parallax_value, original_x, new_x, original_y, new_y;
 
 createSubLayers();
 set_layer_depths();
@@ -52,9 +52,9 @@ while (i < array_length(a))
     {
         q = layer_get_all_sprites(_lay);
         
-        for (o = 0; o < array_length(q); o++)
+        for (_o = 0; _o < array_length(q); _o++)
         {
-            _sp = q[o];
+            _sp = q[_o];
             
             if (_n == "Assets_Lang")
             {

@@ -1,0 +1,1 @@
+targetRoom = secret_entrance;

@@ -1,3 +1,6 @@
+if instance_exists(obj_randomsecret)
+	exit;
+	
 var i, b;
 
 for (i = 0; i < ds_list_size(collectSecretList); i++)

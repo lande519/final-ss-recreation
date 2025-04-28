@@ -43,6 +43,7 @@ function scr_levelSet()
 	instance_destroy(obj_collect_giver);
 	instance_destroy(obj_licoriceplayer);
 	instance_destroy(obj_gnome_checklist);
+	instance_destroy(obj_randomsecret);
     global.CafeDrawer = -4;
     global.cutsceneManager = -4;
     

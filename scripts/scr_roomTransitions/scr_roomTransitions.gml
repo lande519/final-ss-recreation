@@ -226,7 +226,30 @@ function cutscene_secretPortal_middle()
     if (finished)
     {
         instance_destroy(portal);
-        
+		if instance_exists(obj_randomsecret){
+			with (obj_randomsecret)
+			{
+				if (!selected)
+				{
+					var len = array_length(levels);
+					trace("Selecting random level, array length: ", len);
+					if (len > 0)
+					{
+						var num = irandom(len - 1);
+						selected_level = levels[num];
+						selected = true;
+						trace("Selected random level: ", room_get_name(selected_level));
+						array_delete(levels, num, 1);
+					}
+				}
+                            
+				if (selected_level != -4)
+					obj_player1.targetRoom = selected_level;
+				else
+					obj_player1.targetRoom = secret_entrance;
+			}        
+		}
+		
         if (!instance_exists(obj_fadeoutTransition))
         {
             if (!global.RoomIsSecret)
@@ -323,6 +346,34 @@ function cutscene_secretPortal_end()
                 freeFallSmash = -14;
                 break;
         }
+		
+		if instance_exists(obj_randomsecret){
+			switch room{
+				case steamy_secret_1:
+				case steamy_secret_2:
+				case steamy_secret_3:
+	                movespeed = 0;
+	                verticalMovespeed = 0;
+	                hsp = 0;
+	                vsp = -5;
+	                sprite_index = spr_cottonDoubleJumpFall;
+	                state = States.cotton;
+	                groundedCot = false;		
+					break;
+					
+            default:
+                sprite_index = spr_groundPoundfall;
+                image_index = 0;
+                movespeed = 0;
+                verticalMovespeed = 0;
+                hsp = 0;
+                vsp = 0;
+                state = States.freefall;
+                freeFallSmash = -14;
+                break;					
+			}
+			
+		}
         
         scale = wait_timer;
         

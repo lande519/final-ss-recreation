@@ -18,33 +18,33 @@ function scr_boss_vunerable(){
 	}
 	var p = obj_player1
 	if place_meeting(x, y, p) && p.state != States.hurt {
-		var o = id
+		var _o = id
 		with p {
 			// Instakill
 			if (instakillmove || state == States.uppercut || state == States.grabdash) {
-				o.xscale = -xscale
-				o.movespeed = 12
-				instance_create(o.x, o.y, obj_slapstar);
-			    instance_create(o.x, o.y, obj_baddieGibs);
-				instance_create(o.x, o.y, obj_bangEffect);
-				with instance_create(o.x, o.y, obj_bangEffect)
+				_o.xscale = -xscale
+				_o.movespeed = 12
+				instance_create(_o.x, _o.y, obj_slapstar);
+			    instance_create(_o.x, _o.y, obj_baddieGibs);
+				instance_create(_o.x, _o.y, obj_bangEffect);
+				with instance_create(_o.x, _o.y, obj_bangEffect)
 					sprite_index = spr_enemypuncheffect;
 
-				o.sprite_index = o.hurt_spr
-				o.flash = true
-				o.vsp = -3
-				o.state = bossstates.hurt
-				o.stunned = 120
-				o.invtime = 20
-				o.setfordeath = true;
+				_o.sprite_index = _o.hurt_spr
+				_o.flash = true
+				_o.vsp = -3
+				_o.state = bossstates.hurt
+				_o.stunned = 120
+				_o.invtime = 20
+				_o.setfordeath = true;
 				//scr_sound(sound_punch)
 				camera_shake_add(30, 15)
 			}
 			// Grab
 			if state == States.grabdash {
 				//scr_sound(sound_slaphit);
-				baddiegrabbedID = o.id
-				instance_create((o.x + (other.xscale * 40)), o.y, obj_punchdust)			
+				baddiegrabbedID = _o.id
+				instance_create((_o.x + (other.xscale * 40)), _o.y, obj_punchdust)			
 				if !key_up {
 					state = States.finishingblow
 					image_index = 0
