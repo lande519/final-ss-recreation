@@ -1000,6 +1000,7 @@
     {"id":{"name":"spr_candysona_dead25","path":"sprites/spr_candysona_dead25/spr_candysona_dead25.yy",},},
     {"id":{"name":"bg_sucrose_dunes2","path":"sprites/bg_sucrose_dunes2/bg_sucrose_dunes2.yy",},},
     {"id":{"name":"spr_cottonwitch_walk","path":"sprites/spr_cottonwitch_walk/spr_cottonwitch_walk.yy",},},
+    {"id":{"name":"obj_filetransfer","path":"objects/obj_filetransfer/obj_filetransfer.yy",},},
     {"id":{"name":"spr_mintsplosion_scared","path":"sprites/spr_mintsplosion_scared/spr_mintsplosion_scared.yy",},},
     {"id":{"name":"spr_comboMeterFill_pal","path":"sprites/spr_comboMeterFill_pal/spr_comboMeterFill_pal.yy",},},
     {"id":{"name":"spr_cottonwitch_shoot","path":"sprites/spr_cottonwitch_shoot/spr_cottonwitch_shoot.yy",},},
@@ -2065,6 +2066,7 @@
     {"id":{"name":"spr_player_PZ_outofpizza1","path":"sprites/spr_player_PZ_outofpizza1/spr_player_PZ_outofpizza1.yy",},},
     {"id":{"name":"spr_confecti2rank_collected","path":"sprites/spr_confecti2rank_collected/spr_confecti2rank_collected.yy",},},
     {"id":{"name":"spr_cottonsign","path":"sprites/spr_cottonsign/spr_cottonsign.yy",},},
+    {"id":{"name":"rm_filetransfer","path":"rooms/rm_filetransfer/rm_filetransfer.yy",},},
     {"id":{"name":"spr_juicedead","path":"sprites/spr_juicedead/spr_juicedead.yy",},},
     {"id":{"name":"spr_icegrandson_panic","path":"sprites/spr_icegrandson_panic/spr_icegrandson_panic.yy",},},
     {"id":{"name":"spr_candyifiedeffect2","path":"sprites/spr_candyifiedeffect2/spr_candyifiedeffect2.yy",},},
@@ -3673,6 +3675,7 @@
     {"roomId":{"name":"ctop_3","path":"rooms/ctop_3/ctop_3.yy",},},
     {"roomId":{"name":"ctop_4","path":"rooms/ctop_4/ctop_4.yy",},},
     {"roomId":{"name":"secret_entrance","path":"rooms/secret_entrance/secret_entrance.yy",},},
+    {"roomId":{"name":"rm_filetransfer","path":"rooms/rm_filetransfer/rm_filetransfer.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

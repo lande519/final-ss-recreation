@@ -12,7 +12,7 @@ else
 var _smalltimerx = 835
 var _smalltimery = drawtexty - 180
 draw_set_font(global.cafefontsmall)
-draw_set_halign(fa_left)
+draw_set_halign(fa_right)
 if (global.cafesecondssmall < 10)
     draw_text(_smalltimerx, _smalltimery, (string(global.cafeminutessmall) + ":" + "0" + string(global.cafesecondssmall)))
 else

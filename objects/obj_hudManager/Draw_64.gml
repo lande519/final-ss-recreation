@@ -32,7 +32,7 @@ if (saveAlpha)
 if (!global.ShowHUD)
     exit;
 
-if (!(is_tutorial() || is_boss() || !scr_roomcheck() || room == mineshaft_elevator))
+if (!(is_tutorial() || is_boss() || !scr_roomcheck() || room == mineshaft_elevator || room == rm_filetransfer))
 {
     with (HUDObject_comboMeter)
     {

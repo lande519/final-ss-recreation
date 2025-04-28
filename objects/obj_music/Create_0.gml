@@ -92,6 +92,7 @@ addRoomMusic(hub_hallway, "event:/music/hub", undefined, function(argument0, arg
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
 addRoomMusic(hub_mindpalace, "event:/music/painterBrain", undefined, undefined);
+addRoomMusic(rm_filetransfer, "event:/music/painterBrain", undefined, undefined);
 addRoomMusic(hub_mindvault, "event:/music/harry", undefined, undefined);
 addRoomMusic(hub_molasses, "event:/music/hub", undefined, function(argument0, argument1, argument2)
 {

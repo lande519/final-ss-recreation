@@ -32,7 +32,7 @@ if is_hub() && global.panic = false
 else
 	global.ShowHUD = true
 
-if is_boss() || !scr_roomcheck() || room == mineshaft_elevator
+if is_boss() || !scr_roomcheck() || room == mineshaft_elevator || room == rm_filetransfer
 	exit;
 
 target_player = get_primaryPlayer();
