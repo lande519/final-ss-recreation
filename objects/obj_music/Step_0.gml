@@ -3,7 +3,6 @@ var event_state;
 if (global.gamePauseState)
     exit;
 
-
 if (event_instance_isplaying(global.RankMusicInst) && room != rank_room && !instance_exists(obj_endlevelfade) && !instance_exists(obj_rank))
     fmod_studio_event_instance_stop(global.RankMusicInst, true);
 
@@ -28,7 +27,7 @@ if (global.panic)
     }
     else if (event_instance_isplaying(global.EscapeMusicInst))
     {
-        event_state = 0;
+        var event_state = 0;
         
         if (global.EscapeTime <= time_in_frames(1, 0))
             event_state = 1;
@@ -61,3 +60,4 @@ else
         }
     }
 }
+

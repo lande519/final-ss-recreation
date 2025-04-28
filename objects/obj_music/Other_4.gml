@@ -1,8 +1,3 @@
-if room = ctop_1
-	global.EscapeMusicInst = fmod_createEventInstance("event:/music/ctop");
-else
-	global.EscapeMusicInst = fmod_createEventInstance("event:/music/escape");
-	
 var sfxreverb_rooms, target_room_music, previous_room_music, music_timeline_percent, secret_pos;
 
 sfxreverb_rooms = [hub_mindpalace, hub_mindvault];
@@ -10,6 +5,11 @@ fmod_studio_system_set_parameter_by_name("sfxReverb", array_contains(sfxreverb_r
 
 if (!global.panic)
 {
+	if room = ctop_1
+		global.EscapeMusicInst = fmod_createEventInstance("event:/music/ctop");
+	else
+		global.EscapeMusicInst = fmod_createEventInstance("event:/music/escape");	
+		
     target_room_music = ds_map_find_value(global.RoomMusicMap, room);
     
     if (!is_undefined(target_room_music) && is_struct(target_room_music))

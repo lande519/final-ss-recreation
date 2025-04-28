@@ -135,7 +135,7 @@ function scr_player_ratmountjump()
 		image_index = 0;
 		sprite_index = spr_lonegustavo_poundstart;
 	}
-	if (((inputBufferSlap > 0 && key_up) || key_shoot2) && brick)
+	if (((inputBufferSlap > 0 && key_up)) && brick)
 	{
 		inputBufferSlap = 0;
 		ratmount_kickbrick();

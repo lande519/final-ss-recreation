@@ -35,7 +35,7 @@ function scr_player_ratmountbounce()
 			movespeed = approach(movespeed, move * 8, 0.5);
 		else
 			movespeed = approach(movespeed, 0, 0.5);
-		if (((inputBufferSlap > 0 && key_up) || key_shoot2) && brick)
+		if (((inputBufferSlap > 0 && key_up)) && brick)
 		{
 			inputBufferSlap = 0;
 			ratmount_kickbrick();

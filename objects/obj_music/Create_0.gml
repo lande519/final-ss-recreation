@@ -103,7 +103,7 @@ addRoomMusic(hub_molasses, "event:/music/hub", undefined, function(argument0, ar
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
 addRoomMusic(entryway_1, "event:/music/w1/entryway", "event:/music/w1/entryway_secret", undefined);
-addRoomMusic(casino_1, "event:/music/w3/casino", "event:/music/w1/entryway_secret", undefined);
+addRoomMusic(casino_intro, "event:/music/w3/casino", "event:/music/w1/entryway_secret", undefined);
 addRoomMusic(sour_1, "event:/music/w2/molasses", "event:/music/w2/molasses_secret", undefined);
 addRoomMusic(sour_3, "event:/music/w2/molasses", "event:/music/w2/molasses_secret", undefined);
 addRoomMusic(steamy_1, "event:/music/w1/cottontown", "event:/music/w1/cottontown_secret", function(argument0, argument1, argument2)

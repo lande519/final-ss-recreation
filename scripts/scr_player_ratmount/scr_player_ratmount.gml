@@ -211,7 +211,7 @@ function scr_player_ratmount()
 		if ratmount_movespeed < 12
 			ratmount_movespeed = approach(ratmount_movespeed, 12, 0.15);
 	}
-	if (((inputBufferSlap > 0 && key_up) || key_shoot2) && brick && gusdashpadbuffer == 0)
+	if (((inputBufferSlap > 0 && key_up)) && brick && gusdashpadbuffer == 0)
 	{
 		inputBufferSlap = 0;
 		ratmount_kickbrick();
@@ -264,33 +264,7 @@ function ratmount_kickbrick()
 	brick = false;
 }
 function ratmount_shootpowerup()
-{
-	if key_shoot2 && ratpowerup != -4 && ratshootbuffer <= 0
-	{
-		switch ratpowerup
-		{
-			case obj_noisegoblin:
-				with (instance_create(x + (20 * xscale), y, obj_playernoisearrow))
-					direction = point_direction(x, y, x + (other.xscale * 4), y);
-				break;
-			case obj_smokingpizzaslice:
-				with (instance_create(x + (20 * xscale), y + 20, obj_playersmokehitbox))
-				{
-					spd += (other.movespeed / 2);
-					image_xscale = other.xscale;
-				}
-				break;
-			case obj_spitcheese:
-				with (instance_create(x + (20 * xscale), y, obj_playerspikecheese))
-				{
-					spd += other.movespeed;
-					image_xscale = other.xscale;
-				}
-				break;
-		}
-		ratshootbuffer = 30;
-	}
-	
+{	
 	if sprite_index = spr_player_ratmountmach3 && key_down2{
 		sprite_index = spr_marble_crouch
 		state = States.ratmountslide	

@@ -32,7 +32,7 @@ function scr_player_ratmountskid()
 		vsp = -11;
 		jumpStop = false;
 	}
-	if (((inputBufferSlap > 0 && key_up) || key_shoot2) && brick)
+	if (((inputBufferSlap > 0 && key_up)) && brick)
 	{
 		inputBufferSlap = 0;
 		ratmount_kickbrick();
