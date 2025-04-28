@@ -2628,6 +2628,7 @@
     {"id":{"name":"scr_player_utility","path":"scripts/scr_player_utility/scr_player_utility.yy",},},
     {"id":{"name":"scr_escapebgs","path":"scripts/scr_escapebgs/scr_escapebgs.yy",},},
     {"id":{"name":"scr_player_costumegrab","path":"scripts/scr_player_costumegrab/scr_player_costumegrab.yy",},},
+    {"id":{"name":"obj_crash","path":"objects/obj_crash/obj_crash.yy",},},
     {"id":{"name":"scr_collisionLibraryPhysics","path":"scripts/scr_collisionLibraryPhysics/scr_collisionLibraryPhysics.yy",},},
     {"id":{"name":"scr_screen","path":"scripts/scr_screen/scr_screen.yy",},},
     {"id":{"name":"scr_confecti_init","path":"scripts/scr_confecti_init/scr_confecti_init.yy",},},
@@ -3064,6 +3065,7 @@
     {"id":{"name":"obj_crazyRunEffect","path":"objects/obj_crazyRunEffect/obj_crazyRunEffect.yy",},},
     {"id":{"name":"obj_keyeffect","path":"objects/obj_keyeffect/obj_keyeffect.yy",},},
     {"id":{"name":"obj_angryCloud","path":"objects/obj_angryCloud/obj_angryCloud.yy",},},
+    {"id":{"name":"ctop_3","path":"rooms/ctop_3/ctop_3.yy",},},
     {"id":{"name":"obj_parent_collect","path":"objects/obj_parent_collect/obj_parent_collect.yy",},},
     {"id":{"name":"obj_mushroomCloudEffect","path":"objects/obj_mushroomCloudEffect/obj_mushroomCloudEffect.yy",},},
     {"id":{"name":"obj_dashCloud","path":"objects/obj_dashCloud/obj_dashCloud.yy",},},
@@ -3662,6 +3664,7 @@
     {"roomId":{"name":"ctop_2","path":"rooms/ctop_2/ctop_2.yy",},},
     {"roomId":{"name":"casino_intro","path":"rooms/casino_intro/casino_intro.yy",},},
     {"roomId":{"name":"casino_introB","path":"rooms/casino_introB/casino_introB.yy",},},
+    {"roomId":{"name":"ctop_3","path":"rooms/ctop_3/ctop_3.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
