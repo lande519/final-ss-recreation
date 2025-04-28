@@ -12,6 +12,7 @@ if (place_meeting(x, y, obj_parent_player) && obj_parent_player.state != States.
 			exit;
 		}			
 		state = States.actor
+		image_speed = 0.35;
 		sprite_index = spr_player_PZ_mach2_spinJump
 		x = lerp(x,other.x+32*other.image_xscale, 0.2)
 		y = lerp(y,other.y, 0.2)		

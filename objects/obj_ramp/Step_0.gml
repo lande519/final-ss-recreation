@@ -1,8 +1,10 @@
-if (place_meeting(x, y - 16, obj_parent_player))
+var s = 10
+
+if (place_meeting(x, y - s, obj_parent_player))
 {
     with (obj_parent_player)
     {
-        if (place_meeting(x, y + 16, other.id) && !scr_solid(x + xscale, y, true) && bbox_bottom <= other.bbox_top && xscale == sign(other.image_xscale))
+        if (place_meeting(x, y + s, other.id) && !scr_solid(x + xscale, y, true) && bbox_bottom <= other.bbox_top && xscale == sign(other.image_xscale))
         {
             if (state == States.mach2 || state == States.mach3 || state == States.trick)
             {

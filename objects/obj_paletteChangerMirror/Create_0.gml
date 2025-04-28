@@ -1,3 +1,6 @@
+if global.panic
+	instance_destroy()
+	
 var locked_palettes, i, palette_array, z, locked_key;
 
 depth = 4;

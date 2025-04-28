@@ -41,6 +41,11 @@ function scr_escapetimes(argument0 = room)
             minutes = 4;
             seconds = 30;
             break;
+			
+        case ctop_1:
+            minutes = 5;
+            seconds = 0;
+            break;
         
         default:
             minutes = 3;

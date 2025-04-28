@@ -7,3 +7,6 @@ drawbigy = 990;
 drawtexty = 1098;
 dunk = false;
 alarm[0] = 60;
+
+if room = ctop_4
+	global.cafesecondssmall = 15;
