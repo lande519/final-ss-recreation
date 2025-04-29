@@ -17,16 +17,28 @@ function scr_taunt_storeVariables()
 
 function scr_taunt_setVariables()
 {
-    state = tauntStored.state;
-    hsp = tauntStored.hsp;
-    prevHsp = tauntStored.prevHsp;
-    vsp = tauntStored.vsp;
-    prevVsp = tauntStored.prevVsp;
-    movespeed = tauntStored.movespeed;
-    verticalMovespeed = tauntStored.verticalMovespeed;
-    conveyorHsp = tauntStored.conveyorHsp;
-    sprite_index = tauntStored.sprite_index;
-    image_index = tauntStored.image_index;
+	if tauntStored.state = States.wallkick && state = States.honey{
+	        sprite_index = spr_wallJumpCancelIntro;
+            image_index = 0;
+            movespeed = 12;
+            hsp = movespeed * xscale;
+            vsp = -5;
+            state = 33;
+            fmod_studio_event_instance_start(sndMachStart);
+            fmod_studio_event_instance_start(sndWallkickCancel);		
+	}
+	else{
+	    state = tauntStored.state
+	    hsp = tauntStored.hsp
+	    prevHsp = tauntStored.prevHsp
+	    vsp = tauntStored.vsp
+	    prevVsp = tauntStored.prevVsp
+	    movespeed = tauntStored.movespeed
+	    verticalMovespeed = tauntStored.verticalMovespeed
+	    conveyorHsp = tauntStored.conveyorHsp
+	    sprite_index = tauntStored.sprite_index
+	    image_index = tauntStored.image_index
+	}
 }
 
 function do_taunt(argument0 = state)

@@ -470,6 +470,10 @@ function scr_playerstate()
         case States.guscutscene:
             state_function = state_player_guscutscene;
             break;
+			
+        case States.honey:
+            state_function = state_player_honey;
+            break;
     }
     
     stateName = string("State : {0}", state);
