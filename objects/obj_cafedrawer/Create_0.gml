@@ -9,4 +9,4 @@ dunk = false;
 alarm[0] = 60;
 
 if room = ctop_4
-	global.cafesecondssmall = 15;
+	global.cafesecondssmall = 10;

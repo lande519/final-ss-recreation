@@ -1,1 +1,1 @@
-exit;
+obj_hudManager.sucroseTimer = true

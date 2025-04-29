@@ -30,19 +30,19 @@ scr_defineLevel(0, "entryway", "Crunchy Construction", entryway_1, ["Entryway"],
 scr_defineLevel(0, "steamy", "Cottontown", steamy_1, ["Cottontown"], 22500, new scr_defineTitleCard(1, "event:/music/w1/cottontown_titlecard", 37, 498));
 scr_defineLevel(0, "molasses", "Molasses Swamp", molasses_1, ["Molasses", "geyserwaves"], 19000, new scr_defineTitleCard(2, "event:/music/w2/molasses_titlecard", 37, 498));
 scr_defineLevel(0, "mineshaft", "Sugarshack Mines", mineshaft_1, ["Mines"], 21500, new scr_defineTitleCard(3, "event:/music/w1/mines_titlecard", 37, 498));
-scr_defineLevel(0, "boss_pizzahead", "Boss 1", rm_missing, [], 20000, true);
+scr_defineLevel(0, "gumbob", "Boss 1", boss_gumbob);
 scr_defineLevel(1, "fudge", "Mt. Fudgetop", mountain_intro, ["Fudgetop"]);
 scr_defineLevel(1, "molasses", "Molasses Swamp", molasses_1, ["Molasses"]);
 scr_defineLevel(1, "cafe", "Chocoa Cafe", cafe_1, ["Cafe"]);
-scr_defineLevel(1, "boss_pizzabro", "Boss 2", rm_missing);
+scr_defineLevel(1, "coneboy", "Boss 2", rm_missing);
 scr_defineLevel(2, "dance", "Dance Off", dance_1, ["Dance"]);
 scr_defineLevel(2, "bee", "Sting Operation", bee_1, ["Bee"]);
-scr_defineLevel(2, "casino", "Coneboy Casino", casino_1, ["Casino"]);
-scr_defineLevel(2, "boss_pizzabro", "Pizzano", rm_missing);
+scr_defineLevel(2, "casino", "Coneboy Casino", casino_intro, ["Casino"]);
+scr_defineLevel(2, "pizzano", "Pizzano", boss_pizzano);
 scr_defineLevel(3, "sucrose", "Sucrose Snowstorm", sucrose_1, ["Sucrose"]);
 scr_defineLevel(3, "licorice", "Licorice Castle", licorice_intro, ["Licorice"]);
-scr_defineLevel(3, "sour", "Souractive Stratosphere", sour_1, ["Sour"]);
-scr_defineLevel(3, "boss_pizzabro", "Coneball", rm_missing);
+scr_defineLevel(3, "sour", "Souractive", sour_1, ["Sour"]);
+scr_defineLevel(3, "coneball", "Coneball", boss_coneball);
 
 function scr_gotoLevel(argument0)
 {

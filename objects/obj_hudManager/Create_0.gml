@@ -2,6 +2,7 @@ debugText = [];
 save_index = 0;
 saveAlpha = 0;
 depth = -200;
+sucroseTimer = false
 
 hudObject = function(argument0, argument1) constructor
 {
