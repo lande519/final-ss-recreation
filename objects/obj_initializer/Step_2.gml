@@ -1,1 +1,1 @@
-room_goto_fixed(rm_filetransfer);
+room_goto_fixed(rm_startupLogo);

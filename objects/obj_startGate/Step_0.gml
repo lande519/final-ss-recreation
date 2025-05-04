@@ -2,7 +2,7 @@ var i, all_text_landed, gatelands, gateloops, play_splat;
 
 fade = (distance_to_object(obj_parent_player) - 50) / 250;
 
-if (fade <= 0.45)
+if (fade <= 0.45 && object_index != obj_bossgate)
 {
     with (gatePointDisplay)
     {
@@ -19,18 +19,20 @@ if (fade <= 0.45)
 
 all_text_landed = false;
 
-with (gatePointDisplay)
-{
-    if (visible)
-    {
-        y = approach(y, targetY, 20);
+if object_index != obj_bossgate{
+	with (gatePointDisplay)
+	{
+	    if (visible)
+	    {
+	        y = approach(y, targetY, 20);
         
-        for (i = 0; i < array_length(pointText); i++)
-            pointText[i].y = approach(pointText[i].y, targetY, 20);
+	        for (i = 0; i < array_length(pointText); i++)
+	            pointText[i].y = approach(pointText[i].y, targetY, 20);
         
-        if (pointText[array_length(pointText) - 1].y >= targetY)
-            all_text_landed = true;
-    }
+	        if (pointText[array_length(pointText) - 1].y >= targetY)
+	            all_text_landed = true;
+	    }
+	}
 }
 
 with (gateRankBubble)

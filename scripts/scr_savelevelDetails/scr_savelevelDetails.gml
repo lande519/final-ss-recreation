@@ -1,6 +1,6 @@
 function scr_savelevelDetails(argument0 = true)
 {
-    var all_confecti, ranks, rank_cutoffs, i, level_sec, _score, rank_as_num;
+    var all_confecti, collected, ranks, rank_cutoffs, i, level_sec, _score, rank_as_num;
     
     all_confecti = global.MallowFollow && global.ChocoFollow && global.CrackFollow && global.WormFollow && global.CandyFollow;
     global.rank = "d";
@@ -51,14 +51,42 @@ function scr_savelevelDetails(argument0 = true)
         global.NewHighScore = true;
     else
         global.NewHighScore = false;
-    
+
+	collected = ini_read_string("Confecti", string(global.InternalLevelName) + "1", "0");
+
+	if (collected != "1" && global.MallowFollow)
+	    scr_addmoney();
+
+
+	
+	collected = ini_read_string("Confecti",string(global.InternalLevelName) + "2",0)
+	
+	if collected != "1" && global.ChocoFollow
+		scr_addmoney()	
+	
+	collected = ini_read_string("Confecti",string(global.InternalLevelName) + "3",0)
+	
+	if collected != "1" && global.CrackFollow
+		scr_addmoney()	
+		
+	collected = ini_read_string("Confecti",string(global.InternalLevelName) + "4",0)
+	
+	if collected != "1" && global.WormFollow
+		scr_addmoney()	
+		
+	collected = ini_read_string("Confecti",string(global.InternalLevelName) + "5",0)
+	
+	if collected != "1" && global.CandyFollow
+		scr_addmoney()	
+
     ini_update_stat("Laps", string(global.InternalLevelName), global.lapcount);
     ini_update_stat("Confecti", string(global.InternalLevelName) + "1", global.MallowFollow);
     ini_update_stat("Confecti", string(global.InternalLevelName) + "2", global.ChocoFollow);
     ini_update_stat("Confecti", string(global.InternalLevelName) + "3", global.CrackFollow);
     ini_update_stat("Confecti", string(global.InternalLevelName) + "4", global.WormFollow);
     ini_update_stat("Confecti", string(global.InternalLevelName) + "5", global.CandyFollow);
-    
+	ini_write_real("Game","money",global.money)
+	
     if (global.InternalLevelName == "tutorial")
     {
         ini_update_stat("Misc", "completedtutorial", true);

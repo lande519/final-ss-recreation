@@ -1,3 +1,6 @@
+if !activategate
+	exit;
+
 var enter_gate, other_id;
 
 if (instance_exists(obj_titlecard))

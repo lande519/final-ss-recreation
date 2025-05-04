@@ -35,7 +35,7 @@ for (i = 0; i < 3; i++)
     }
     else
     {
-        filePalette[i] = 2;
+        filePalette[i] = 1;
         filePercentage[i] = 0;
         filePresent[i] = false;
         fileJudgment[i] = scr_judgment_get("none");

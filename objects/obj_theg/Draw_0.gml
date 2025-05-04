@@ -1,0 +1,5 @@
+draw_set_color(c_green)
+draw_set_font(global.MoneyFont)
+draw_self()
+if place_meeting(x,y,obj_player1)
+	draw_text(x,y,amountneeded)

@@ -17,7 +17,7 @@ for (i = 0; i < array_length(secretCanvas); i++)
 if (rank == "none")
     exit;
 
-if (gatePointDisplay.visible)
+if (gatePointDisplay.visible && object_index != obj_bossgate)
 {
     draw_sprite_ext(spr_cakehud, 0, gatePointDisplay.x, gatePointDisplay.y, 1, 1, 0, c_white, 1);
     rank_toppings = [spr_null, spr_cranktopping, spr_branktopping, spr_aranktopping, spr_sranktopping, spr_null];

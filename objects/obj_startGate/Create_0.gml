@@ -7,6 +7,7 @@ highscore = "0";
 secrets = [false, false, false];
 levelName = "";
 secretcanspit = false;
+activategate = true
 
 gotoLevel = function(argument0)
 {
@@ -40,7 +41,9 @@ gotoLevel = function(argument0)
 surf = -4;
 easelSurf = -4;
 fadewhite = 1;
-details = [gate_createlayer(spr_default_startgate, 0), gate_createlayer(spr_default_startgate, 1)];
+details = [gate_createlayer(spr_tvHUD_player_PZ_secret, 0), gate_createlayer(spr_tvHUD_player_PZ_secret, 1)];
+fade = 1
+bubblescale = 1;
 
 defineConfecti = function(argument0, argument1, argument2) constructor
 {
@@ -90,6 +93,8 @@ defineObject = function(argument0, argument1) constructor
 secretCanvas = [new defineObject(x, y - 128), new defineObject(x, y - 128), new defineObject(x, y - 128)];
 gatePointDisplay = new defineObject(x, y - 265);
 
+gatePointDisplay.pointText = [self]
+
 with (gatePointDisplay)
 {
     targetY = other.y - 265;
@@ -98,3 +103,4 @@ with (gatePointDisplay)
 
 gateRankBubble = new defineObject(x, y - 210);
 
+gateRankBubble.bubbleScale = 0
