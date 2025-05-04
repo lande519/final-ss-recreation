@@ -2267,6 +2267,7 @@
     {"id":{"name":"spr_player_PZ_minecart_groundpound","path":"sprites/spr_player_PZ_minecart_groundpound/spr_player_PZ_minecart_groundpound.yy",},},
     {"id":{"name":"spr_gateLowering","path":"sprites/spr_gateLowering/spr_gateLowering.yy",},},
     {"id":{"name":"spr_player_PZ_walk_comboBig","path":"sprites/spr_player_PZ_walk_comboBig/spr_player_PZ_walk_comboBig.yy",},},
+    {"id":{"name":"sour_lap","path":"rooms/sour_lap/sour_lap.yy",},},
     {"id":{"name":"spr_player_PZ_walk_comboSmall","path":"sprites/spr_player_PZ_walk_comboSmall/spr_player_PZ_walk_comboSmall.yy",},},
     {"id":{"name":"spr_titlePizzelle3","path":"sprites/spr_titlePizzelle3/spr_titlePizzelle3.yy",},},
     {"id":{"name":"spr_confecticage","path":"sprites/spr_confecticage/spr_confecticage.yy",},},
@@ -3328,6 +3329,7 @@
     {"id":{"name":"molasses_12","path":"rooms/molasses_12/molasses_12.yy",},},
     {"id":{"name":"spr_player_pistolintro","path":"sprites/spr_player_pistolintro/spr_player_pistolintro.yy",},},
     {"id":{"name":"__scribble_class_event","path":"scripts/__scribble_class_event/__scribble_class_event.yy",},},
+    {"id":{"name":"spr_MinecartrailSlopeEditor","path":"sprites/spr_MinecartrailSlopeEditor/spr_MinecartrailSlopeEditor.yy",},},
     {"id":{"name":"spr_player_PA_hurt","path":"sprites/spr_player_PA_hurt/spr_player_PA_hurt.yy",},},
     {"id":{"name":"obj_licoriceplayer","path":"objects/obj_licoriceplayer/obj_licoriceplayer.yy",},},
     {"id":{"name":"molasses_secret_1","path":"rooms/molasses_secret_1/molasses_secret_1.yy",},},
@@ -3713,6 +3715,7 @@
     {"roomId":{"name":"ctop_5","path":"rooms/ctop_5/ctop_5.yy",},},
     {"roomId":{"name":"ctop_6","path":"rooms/ctop_6/ctop_6.yy",},},
     {"roomId":{"name":"ctop_7","path":"rooms/ctop_7/ctop_7.yy",},},
+    {"roomId":{"name":"sour_lap","path":"rooms/sour_lap/sour_lap.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

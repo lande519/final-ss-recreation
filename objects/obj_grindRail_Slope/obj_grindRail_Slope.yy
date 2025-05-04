@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_MinecartrailSlope",
-    "path": "sprites/spr_MinecartrailSlope/spr_MinecartrailSlope.yy",
+    "name": "spr_MinecartrailSlopeEditor",
+    "path": "sprites/spr_MinecartrailSlopeEditor/spr_MinecartrailSlopeEditor.yy",
   },
   "spriteMaskId": null,
   "visible": false,
