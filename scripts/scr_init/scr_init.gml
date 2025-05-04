@@ -174,6 +174,7 @@ function scr_gameInit()
     global.bubblefont = __scribble_font_add_sprite_ext(spr_bubblefont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.!<>'?()[]", 1, 0);
     global.npcsmallfont = __scribble_font_add_sprite_ext(spr_npcsmallfont, "ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz!¡.,:0123456789'?¿-\"ÁÉÍÓÚáéíóú", true, 1);
     global.timerfont = __scribble_font_add_sprite_ext(spr_timer_font, "1234567890", 0, 6);
+    global.timerfontgain = __scribble_font_add_sprite_ext(spr_timer_fontgain, "1234567890", 0, 6);
     global.combofont = __scribble_font_add_sprite_ext(spr_tvHUD_comboFont, "0123456789", 1, 2);
     global.lapfont = __scribble_font_add_sprite_ext(spr_lap_font, "0123456789", 1, 2);
     global.dialogfont = __scribble_font_add_sprite_ext(spr_font_dialogue, "ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz,.!¡?¿:;\"`'/-_+=1234567890@#$%^&*()[]ÁÉÍÓÚáéíóú", 1, 2);

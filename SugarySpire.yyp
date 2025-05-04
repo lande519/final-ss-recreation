@@ -2585,6 +2585,7 @@
     {"id":{"name":"scr_player_trick","path":"scripts/scr_player_trick/scr_player_trick.yy",},},
     {"id":{"name":"scr_player_superslam","path":"scripts/scr_player_superslam/scr_player_superslam.yy",},},
     {"id":{"name":"spr_gnome5_happy","path":"sprites/spr_gnome5_happy/spr_gnome5_happy.yy",},},
+    {"id":{"name":"spr_timer_fontgain","path":"sprites/spr_timer_fontgain/spr_timer_fontgain.yy",},},
     {"id":{"name":"scr_player_tackle","path":"scripts/scr_player_tackle/scr_player_tackle.yy",},},
     {"id":{"name":"scr_painter_lunge","path":"scripts/scr_painter_lunge/scr_painter_lunge.yy",},},
     {"id":{"name":"scr_player_minecart","path":"scripts/scr_player_minecart/scr_player_minecart.yy",},},

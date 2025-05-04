@@ -1,6 +1,8 @@
 depth = 0;
 scr_collision_init();
 phase = 0
+minutes = 0;
+seconds = 5;
 movepicked = 0
 hitcountdown = 100
 startcountdown = 100
