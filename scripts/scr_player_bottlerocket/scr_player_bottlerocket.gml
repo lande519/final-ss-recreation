@@ -62,8 +62,8 @@ function state_player_bottlerocket()
                 image_index = 0;
                 sprite_index = spr_mach2_spinJump;
                 
-                if (!instance_exists(obj_bottlerocket))
-                    instance_create(x, y, obj_bottlerocket);
+                if (!instance_exists(obj_bottlerocketPT))
+                    instance_create(x, y, obj_bottlerocketPT);
                 
                 inputBufferJump = 0;
             }

@@ -32,7 +32,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bottlerocketlaunched",
+    "path": "sprites/spr_bottlerocketlaunched/spr_bottlerocketlaunched.yy",
+  },
   "spriteMaskId": {
     "name": "spr_smallbreak",
     "path": "sprites/spr_smallbreak/spr_smallbreak.yy",

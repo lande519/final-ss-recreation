@@ -38,7 +38,7 @@ scr_defineLevel(2, "dance", "Dance Off", dance_1, ["Dance"]);
 scr_defineLevel(2, "bee", "Sting Operation", bee_1, ["Bee"]);
 scr_defineLevel(2, "casino", "Coneboy Casino", casino_intro, ["Casino"]);
 scr_defineLevel(2, "pizzano", "Pizzano", boss_pizzano);
-scr_defineLevel(3, "sucrose", "Sucrose Snowstorm", sucrose_1, ["Sucrose"]);
+scr_defineLevel(3, "sucrose", "Sucrose Snowstorm", sucrose_start, ["Sucrose"]);
 scr_defineLevel(3, "licorice", "Licorice Castle", licorice_intro, ["Licorice"]);
 scr_defineLevel(3, "sour", "Souractive", sour_1, ["Sour"]);
 scr_defineLevel(3, "coneball", "Coneball", boss_coneball);

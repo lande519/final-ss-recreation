@@ -150,7 +150,12 @@ function baddieOnPlayerCollisions()
         {
             event_play_multiple("event:/SFX/player/mach2bump", x, y);
             global.ComboFreeze = 15;
-            image_xscale = -player_object.xscale;
+			
+			if object_index != obj_iceblock
+				image_xscale = -player_object.xscale;
+			else
+				image_xscale = player_object.xscale
+				
             image_index = 0;
             hsp = player_object.xscale * 12;
             vsp = (player_object.y - 180 - y) / 60;

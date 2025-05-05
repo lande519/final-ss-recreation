@@ -1,7 +1,7 @@
 depth = -25;
 sucrose_lighting = false;
 sucrose_color = 0;
-sucrose_color_array = [obj_parent_follower, obj_baddieSpawner, obj_parent_collect, obj_bottlerocket, obj_dashpad, obj_chocofrog, obj_confectibox, obj_eyescreammine, obj_transportBox];
+sucrose_color_array = [obj_parent_follower, obj_baddieSpawner, obj_parent_collect, obj_bottlebazooka, obj_dashpad, obj_chocofrog, obj_confectibox, obj_eyescreammine, obj_transportBox];
 sucroseSurface = -4;
 
 drawPlayer = function(argument0 = id)

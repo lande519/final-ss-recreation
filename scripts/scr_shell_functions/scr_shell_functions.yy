@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "SugarySpire",
-    "path": "SugarySpire.yyp",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }
