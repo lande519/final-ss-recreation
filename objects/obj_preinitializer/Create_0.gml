@@ -139,7 +139,10 @@ enum bossstates{
 	fly,	//20
 	walker, //21
 	phasetrans, //22
-	phasetranssetup //23
+	phasetranssetup, //23
+	slide, //24
+	cottondash, //25
+	headkick //26
 }
 
 enum Characters

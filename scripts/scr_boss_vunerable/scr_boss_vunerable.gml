@@ -38,7 +38,7 @@ function scr_boss_vunerable(){
 				_o.invtime = 20
 				_o.setfordeath = true;
 				//scr_sound(sound_punch)
-				camera_shake_add(30, 15)
+				camera_shake_add(3, 3)
 			}
 			// Grab
 			if state == States.grabdash {

@@ -20,3 +20,4 @@ normal_spr = spr_painter_idle
 vulnerable_spr = spr_painter_tired
 intro_spr = spr_player_PA_bossintro1
 intro2_spr = spr_player_PA_bossintro2
+walk_spr = spr_coneboy_walk

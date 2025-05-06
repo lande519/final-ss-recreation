@@ -12,6 +12,8 @@ if room = boss_coneball
 	bosshp = 8
 if room = boss_thewalker
 	bosshp = 22
+if room = boss_coneboy
+	bosshp = 8
 	
 boss_func = -4
 lastbosshp = bosshp

@@ -1,5 +1,10 @@
 function state_enemyNormal()
 {
+	if object_index = obj_bucket{
+		state = States.actor
+		exit;
+	}
+	
     var dist_start_pos, hallway_direction, _bbox_side;
     
     image_speed = 0.35;

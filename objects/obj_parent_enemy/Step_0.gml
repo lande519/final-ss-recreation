@@ -1,6 +1,9 @@
 scr_baddie_collide_destroyables();
 downSlope = state != States.climbwall;
 
+if object_index = obj_bucket
+	baddieStunTimer = 0
+
 if (doCollision && state != States.stun && state != States.wallkick && state != States.machtumble)
     scr_collision();
 

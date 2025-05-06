@@ -7,7 +7,6 @@ function scr_boss_frozen(){
 		image_speed = 1;
 		hsp = 20;
 		movespeed = 20;
-		camera_shake(3, 3)
 		repeat(2) 
 		{
 			instance_create(x, y, obj_slapstar);

@@ -4,8 +4,12 @@ function scr_boss_normal(){
 	mask_index = spr_player_mask
 	image_speed = 0.35
 	
-	if grounded
-		sprite_index = normal_spr
+	if grounded{
+		if hsp = 0
+			sprite_index = normal_spr
+		else
+			sprite_index = walk_spr
+	}
 	else
 		sprite_index = fall_spr
 		
