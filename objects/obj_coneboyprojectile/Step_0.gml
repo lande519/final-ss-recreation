@@ -1,2 +1,11 @@
-x = approach(x,obj_player1.x,3)
-y = approach(y,obj_player1.y,3)
+image_xscale = face_obj(obj_player1)
+hsp = movespeed
+movespeed = approach(movespeed,4*image_xscale,0.4)
+
+
+image_yscale = faceup_obj(obj_player1)
+vsp = vmovespeed
+vmovespeed = approach(vmovespeed,4*image_yscale,0.4)
+
+x += hsp
+y += vsp
