@@ -1,5 +1,5 @@
 function scr_roomStart_SetPosition_player(argument0 = obj_player1)
-{
+{	
     var target_door, is_box_above, gotohub, gate, _cutscene;
     
     if (instance_exists(obj_cutsceneManager) && obj_cutsceneManager.exitLevelCustcene)

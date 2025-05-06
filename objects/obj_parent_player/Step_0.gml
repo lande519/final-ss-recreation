@@ -300,9 +300,9 @@ if grounded{
 
 
 if inputBufferJump > 0{
-	inputBufferJump = 0
 	if jumped != 2
-		jumped += 1	
+		jumped += 1		
+	inputBufferJump = 0
 }
 
 dashpadBuffer = max(dashpadBuffer - 1, 0);

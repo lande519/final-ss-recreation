@@ -1,6 +1,7 @@
 var i;
 scr_collision_init();
 scr_playersounds_init();
+fixouterspawn = false
 global.showgnomelist = 0
 global.failcutscene = 0
 global.pizzadelivery = 0
