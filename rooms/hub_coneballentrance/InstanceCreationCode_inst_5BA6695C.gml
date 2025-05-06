@@ -1,2 +1,2 @@
-targetRoom = hub_coneballentrance
+targetRoom = hub_outside
 visible = false

@@ -641,6 +641,7 @@
     {"id":{"name":"spr_keyparticles","path":"sprites/spr_keyparticles/spr_keyparticles.yy",},},
     {"id":{"name":"spr_racelight_switch","path":"sprites/spr_racelight_switch/spr_racelight_switch.yy",},},
     {"id":{"name":"spr_candysona_dead34","path":"sprites/spr_candysona_dead34/spr_candysona_dead34.yy",},},
+    {"id":{"name":"spr_outsidedoor","path":"sprites/spr_outsidedoor/spr_outsidedoor.yy",},},
     {"id":{"name":"spr_harrydeadNEW","path":"sprites/spr_harrydeadNEW/spr_harrydeadNEW.yy",},},
     {"id":{"name":"dance_1","path":"rooms/dance_1/dance_1.yy",},},
     {"id":{"name":"bee_1","path":"rooms/bee_1/bee_1.yy",},},
