@@ -2,6 +2,10 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
 {
 	obj_player1.hsp = 0
 	obj_player1.vsp = 0
+	obj_player1.x = obj_parent_doortrigger.x
+	obj_player1.y = obj_parent_doortrigger.y - 14;
+	obj_player1.image_speed = 0.35
+	obj_player1.state = States.actor
 	par_boss.state = bossstates.nothing	
 		
     if showing_player
@@ -59,6 +63,8 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
             state = (1 << 0)
 			
 			obj_player1.state = States.actor
+			obj_player1.hsp = 0
+			obj_player1.vsp = 0
 			par_boss.state = bossstates.intro	
             break
     }

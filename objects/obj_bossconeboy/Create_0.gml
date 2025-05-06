@@ -42,7 +42,10 @@ boss_create_attack(bossstates.vulnerable, 90, 30)],
 [boss_create_attack(bossstates.cottondash, 0, 15)],
 
 //3
-[boss_create_attack(bossstates.headkick, 0, 15)]
+[boss_create_attack(bossstates.headkick, 0, 15)],
+
+//4
+[boss_create_attack(bossstates.dog, 0, 15)]
 
 
 ]

@@ -104,8 +104,6 @@ function state_player_jump()
         floatyGrab = 18;
     }
     
-    if (global.playerCharacter == Characters.Pizzelle)
-    {
         if (vsp > 5)
             fallingAnimation++;
         
@@ -119,7 +117,6 @@ function state_player_jump()
         
         if (fallingAnimation >= 65)
             sprite_index = spr_player_PZ_freeFall_2;
-    }
     
     if (!stompAnim)
     {

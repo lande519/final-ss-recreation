@@ -152,8 +152,8 @@ function state_player_climbwall()
         inputBufferJump = 0;
         image_index = 0;
         
-        if (global.playerCharacter == Characters.Pizzelle)
-        {
+        //if (global.playerCharacter == Characters.Pizzelle)
+       //{
             jumpStop = false;
             xscale *= -1;
             state = States.wallkick;
@@ -182,7 +182,8 @@ function state_player_climbwall()
             }
             
             fmod_studio_event_instance_start(sndJump);
-        }
+        //}
+		/*
         else
         {
             sprite_index = spr_wallJumpCancelIntro;
@@ -209,6 +210,7 @@ function state_player_climbwall()
             instance_create(x, y, obj_jumpdust);
             fmod_studio_event_instance_start(sndJump);
         }
+		*/
     }
     
     image_speed = 0.6;

@@ -20,7 +20,7 @@ function state_player_mach2()
     
     if (inputBufferJump > 0 && can_jump)
     {
-        if (global.playerCharacter == Characters.Pizzelle && move != -xscale && key_attack)
+        if (move != -xscale && key_attack)
         {
             image_index = 0;
             sprite_index = spr_airdash1;
@@ -159,7 +159,7 @@ function state_player_mach2()
         }
     }
     
-    if ((!grounded || slopeCheck(x + xscale, y)) && scr_solid(x + xscale, y, true) && global.playerCharacter == Characters.Pizzelle)
+    if ((!grounded || slopeCheck(x + xscale, y)) && scr_solid(x + xscale, y, true))
     {
     }
     else if (scr_solid(x + xscale, y, true) && !place_meeting(x + xscale, y, obj_destructibles))

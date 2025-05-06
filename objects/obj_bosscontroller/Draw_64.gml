@@ -10,7 +10,7 @@ switch state
             surface_set_target(player_surface)
             draw_clear_alpha(c_black, 0)
             if showing_player
-				draw_player_sprite_ext(spr_pizzellebossintro, 0, (200 + (random_range(player_shake, (-player_shake)))), (320 + (random_range(player_shake, (-player_shake)))), player_scale, player_scale, 0, player_color, player_alpha)
+				draw_player_sprite_ext(spr_pizzellebossintro, 0, (200 + (random_range(player_shake, (-player_shake)))), (0 + (random_range(player_shake, (-player_shake)))), player_scale, player_scale, 0, player_color, player_alpha)
             if showing_names
                 draw_sprite_ext(spr_boss_pizzelleTitle, 0, (200 + (random_range(name_shake, (-name_shake)))), (70 + (random_range(name_shake, (-name_shake)))), 1, 1, 0, c_white, 1)
             pal_swap_reset()

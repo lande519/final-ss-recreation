@@ -142,12 +142,14 @@ enum bossstates{
 	phasetranssetup, //23
 	slide, //24
 	cottondash, //25
-	headkick //26
+	headkick, //26
+	dog //27
 }
 
 enum Characters
 {
-	Pizzelle = 0	
+	Pizzelle = 0,	
+	Coneboy = 1 
 }
 
 enum OptionMenu

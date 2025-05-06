@@ -20,8 +20,6 @@ if (other.dashpadBuffer <= 0)
             event_play_multiple("event:/SFX/general/dashpad", x, y);
             fmod_studio_event_instance_start(sndMachStart);
             
-            if (global.playerCharacter == Characters.Pizzelle)
-            {
                 dashpadBuffer = 25;
                 state = States.mach3;
                 
@@ -52,7 +50,6 @@ if (other.dashpadBuffer <= 0)
                 
                 vsp = 3;
                 flash = true;
-            }
         }
         else if (state == States.minecart && sprite_get_bbox_bottom(mask_index) <= other.bbox_bottom)
         {

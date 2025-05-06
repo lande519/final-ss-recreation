@@ -9,6 +9,7 @@ ratmountpunchtimer = 25
 gustavokicktimer = 5;
 isgustavo = false;
 gustavodash = 0;
+jumppressed = 0
 ratmount_fallingspeed = 0;
 ratgrabbedID = -4;
 brick = false;

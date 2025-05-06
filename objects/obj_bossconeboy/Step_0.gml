@@ -45,6 +45,9 @@ switch state{
  	case bossstates.headkick:
 		scr_coneboy_headkick()
 	break;
+ 	case bossstates.dog:
+		scr_coneboy_dog()
+	break;
 }
 
 if flash && alarm[0] <= 0

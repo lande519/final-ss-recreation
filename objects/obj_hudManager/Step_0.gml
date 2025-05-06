@@ -44,6 +44,7 @@ else
 
 with (HUDObject_TV)
 {
+	
     y = ystart + other.moveUpY;
     sprite_image_number = sprite_get_number(sprite_index);
     tvAnimations(target_player);
@@ -64,11 +65,13 @@ with (HUDObject_TV)
     if (!do_transition && tvForceTransition)
         do_transition = true;
     
+	
     if (sprite_index != queuedSprite)
     {
         if (!transition.activated && (!do_transition || sprite_index == spr_tvHUD_turningOn || sprite_index == spr_tvHUD_turnedOff))
         {
-            sprite_index = queuedSprite;
+			if global.playerCharacter != Characters.Coneboy
+				sprite_index = queuedSprite;
         }
         else
         {
@@ -77,26 +80,28 @@ with (HUDObject_TV)
         }
     }
     
-    with (transition)
-    {
-        if (!activated)
-        {
-            image_index = 0;
-            break;
-        }
+	if global.playerCharacter != Characters.Coneboy{
+	    with (transition)
+	    {
+	        if (!activated)
+	        {
+	            image_index = 0;
+	            break;
+	        }
         
-        sprite_image_number = sprite_get_number(sprite_index);
-        image_index += image_speed;
+	        sprite_image_number = sprite_get_number(sprite_index);
+	        image_index += image_speed;
         
-        if (sprite_animation_end(undefined, undefined, sprite_image_number))
-        {
-            image_index = wrap(image_index, 0, sprite_image_number);
-            activated = !activated;
+	        if (sprite_animation_end(undefined, undefined, sprite_image_number))
+	        {
+	            image_index = wrap(image_index, 0, sprite_image_number);
+	            activated = !activated;
             
-            with (other)
-                sprite_index = queuedSprite;
-        }
-    }
+	            with (other)
+	                sprite_index = queuedSprite;
+	        }
+	    }
+	}
     
     with (idleScreenSaver)
     {
@@ -142,6 +147,10 @@ with (HUDObject_TV)
     }
     
     image_index = wrap(image_index + (image_speed * sprite_get_speed(sprite_index)), 0, sprite_get_number(sprite_index) - 1);
+
+	if global.playerCharacter = Characters.Coneboy
+		sprite_index = spr_tvHUD_player_C_idle;
+	
 }
 
 with (HUDObject_comboMeter)

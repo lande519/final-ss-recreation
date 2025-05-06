@@ -11,7 +11,7 @@ function scr_coneboy_headkick(){
 		sprite_index = spr_coneboy_headlessrun
 	
 	if sprite_index = spr_coneboy_headlessrun
-		hsp = 7 * xscale
+		hsp = 10 * xscale
 		
 	if scr_solid(x+20 * xscale,y)
 		xscale *= -1

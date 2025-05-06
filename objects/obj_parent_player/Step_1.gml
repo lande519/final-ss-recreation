@@ -23,7 +23,12 @@ coyoteTime = (grounded && vsp >= 0) ? 8 : max(coyoteTime - 1, 0);
 if (vsp < 0)
     coyoteTime = 0;
 
-can_jump = (grounded && vsp > 0) || (!grounded && coyoteTime > 0 && vsp > 0);
+
+if global.playerCharacter != Characters.Coneboy
+	can_jump = (grounded && vsp > 0) || (!grounded && coyoteTime > 0 && vsp > 0);
+else
+	can_jump = (grounded && vsp > 0) || (!grounded && coyoteTime > 0 && vsp > 0) || (jumped != 2);
+
 scr_playerstate();
 hspCarry += slideHsp;
 scr_collide_destructibles();

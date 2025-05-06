@@ -4,7 +4,7 @@ function scr_getCharacterPrefix(argument0)
 {
     var character_prefix;
     
-    character_prefix = ["PZ"];
+    character_prefix = ["PZ","C"];
     return character_prefix[argument0];
 }
 
@@ -329,6 +329,9 @@ define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionentryway", unde
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionsteamy", undefined, 0, 16375551, spr_demopattern_steamy, 11042984, 15743104, 9461864);
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionmineshaft", undefined, 0, 8340489, spr_demopattern_mineshaft, 4771936, 5793792, 5793792);
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionmolasses", undefined, 0, 5793792, spr_demopattern_molasses, 1601784, 12464, 12464);
+define_palette_sprite(Characters.Coneboy, [0, 1]);
+define_player_palette(Characters.Coneboy, "palette_PZ_default", 4259839, 3979494, 2631776, undefined, 13773959, 3736096, 9988216, 8628991, 14496);
+define_player_palette(Characters.Coneboy, "palette_PZ_classic", 16777215, 13150344, 13150344, undefined);
 palette_surface = surface_create(1, 1);
 
 for (i = 0; i < array_length(global.CharacterPalette); i++)
