@@ -61,10 +61,10 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
         case 3:
             fadeout = approach(fadeout, 0, 0.1)
             state = (1 << 0)
-			
+			fmod_start_music(bossmusic)	
 			obj_player1.state = States.actor
 			obj_player1.hsp = 0
-			obj_player1.vsp = 0
+			obj_player1.vsp = 0		
 			par_boss.state = bossstates.intro	
             break
     }

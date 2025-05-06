@@ -1,19 +1,27 @@
 playhp = 6
+bossmusic = "event:/music/w2/coneboyboss"
 
-if room = boss_painter
+if room = boss_painter{
 	bosshp = 10
+}
 if room = boss_gumbob
 	bosshp = 10
-if room = boss_pizzano
+if room = boss_pizzano{
 	bosshp = 8
+	bossmusic = "event:/music/w3/pizzanoboss"
+}
 if room = boss_peppino
 	bosshp = 8
-if room = boss_coneball
+if room = boss_coneball{
 	bosshp = 8
+	bossmusic = "event:/music/w4/coneballphase1"
+}
 if room = boss_thewalker
 	bosshp = 22
-if room = boss_coneboy
+if room = boss_coneboy{
 	bosshp = 8
+	bossmusic = "event:/music/w2/coneboyboss"	
+}
 	
 boss_func = -4
 lastbosshp = bosshp
@@ -54,6 +62,7 @@ bosshpindex = 0
 firey = 0
 boss_intro = 1846
 portaitx = -500
-portrait_spd = 0
 portrait_shake = 0
 state = (27 << 0)
+fmod_event_stop_all(true);
+event_play_oneshot("event:/music/bossintro");
