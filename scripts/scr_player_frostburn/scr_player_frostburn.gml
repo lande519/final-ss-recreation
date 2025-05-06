@@ -106,25 +106,6 @@ function state_player_frostburnslide() //state_player_frostburnslide
 		jumpedOnce = false
 		doubleJumped = false
 	}
-	
-    if (key_jump2 && inputBufferJump > 0 && (!doubleJumped))
-    {
-        jumpStop = true
-        doubleJumped = true
-        vsp = -14
-        image_index = 0
-        sprite_index = spr_player_PZ_frostburn_doubleJump_intro
-        with (instance_create(x, y, obj_highJumpCloud1, 
-        {
-            playerID: id
-        }
-))
-            image_xscale = other.xscale
-        fmod_studio_event_instance_start(sndJump)
-        state = States.frostburnjump
-        movespeed = hsp
-    }
-	jumpedOnce = true	
     momentum = false
     hsp = xscale * movespeed
     move = key_left + key_right
@@ -175,6 +156,25 @@ function state_player_frostburnslide() //state_player_frostburnslide
         }
     }
     image_speed = 0.5
+	
+	jumpedOnce = true;
+    if (key_jump2 && inputBufferJump > 0 && (!doubleJumped) && jumpedOnce == true)
+    {
+        jumpStop = true
+        doubleJumped = true
+        vsp = -14
+        image_index = 0
+        sprite_index = spr_player_PZ_frostburn_doubleJump_intro
+        with (instance_create(x, y, obj_highJumpCloud1, 
+        {
+            playerID: id
+        }
+))
+        image_xscale = other.xscale
+        fmod_studio_event_instance_start(sndJump)
+        state = States.frostburnjump
+        movespeed = hsp
+    }
 }
 
 function state_player_frostburnjump() //state_player_frostburnjump

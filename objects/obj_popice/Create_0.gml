@@ -1,32 +1,37 @@
-event_inherited();
-grav = 0.5;
-hsp = 0;
-vsp = 0;
-movespeed = 1;
-state = States.frozen;
-baddieStunTimer = 0;
-alarm[0] = 150;
-canRoam = true;
-flying = 0;
-straightthrow = 0;
-thrown = 0;
-reset = 0;
-flash = false;
-baddieSpriteIdle = spr_gumslime_stun;
-baddieSpriteStun = spr_gumslime_stun;
-baddieSpriteWalk = spr_popice;
-baddieSpriteTurn = spr_popice;
-baddieSpriteGrabbed = spr_gumslime_stun;
-baddieSpriteScared = spr_gumslime_scared;
-baddieSpriteDead = spr_gumslime_dead;
-paletteSprite = spr_gumslimePalette;
-throw_frame = 15;
-spr_throw = spr_popice_sneeze;
-enemyAttackTimer = 200;
-hp = 10;
-slapped = 0;
-grounded = 1;
-birdCreated = 0;
-boundbox = 0;
-idletimer = 200;
 
+event_inherited()
+baddieSpriteIdle = spr_popice
+baddieSpriteWalk = spr_popice
+baddieSpriteStun = spr_gumslime_stun
+baddieSpriteScared = spr_popice_scared
+baddieSpriteTurn = spr_popice_turn
+baddieSpriteHit = undefined
+baddieSpriteDead = spr_gumslime_dead
+
+enemyAttack_TriggerEvent = function()
+{
+	if (scr_enemy_playerisnear(100, 20) && grounded && state == (0 << 0))
+	{
+		slide = 0
+		state = (2 << 0)
+		movespeed = 0
+		var _player = get_nearestPlayer()
+		image_xscale = face_obj(_player)
+		sprite_index = spr_popice_sneeze
+		image_index = 0
+		fmod_studio_event_instance_start(sndCharge)
+	}
+}
+
+enemyState_Attack = function()
+{
+   scr_enemyThrowDefault(spr_popice_sneeze, 14, 0.35, function()
+    {
+        with instance_create((x + image_xscale * 50), y, obj_popice_sneezeparticle)
+        {
+            image_xscale = other.image_xscale
+        }
+    }
+)
+}
+ 

@@ -1014,6 +1014,7 @@
     {"id":{"name":"obj_filetransfer","path":"objects/obj_filetransfer/obj_filetransfer.yy",},},
     {"id":{"name":"spr_mintsplosion_scared","path":"sprites/spr_mintsplosion_scared/spr_mintsplosion_scared.yy",},},
     {"id":{"name":"spr_comboMeterFill_pal","path":"sprites/spr_comboMeterFill_pal/spr_comboMeterFill_pal.yy",},},
+    {"id":{"name":"spr_popice_scared","path":"sprites/spr_popice_scared/spr_popice_scared.yy",},},
     {"id":{"name":"spr_cottonwitch_shoot","path":"sprites/spr_cottonwitch_shoot/spr_cottonwitch_shoot.yy",},},
     {"id":{"name":"scr_player_ratmountpunch","path":"scripts/scr_player_ratmountpunch/scr_player_ratmountpunch.yy",},},
     {"id":{"name":"spr_cottonwitch_scared","path":"sprites/spr_cottonwitch_scared/spr_cottonwitch_scared.yy",},},

@@ -4,6 +4,8 @@ if (state == States.frozen)
     {
         with (other)
         {
+			image_speed = 0.35;
+			other.image_speed = 0.35;
             other.x = other.xstart;
             other.y = other.ystart;
             scr_taunt_storeVariables();
