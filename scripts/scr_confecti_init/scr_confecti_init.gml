@@ -98,5 +98,17 @@ function scr_confecti_init()
             spr_taunt = spr_janitor2_taunt;
             global.janitorLapfollow = true;
             break;
+			
+        case obj_bigkey:
+            spr_idle = spr_bigkey;
+            spr_run = spr_bigkey;
+            spr_runpanic = spr_bigkey;
+            spr_panic = spr_bigkey;
+            spr_appear = spr_bigkey;
+            spr_supertaunt = spr_bigkey;
+            spr_taunt = spr_bigkey;
+            global.ChocoFollow = true;
+            break;
+        			
     }
 }

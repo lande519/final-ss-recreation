@@ -33,7 +33,7 @@ scr_defineLevel(0, "gumbob", "Boss 1", boss_gumbob);
 scr_defineLevel(1, "molasses", "Molasses Swamp", molasses_1, ["Molasses", "geyserwaves"], 19000, new scr_defineTitleCard(2, "event:/music/w2/molasses_titlecard", 37, 498));
 scr_defineLevel(1, "fudge", "Mt. Fudgetop", mountain_intro, ["Fudgetop"], 1900,  new scr_defineTitleCard(4, "event:/music/w2/molasses_titlecard", 37, 498));
 scr_defineLevel(1, "cafe", "Chocoa Cafe", cafe_1, ["Cafe"], 1900, new scr_defineTitleCard(5, "event:/music/w2/molasses_titlecard", 37, 498));
-scr_defineLevel(1, "coneboy", "Boss 2", rm_missing);
+scr_defineLevel(1, "coneboy", "Boss 2", boss_coneboy);
 scr_defineLevel(2, "dance", "Dance Off", dance_1, ["Dance"], 1900, new scr_defineTitleCard(8, "event:/music/w2/molasses_titlecard", 37, 498));
 scr_defineLevel(2, "bee", "Sting Operation", bee_1, ["Bee"], 1900, new scr_defineTitleCard(7, "event:/music/w2/molasses_titlecard", 37, 498));
 scr_defineLevel(2, "casino", "Coneboy Casino", casino_intro, ["Casino"]);

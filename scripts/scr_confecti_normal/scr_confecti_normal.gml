@@ -75,7 +75,7 @@ function scr_confecti_normal()
     y = round(y);
     supertaunts = [obj_parent_player.spr_supertaunt1, obj_parent_player.spr_supertaunt2, obj_parent_player.spr_supertaunt3, obj_parent_player.spr_supertaunt4];
     
-    if (obj_parent_player.state == States.taunt && state != States.normal && state != States.titlescreen)
+    if (obj_parent_player.state == States.taunt && object_index != obj_bigkey && state != States.normal && state != States.titlescreen)
     {
         if (array_contains(supertaunts, obj_parent_player.sprite_index))
         {
@@ -89,7 +89,7 @@ function scr_confecti_normal()
                     instance_destroy();
             }
         }
-        else if (obj_parent_player.sprite_index == obj_parent_player.spr_taunt)
+        else if (obj_parent_player.sprite_index == obj_parent_player.spr_taunt && object_index != obj_bigkey)
         {
             instance_create(x, y, obj_confectitaunt, 
             {

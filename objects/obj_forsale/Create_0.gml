@@ -1,9 +1,18 @@
-level = "gumbob";
-gatesprite = spr_pepperman_startgate
-details = default_gate_scroll(spr_cotton_gatebg);
+if room = hub_w1{
+	level = "gumbob";
+	gatesprite = spr_pepperman_startgate
+	details = default_gate_scroll(spr_cotton_gatebg);
+}
 
 if room = hub_w3{
 	level = "pizzano";
+	gatesprite = spr_pepperman_startgate
+	details = default_gate_scroll(spr_cotton_gatebg);
+}
+
+
+if room = hub_w2{
+	level = "coneboy";
 	gatesprite = spr_pepperman_startgate
 	details = default_gate_scroll(spr_cotton_gatebg);
 }
