@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function fmod_start_music(music){
 	var fuckingfmodforsomereasonmakesmedothiswhy = fmod_createEventInstance(music);
-	if (!event_instance_isplaying(fuckingfmodforsomereasonmakesmedothiswhy))
-		fmod_studio_event_instance_start(fuckingfmodforsomereasonmakesmedothiswhy);
+	fmod_studio_event_instance_start(fuckingfmodforsomereasonmakesmedothiswhy);
+	fmod_studio_event_instance_set_paused(fuckingfmodforsomereasonmakesmedothiswhy, false);
+	fmod_studio_event_instance_set_parameter_by_name(fuckingfmodforsomereasonmakesmedothiswhy, "state", 0, false);	
 }
