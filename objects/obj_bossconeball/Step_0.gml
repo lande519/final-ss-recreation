@@ -4,6 +4,12 @@ if place_meeting_collision(x, y) || x > 896 || x < 64 {
 	y += lengthdir_y(16, dir)
 }	
 
+if hp = 0{
+	with obj_bosscontroller
+		event_user(0);
+	hp = 10
+}
+
 if stunned >= 1 && state == bossstates.hurt {
 	var _loop = stunned % 6
 	_loop = floor(_loop / 3)
@@ -16,28 +22,12 @@ if state != bossstates.grabbed {
 	depth = -30
 	scr_collision()	
 }
-switch state{
-	case bossstates.waiting:
-	break;
-	case bossstates.frozen:
-		scr_boss_frozen()
-	break;
-	case bossstates.normal:
-		scr_boss_normal_coneball()
-	break;
-	case bossstates.intro:
-		scr_boss_introconeballpt1()
-	break;
-	case bossstates.hurt:
-		scr_boss_hurt()
-	break
-	case bossstates.vulnerable:
-		scr_boss_vunerable()
-	break;
-	case bossstates.grabbed:
-		scr_boss_grabbed()
-	break;
-}
+
+if phase = 0
+	scr_coneballphase1()
+if phase = 1
+	scr_coneballphase2()
+
 
 if flash && alarm[0] <= 0
 	alarm[0] = (0.15 * room_speed)

@@ -48,7 +48,7 @@ function scr_boss_hurt() {
 		movespeed *= 0.66
 		with(obj_bosscontroller)
 			event_user(0)		
-		
+	
 		if object_index = obj_bossthewalker{
 			repeat(400){
 				with(obj_bosscontroller)

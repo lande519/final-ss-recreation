@@ -14,5 +14,5 @@ with (instance_create(_x, _y, obj_baddieDead))
     paletteselect = 2 - _layer
 }
 
-if bosshp = 0
+if bosshp = 0 && state != bossstates.phasetrans && state != bossstates.phasetranssetup
 	par_boss.state = bossstates.phasetranssetup

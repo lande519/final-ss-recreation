@@ -139,7 +139,7 @@ function do_grab(argument0 = state)
             image_index = 0;
             global.tempRocketLauncher = false;
             
-            with (instance_create(x, y, obj_rocket))
+            with (instance_create(x, y-26, obj_rocket))
             {
                 image_xscale = other.xscale;
                 frog = true;
