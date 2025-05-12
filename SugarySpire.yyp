@@ -2892,6 +2892,7 @@
     {"id":{"name":"obj_fileDeleter","path":"objects/obj_fileDeleter/obj_fileDeleter.yy",},},
     {"id":{"name":"obj_roomCheck","path":"objects/obj_roomCheck/obj_roomCheck.yy",},},
     {"id":{"name":"spr_player_PA_bossintro1","path":"sprites/spr_player_PA_bossintro1/spr_player_PA_bossintro1.yy",},},
+    {"id":{"name":"dance_escape2","path":"rooms/dance_escape2/dance_escape2.yy",},},
     {"id":{"name":"obj_minecartRail","path":"objects/obj_minecartRail/obj_minecartRail.yy",},},
     {"id":{"name":"obj_rocketlauncher","path":"objects/obj_rocketlauncher/obj_rocketlauncher.yy",},},
     {"id":{"name":"obj_parent_doortrigger","path":"objects/obj_parent_doortrigger/obj_parent_doortrigger.yy",},},
@@ -3866,6 +3867,7 @@
     {"roomId":{"name":"dance_11","path":"rooms/dance_11/dance_11.yy",},},
     {"roomId":{"name":"dance_pillar","path":"rooms/dance_pillar/dance_pillar.yy",},},
     {"roomId":{"name":"dance_escape1","path":"rooms/dance_escape1/dance_escape1.yy",},},
+    {"roomId":{"name":"dance_escape2","path":"rooms/dance_escape2/dance_escape2.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
