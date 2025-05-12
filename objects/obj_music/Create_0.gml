@@ -206,5 +206,29 @@ addRoomMusic(mountain_intro, "event:/music/w2/mountain", "event:/music/w2/mounta
     if (!is_undefined(event_state))
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
+
+addRoomMusic(dance_1, "event:/music/w3/danceoff", "event:/music/w2/mountain_secret", function(argument0, argument1, argument2)
+{
+    var event_state;
+    
+    event_state = undefined;
+    
+    switch (argument0)
+    {
+        case dance_1:
+        case dance_5:
+            event_state = 0;
+            break;
+        
+        case dance_9:
+            event_state = 1;
+            break;
+    }
+	
+    if (!is_undefined(event_state))
+        fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);	
+});
+
+
 addRoomMusic(cafe_1, "event:/music/w2/cafe", "event:/music/w2/cafe_secret", undefined);
 
