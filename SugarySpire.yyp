@@ -420,6 +420,7 @@
     {"id":{"name":"spr_titlePizzelle_exhib1r","path":"sprites/spr_titlePizzelle_exhib1r/spr_titlePizzelle_exhib1r.yy",},},
     {"id":{"name":"spr_betonbacon_attack","path":"sprites/spr_betonbacon_attack/spr_betonbacon_attack.yy",},},
     {"id":{"name":"spr_redx","path":"sprites/spr_redx/spr_redx.yy",},},
+    {"id":{"name":"dance_pillar","path":"rooms/dance_pillar/dance_pillar.yy",},},
     {"id":{"name":"spr_file_exhibframe","path":"sprites/spr_file_exhibframe/spr_file_exhibframe.yy",},},
     {"id":{"name":"spr_stompEffect","path":"sprites/spr_stompEffect/spr_stompEffect.yy",},},
     {"id":{"name":"spr_player_PZ_flinged","path":"sprites/spr_player_PZ_flinged/spr_player_PZ_flinged.yy",},},
@@ -3862,6 +3863,7 @@
     {"roomId":{"name":"dance_9","path":"rooms/dance_9/dance_9.yy",},},
     {"roomId":{"name":"dance_10","path":"rooms/dance_10/dance_10.yy",},},
     {"roomId":{"name":"dance_11","path":"rooms/dance_11/dance_11.yy",},},
+    {"roomId":{"name":"dance_pillar","path":"rooms/dance_pillar/dance_pillar.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
