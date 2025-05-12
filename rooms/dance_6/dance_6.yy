@@ -88,6 +88,7 @@
     {"name":"inst_CD427E6","path":"rooms/dance_6/dance_6.yy",},
     {"name":"inst_651FD119","path":"rooms/dance_6/dance_6.yy",},
     {"name":"inst_6DC215FA","path":"rooms/dance_6/dance_6.yy",},
+    {"name":"inst_E67CD88","path":"rooms/dance_6/dance_6.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -181,6 +182,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CD427E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_disco_block","path":"objects/obj_disco_block/obj_disco_block.yy",},"properties":[],"rotation":0.0,"scaleX":0.33333334,"scaleY":1.0,"x":2176.0,"y":832.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_651FD119","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_disco_toggle","path":"objects/obj_disco_toggle/obj_disco_toggle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DC215FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_disco_block","path":"objects/obj_disco_block/obj_disco_block.yy",},"properties":[],"rotation":0.0,"scaleX":1.3333334,"scaleY":1.0,"x":3008.0,"y":992.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E67CD88","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_transportBox","path":"objects/obj_transportBox/obj_transportBox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":1600.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":63,"SerialiseWidth":125,"TileCompressedData":[
 -7875,0,],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":true,"visible":false,"x":0,"y":0,},
