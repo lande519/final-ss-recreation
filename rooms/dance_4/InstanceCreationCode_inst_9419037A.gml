@@ -1,1 +1,1 @@
-//targetRoom = dance_5
+targetRoom = dance_5

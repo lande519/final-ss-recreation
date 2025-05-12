@@ -3423,6 +3423,7 @@
     {"id":{"name":"molasses_8","path":"rooms/molasses_8/molasses_8.yy",},},
     {"id":{"name":"draw_text_scribble_ext","path":"scripts/draw_text_scribble_ext/draw_text_scribble_ext.yy",},},
     {"id":{"name":"molasses_9","path":"rooms/molasses_9/molasses_9.yy",},},
+    {"id":{"name":"dance_5","path":"rooms/dance_5/dance_5.yy",},},
     {"id":{"name":"molasses_9b","path":"rooms/molasses_9b/molasses_9b.yy",},},
     {"id":{"name":"spr_painter_dashstart2","path":"sprites/spr_painter_dashstart2/spr_painter_dashstart2.yy",},},
     {"id":{"name":"molasses_10","path":"rooms/molasses_10/molasses_10.yy",},},
@@ -3835,6 +3836,7 @@
     {"roomId":{"name":"hub_outer","path":"rooms/hub_outer/hub_outer.yy",},},
     {"roomId":{"name":"dance_3","path":"rooms/dance_3/dance_3.yy",},},
     {"roomId":{"name":"dance_4","path":"rooms/dance_4/dance_4.yy",},},
+    {"roomId":{"name":"dance_5","path":"rooms/dance_5/dance_5.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
