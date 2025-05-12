@@ -1,1 +1,1 @@
-targetRoom = boss_painter
+targetRoom = boss_coneboy

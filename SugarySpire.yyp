@@ -271,6 +271,7 @@
     {"id":{"name":"spr_door_mindpalace","path":"sprites/spr_door_mindpalace/spr_door_mindpalace.yy",},},
     {"id":{"name":"spr_banana_machturn","path":"sprites/spr_banana_machturn/spr_banana_machturn.yy",},},
     {"id":{"name":"spr_player_PZ_walkFront","path":"sprites/spr_player_PZ_walkFront/spr_player_PZ_walkFront.yy",},},
+    {"id":{"name":"scr_lapPortals","path":"scripts/scr_lapPortals/scr_lapPortals.yy",},},
     {"id":{"name":"spr_painterpointer_fall","path":"sprites/spr_painterpointer_fall/spr_painterpointer_fall.yy",},},
     {"id":{"name":"spr_player_PZ_pileDriver_jump","path":"sprites/spr_player_PZ_pileDriver_jump/spr_player_PZ_pileDriver_jump.yy",},},
     {"id":{"name":"spr_player_PZ_uppercut_intro","path":"sprites/spr_player_PZ_uppercut_intro/spr_player_PZ_uppercut_intro.yy",},},
