@@ -3238,6 +3238,7 @@
     {"id":{"name":"obj_oneway2","path":"objects/obj_oneway2/obj_oneway2.yy",},},
     {"id":{"name":"obj_landcloud","path":"objects/obj_landcloud/obj_landcloud.yy",},},
     {"id":{"name":"obj_parallax","path":"objects/obj_parallax/obj_parallax.yy",},},
+    {"id":{"name":"dance_10","path":"rooms/dance_10/dance_10.yy",},},
     {"id":{"name":"obj_paletteChangerMirror","path":"objects/obj_paletteChangerMirror/obj_paletteChangerMirror.yy",},},
     {"id":{"name":"spr_gustavo_makepizza","path":"sprites/spr_gustavo_makepizza/spr_gustavo_makepizza.yy",},},
     {"id":{"name":"obj_creamThiefCar","path":"objects/obj_creamThiefCar/obj_creamThiefCar.yy",},},
@@ -3858,6 +3859,7 @@
     {"roomId":{"name":"dance_7","path":"rooms/dance_7/dance_7.yy",},},
     {"roomId":{"name":"dance_8","path":"rooms/dance_8/dance_8.yy",},},
     {"roomId":{"name":"dance_9","path":"rooms/dance_9/dance_9.yy",},},
+    {"roomId":{"name":"dance_10","path":"rooms/dance_10/dance_10.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
