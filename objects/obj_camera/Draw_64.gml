@@ -158,3 +158,6 @@ if (global.InternalLevelName != "none" && room != timesuproom && room != rank_ro
 
 if (global.screenflash > 0)
     draw_rectangle_color(-64, -64, 1024, 604, c_white, c_white, c_white, c_white, false);
+
+if (global.dancetimer > 0)
+    draw_text(480, 100, global.dancetimer);

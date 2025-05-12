@@ -112,6 +112,8 @@ function scr_gameInit()
         p_i++;
     }
     
+	
+	global.dancetimer = 0;
     global.DebugMode = dbg_mode;
     surface_depth_disable(true);
     global.coopGame = false;
