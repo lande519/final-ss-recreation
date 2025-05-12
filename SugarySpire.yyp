@@ -2155,6 +2155,7 @@
     {"id":{"name":"spr_player_PZ_flinged_straightup","path":"sprites/spr_player_PZ_flinged_straightup/spr_player_PZ_flinged_straightup.yy",},},
     {"id":{"name":"scribble_anim_get_disabled","path":"scripts/scribble_anim_get_disabled/scribble_anim_get_disabled.yy",},},
     {"id":{"name":"spr_molassesBrickWall2","path":"sprites/spr_molassesBrickWall2/spr_molassesBrickWall2.yy",},},
+    {"id":{"name":"dance_escape1","path":"rooms/dance_escape1/dance_escape1.yy",},},
     {"id":{"name":"bg_estatescarywow2","path":"sprites/bg_estatescarywow2/bg_estatescarywow2.yy",},},
     {"id":{"name":"bg_hub1","path":"sprites/bg_hub1/bg_hub1.yy",},},
     {"id":{"name":"spr_player_PZ_outofpizza1","path":"sprites/spr_player_PZ_outofpizza1/spr_player_PZ_outofpizza1.yy",},},
@@ -3864,6 +3865,7 @@
     {"roomId":{"name":"dance_10","path":"rooms/dance_10/dance_10.yy",},},
     {"roomId":{"name":"dance_11","path":"rooms/dance_11/dance_11.yy",},},
     {"roomId":{"name":"dance_pillar","path":"rooms/dance_pillar/dance_pillar.yy",},},
+    {"roomId":{"name":"dance_escape1","path":"rooms/dance_escape1/dance_escape1.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
