@@ -32,7 +32,7 @@ if (isgustavo != obj_player1.isgustavo)
     
     with (obj_player1)
     {
-        tauntstoredstate = isgustavo ? UnknownEnum.Value_191 : UnknownEnum.Value_0;
+        tauntstoredstate = isgustavo ? 191 : 0;
         tauntstoredsprite = sprite_index;
     }
 }
