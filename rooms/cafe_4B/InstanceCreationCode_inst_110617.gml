@@ -1,1 +1,1 @@
-targetRoom = cafe_secret1;
+targetRoom = cafe_secret_1;
