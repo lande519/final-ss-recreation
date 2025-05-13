@@ -17,6 +17,8 @@ function state_player_fairy(){
 		sprite_index = spr_player_PZ_fairy
 		
 	if sprite_index = spr_player_PZ_fairy_dash{
+		instance_destroy(position_meeting(x,y,obj_parent_enemy))
+		
 		if move != 0
 			movespeed = 10 * move
 		else{
