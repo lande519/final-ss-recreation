@@ -60,6 +60,10 @@ addRoomMusic(rm_mainmenu, "event:/music/titlescreen_demo", undefined, function(a
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
 addRoomMusic(rm_credits, "event:/music/credits", undefined, undefined);
+addRoomMusic(boss_coneball, undefined, undefined, undefined);
+addRoomMusic(boss_coneboy, undefined, undefined, undefined);
+addRoomMusic(boss_pizzano, undefined, undefined, undefined);
+addRoomMusic(boss_gumbob, undefined, undefined, undefined);
 addRoomMusic(rm_devroom, "event:/music/devroom", undefined, undefined);
 addRoomMusic(tutorial_1, "event:/music/tutorial", undefined, undefined);
 addRoomMusic(rosette_tut1, "event:/music/tutorial", undefined, undefined);
