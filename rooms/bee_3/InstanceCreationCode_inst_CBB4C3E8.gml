@@ -1,1 +1,1 @@
-//targetRoom = bee_4;
+targetRoom = bee_4;

@@ -1334,6 +1334,7 @@
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},},
     {"id":{"name":"spr_bigbreak2","path":"sprites/spr_bigbreak2/spr_bigbreak2.yy",},},
     {"id":{"name":"spr_rosette_fall","path":"sprites/spr_rosette_fall/spr_rosette_fall.yy",},},
+    {"id":{"name":"bee_5","path":"rooms/bee_5/bee_5.yy",},},
     {"id":{"name":"spr_player_ratmountidle","path":"sprites/spr_player_ratmountidle/spr_player_ratmountidle.yy",},},
     {"id":{"name":"spr_collect2","path":"sprites/spr_collect2/spr_collect2.yy",},},
     {"id":{"name":"spr_pickaxe","path":"sprites/spr_pickaxe/spr_pickaxe.yy",},},
@@ -3882,6 +3883,7 @@
     {"roomId":{"name":"dance_escape2","path":"rooms/dance_escape2/dance_escape2.yy",},},
     {"roomId":{"name":"dance_8","path":"rooms/dance_8/dance_8.yy",},},
     {"roomId":{"name":"bee_4","path":"rooms/bee_4/bee_4.yy",},},
+    {"roomId":{"name":"bee_5","path":"rooms/bee_5/bee_5.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
