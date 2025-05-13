@@ -1,0 +1,1 @@
+other.state = States.fairy

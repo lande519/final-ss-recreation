@@ -474,6 +474,10 @@ function scr_playerstate()
         case States.honey:
             state_function = state_player_honey;
             break;
+			
+        case States.fairy:
+            state_function = state_player_fairy;
+            break;
     }
     
     stateName = string("State : {0}", state);
