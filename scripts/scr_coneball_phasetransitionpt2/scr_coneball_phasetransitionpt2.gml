@@ -1,9 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_coneball_phasetranssetuppt2(){
+	stop_music()
+	fmod_start_music("event:/music/w4/coneballphase2")
 	instance_create(x,y,obj_bombExplosion)
 	sprite_index = spr_stupidrat_fall
 	grav = 0.5
+	obj_bosscontroller.fadealpha = 1
 	vsp = -30
 	state = bossstates.phasetrans
 }
@@ -25,7 +28,6 @@ function scr_coneball_phasetranspt2(){
 	
 		if sprite_index = spr_stupidrat_land && sprite_animation_end(){
 			sprite_index = 	spr_stupidrat_idle
-			obj_bosscontroller.fadealpha = 1
 			obj_player1.sprite_index = spr_player_PZ_bossintro2
 			obj_player1.image_index = 0
 		}
