@@ -29,9 +29,17 @@ function state_player_comingoutdoor()
     
     if (sprite_animation_end())
     {
-        movespeed = 0;
-        state = States.normal;
-        image_blend = c_white;
+		if global.InternalLevelName == "oldmines"{
+			image_index = 0
+			image_speed = 0.35
+			sprite_index = spr_player_PZ_gotKey			
+			state = States.minesoldcutscene	
+		}
+		else{
+	        movespeed = 0;
+	        state = States.normal;
+	        image_blend = c_white;
+		}
     }
     
     global.ComboFreeze = 15;

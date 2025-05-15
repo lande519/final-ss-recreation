@@ -113,7 +113,8 @@ enum States
 	bossdefeat = 115,
 	guscutscene = 116,
 	honey = 117,
-	fairy
+	fairy = 118,
+	minesoldcutscene
 }
 
 enum bossstates{

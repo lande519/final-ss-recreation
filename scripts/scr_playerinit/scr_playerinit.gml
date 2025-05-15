@@ -478,6 +478,10 @@ function scr_playerstate()
         case States.fairy:
             state_function = state_player_fairy;
             break;
+			
+        case States.minesoldcutscene:
+            state_function = state_player_minesoldcutscene;
+            break;
     }
     
     stateName = string("State : {0}", state);

@@ -128,7 +128,14 @@ function do_grab(argument0 = state)
     if (inputBufferSlap > 0)
     {
         inputBufferSlap = 0;
-        
+		
+		if global.InternalLevelName ="oldmines"{
+			with instance_create(x,y,obj_bullet){
+				image_xscale = other.image_xscale	
+			}
+			exit;
+		}        
+		
         if (key_up || key_up2)
         {
             do_uppercut();

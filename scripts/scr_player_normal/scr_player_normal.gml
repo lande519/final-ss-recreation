@@ -32,6 +32,12 @@ function state_player_normal()
         _idle_spr = spr_player_PZ_idle_freezing;
         _dontidle = true;
     }
+    
+    if (global.InternalLevelName == "oldmines")
+    {
+        _idle_spr = spr_player_PZ_gun;
+        _dontidle = true;
+    }
 	
     if (global.InternalLevelName == "dance")
     {

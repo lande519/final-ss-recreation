@@ -42,6 +42,7 @@ scr_defineLevel(3, "sucrose", "Sucrose Snowstorm", sucrose_start, ["Sucrose"], 1
 scr_defineLevel(3, "licorice", "Licorice Castle", licorice_intro, ["Licorice"]);
 scr_defineLevel(3, "sour", "Souractive", sour_1, ["Sour"]);
 scr_defineLevel(3, "coneball", "Coneball", boss_coneball);
+scr_defineLevel(-1, "oldmines", "Old Mines", mines_1);
 
 function scr_gotoLevel(argument0)
 {
