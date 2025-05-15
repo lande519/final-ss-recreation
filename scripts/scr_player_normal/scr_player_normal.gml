@@ -32,6 +32,12 @@ function state_player_normal()
         _idle_spr = spr_player_PZ_idle_freezing;
         _dontidle = true;
     }
+	
+    if (global.InternalLevelName == "dance")
+    {
+        _idle_spr = spr_player_PZ_idle_dance;
+        _move_spr = spr_player_PZ_walk_dance;
+    }	
     
     soundtest_check = instance_exists(obj_soundTest) && obj_soundTest.musicPlaying;
     
