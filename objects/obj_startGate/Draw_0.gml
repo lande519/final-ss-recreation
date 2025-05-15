@@ -1,11 +1,18 @@
+
+if sprite_index = spr_hubtv{
+	draw_sprite(sprite_index, image_index, x, y);
+	exit;
+}
+
 var i, secret_canvas, rank_toppings, point_string, point_string_length, palette_select, point_y, x_offset, y_offset, offset_x, offset_y;
 
 draw_set_color(c_white);
 draw_self();
 draw_sprite(sprite_index, 2, x, y);
+
 scr_startgate_draw_normal();
 
-if (hideDetails)
+if (hideDetails )
     exit;
 
 for (i = 0; i < array_length(secretCanvas); i++)
