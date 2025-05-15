@@ -5,6 +5,9 @@ if (global.panic)
     exit;
 }
 
+if sprite_index = spr_hubtv
+	exit;
+
 var _rank, i, collected, offset, gatespeeds, gatedelays;
 
 ini_open(global.SaveFileName);

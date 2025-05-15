@@ -1,25 +1,26 @@
 var i, all_text_landed, gatelands, gateloops, play_splat;
 
-fade = (distance_to_object(obj_parent_player) - 50) / 250;
+if sprite_index != spr_hubtv{
+	fade = (distance_to_object(obj_parent_player) - 50) / 250;
 
-if (fade <= 0.45 && object_index != obj_bossgate)
-{
-    with (gatePointDisplay)
-    {
-        if (!visible)
-        {
-            visible = true;
-            y = min(targetY - 650, camera_get_view_y(view_camera[0]) - (camera_get_view_height(view_camera[0]) / 2));
+	if (fade <= 0.45)
+	{
+	    with (gatePointDisplay)
+	    {
+	        if (!visible)
+	        {
+	            visible = true;
+	            y = min(targetY - 650, camera_get_view_y(view_camera[0]) - (camera_get_view_height(view_camera[0]) / 2));
             
-            for (i = 0; i < array_length(pointText); i++)
-                pointText[i].y += y - 50;
-        }
-    }
+	            for (i = 0; i < array_length(pointText); i++)
+	                pointText[i].y += y - 50;
+	        }
+	    }
+	}
 }
 
 all_text_landed = false;
 
-if object_index != obj_bossgate{
 	with (gatePointDisplay)
 	{
 	    if (visible)
@@ -33,7 +34,6 @@ if object_index != obj_bossgate{
 	            all_text_landed = true;
 	    }
 	}
-}
 
 with (gateRankBubble)
 {
