@@ -1440,6 +1440,7 @@
     {"id":{"name":"spr_player_PZ_dogMount_skid","path":"sprites/spr_player_PZ_dogMount_skid/spr_player_PZ_dogMount_skid.yy",},},
     {"id":{"name":"spr_player_PZ_idleAnim_4","path":"sprites/spr_player_PZ_idleAnim_4/spr_player_PZ_idleAnim_4.yy",},},
     {"id":{"name":"bg_mines1para2_escape","path":"sprites/bg_mines1para2_escape/bg_mines1para2_escape.yy",},},
+    {"id":{"name":"mines_3","path":"rooms/mines_3/mines_3.yy",},},
     {"id":{"name":"spr_marshmellow_idle","path":"sprites/spr_marshmellow_idle/spr_marshmellow_idle.yy",},},
     {"id":{"name":"spr_gummyworm_idle","path":"sprites/spr_gummyworm_idle/spr_gummyworm_idle.yy",},},
     {"id":{"name":"spr_player_PZ_frostburn_turn","path":"sprites/spr_player_PZ_frostburn_turn/spr_player_PZ_frostburn_turn.yy",},},
@@ -3900,6 +3901,7 @@
     {"roomId":{"name":"hub_secret1","path":"rooms/hub_secret1/hub_secret1.yy",},},
     {"roomId":{"name":"mines_1","path":"rooms/mines_1/mines_1.yy",},},
     {"roomId":{"name":"mines_2","path":"rooms/mines_2/mines_2.yy",},},
+    {"roomId":{"name":"mines_3","path":"rooms/mines_3/mines_3.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
