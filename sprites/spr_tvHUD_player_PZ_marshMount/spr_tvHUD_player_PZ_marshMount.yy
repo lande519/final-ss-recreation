@@ -47,7 +47,7 @@
     ],
     "top": 0,
   },
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Pizzelle",
     "path": "folders/Sprites/HUD/TV/Pizzelle.yy",

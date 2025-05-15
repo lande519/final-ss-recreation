@@ -6,9 +6,11 @@ secretArray = (a != -4) ? a.layerArray : [];
 if (state != States.comingoutdoor)
     image_blend = c_white;
 
+/*
 if mouse_check_button_pressed(mb_left) && global.InternalLevelName == "oldmines" && room != hub_secret1{
 	instance_create(x,y,obj_bullet)	
 }
+*/
 
 inputLadderBuffer = max(inputLadderBuffer - 1, 0);
 wetTimer = approach(wetTimer, 0, 3);

@@ -482,6 +482,10 @@ function scr_playerstate()
         case States.minesoldcutscene:
             state_function = state_player_minesoldcutscene;
             break;
+			
+        case States.shotgun:
+            state_function = state_player_shotgun;
+            break;
     }
     
     stateName = string("State : {0}", state);

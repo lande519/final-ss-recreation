@@ -248,6 +248,7 @@ function scr_characterTVSprite()
     global.TvSprPlayer_FrostBurn = scr_getCharacterTVSprite(spr_tvHUD_player_PZ_frostBurn);
     global.TvSprPlayer_Minecart = scr_getCharacterTVSprite(spr_tvHUD_player_PZ_minecart);
     global.TvSprPlayer_MarshMount = scr_getCharacterTVSprite(spr_tvHUD_player_PZ_marshMount);
+    global.TvSprPlayer_Gun = scr_getCharacterTVSprite(spr_tvHUD_player_PZ_gun);
     global.TvSprPlayer_Hooked = scr_getCharacterTVSprite(spr_tvHUD_player_PZ_hooked);
 }
 

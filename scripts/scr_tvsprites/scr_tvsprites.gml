@@ -20,6 +20,7 @@ function scr_tvsprites()
     machrolltvspr = spr_tvHUD_player_PZ_machRoll;
     frostburntvspr = spr_tvHUD_player_PZ_frostBurn;
     marshdogspr = spr_tvHUD_player_PZ_marshMount;
+    guntvspr = spr_tvHUD_player_PZ_gun;
     panictvspr = global.TvSprPlayer_EscapeIdle;
     secrettvspr = global.TvSprPlayer_Secret;
 }

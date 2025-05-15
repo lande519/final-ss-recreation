@@ -130,9 +130,14 @@ function do_grab(argument0 = state)
         inputBufferSlap = 0;
 		
 		if global.InternalLevelName ="oldmines"{
-			with instance_create(x,y,obj_bullet){
-				image_xscale = other.image_xscale	
+			with instance_create(x,y,obj_shotgunblast){
+				image_xscale = other.xscale	
 			}
+			sprite_index = spr_player_PZ_shotgun_shoot
+			image_index = 0
+			state = States.shotgun
+			vsp = 4
+			hsp = 4 * xscale * -1
 			exit;
 		}        
 		

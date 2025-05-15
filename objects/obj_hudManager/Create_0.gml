@@ -200,6 +200,11 @@ with (HUDObject_TV)
             case States.doughmountpancake:
                 queuedSprite = global.TvSprPlayer_MarshMount;
                 break;
+				
+            case States.normal:
+				if global.InternalLevelName = "oldmine" 
+					queuedSprite = global.TvSprPlayer_Gun;
+                break;
         }
     };
     
