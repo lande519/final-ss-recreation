@@ -188,6 +188,7 @@ addRoomMusic(mineshaft_1, "event:/music/w1/mines", "event:/music/w1/mines_secret
     if (!is_undefined(event_state))
         fmod_studio_event_instance_set_parameter_by_name(argument1, "state", event_state, false);
 });
+
 addRoomMusic(mountain_intro, "event:/music/w2/mountain", "event:/music/w2/mountain_secret", function(argument0, argument1, argument2)
 {
     var event_state;
@@ -235,4 +236,5 @@ addRoomMusic(dance_1, "event:/music/w3/danceoff", "event:/music/w2/mountain_secr
 
 
 addRoomMusic(cafe_1, "event:/music/w2/cafe", "event:/music/w2/cafe_secret", undefined);
+addRoomMusic(mines_1, "event:/music/w1/mines", "event:/music/w1/mines_secret", undefined);
 
