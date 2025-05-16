@@ -113,8 +113,6 @@ addRoomMusic(secret_entrance, "event:/music/sotw", undefined, undefined);
 addRoomMusic(sucrose_start, "event:/music/Soundtest/spiresamba", undefined, undefined);
 addRoomMusic(sucrose_1, "event:/music/Soundtest/sugarcubehailstorm", undefined, undefined);
 
-addRoomMusic(sour_1, "event:/music/w2/molasses", "event:/music/w2/molasses_secret", undefined);
-addRoomMusic(sour_3, "event:/music/w2/molasses", "event:/music/w2/molasses_secret", undefined);
 addRoomMusic(steamy_1, "event:/music/w1/cottontown", "event:/music/w1/cottontown_secret", function(argument0, argument1, argument2)
 {
     var event_state;
@@ -237,6 +235,7 @@ addRoomMusic(dance_1, "event:/music/w3/danceoff", "event:/music/w2/mountain_secr
 addRoomMusic(cafe_1, "event:/music/w2/cafe", "event:/music/w2/cafe_secret", undefined);
 addRoomMusic(bee_1, "event:/music/w3/buzzy.", "event:/music/w2/cafe_secret", undefined);
 addRoomMusic(sour_1, "event:/music/w4/souractive", "event:/music/w2/cafe_secret", undefined);
+addRoomMusic(sour_2, "event:/music/w4/souractive", "event:/music/w2/cafe_secret", undefined);
 addRoomMusic(mines_1, "event:/music/w1/mines", "event:/music/w1/mines_secret", undefined);
 addRoomMusic(licorice_intro, "event:/music/w4/licorice", "event:/music/w1/mines_secret", undefined);
 addRoomMusic(rm_devroom, "event:/music/w4/licorice", "event:/music/w1/mines_secret", undefined);
