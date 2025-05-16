@@ -333,6 +333,8 @@
 "prompt_test" 		: "[kL][kD][kU] Testing [kL][kL]"
 
 "prompt_werecotton" : "[kJ][kJ] Double Jump [kG] Dig"
+"prompt_licorice" : "[kU] Move Up [kD] Move Down [kJ] Jump Off"
+"prompt_fairy" : "[kU][kD][kL][kR] Move [kG] Spin"
 "prompt_minecart" : "[kJ] Jump [kD] Crouch"
 "prompt_fling" : "[kL][kD][kR] Pull Back"
 "prompt_fireass" : "[kG] Dash"

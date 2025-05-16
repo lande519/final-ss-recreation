@@ -1,7 +1,7 @@
 var i;
 scr_collision_init();
 scr_playersounds_init();
-fixouterspawn = false
+instance_create(x,y,obj_camerafollower)
 global.showgnomelist = 0
 global.failcutscene = 0
 global.pizzadelivery = 0

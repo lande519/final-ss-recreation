@@ -1,1 +1,1 @@
-targetRoom = casino_1
+targetRoom = casino_introB

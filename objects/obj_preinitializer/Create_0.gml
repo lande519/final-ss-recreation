@@ -115,7 +115,8 @@ enum States
 	honey = 117,
 	fairy = 118,
 	minesoldcutscene = 119,
-	shotgun = 120
+	shotgun = 120,
+	licoricespin = 121
 }
 
 enum bossstates{

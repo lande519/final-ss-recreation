@@ -25,7 +25,11 @@ function scr_setTransfoTip(argument0)
             break;
         
         case States.fairy:
-            global.TransfoPrompt = "THE NETHER";
+            global.TransfoPrompt = "prompt_fairy";
+            break;
+        
+        case States.licoricespin:
+            global.TransfoPrompt = "prompt_licorice";
             break;
         
         default:
@@ -94,6 +98,10 @@ function scr_transformationCheck(argument0)
         
         case States.fairy:
             transfo = "Fairy";
+            break;
+        
+        case States.licoricespin:
+            transfo = "Licorice";
             break;
     }
     

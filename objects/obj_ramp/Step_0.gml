@@ -1,4 +1,4 @@
-var s = 10
+var s = 16
 
 if (place_meeting(x, y - s, obj_parent_player))
 {
