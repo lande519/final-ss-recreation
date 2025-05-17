@@ -1974,6 +1974,7 @@
     {"id":{"name":"spr_sucrosecard_title","path":"sprites/spr_sucrosecard_title/spr_sucrosecard_title.yy",},},
     {"id":{"name":"spr_marble_soundtestdance","path":"sprites/spr_marble_soundtestdance/spr_marble_soundtestdance.yy",},},
     {"id":{"name":"spr_tomatoowdead","path":"sprites/spr_tomatoowdead/spr_tomatoowdead.yy",},},
+    {"id":{"name":"spr_player_PZ_grind","path":"sprites/spr_player_PZ_grind/spr_player_PZ_grind.yy",},},
     {"id":{"name":"spr_player_PZ_frostburn_spin","path":"sprites/spr_player_PZ_frostburn_spin/spr_player_PZ_frostburn_spin.yy",},},
     {"id":{"name":"spr_player_pistolidle","path":"sprites/spr_player_pistolidle/spr_player_pistolidle.yy",},},
     {"id":{"name":"spr_giantcollect1","path":"sprites/spr_giantcollect1/spr_giantcollect1.yy",},},
