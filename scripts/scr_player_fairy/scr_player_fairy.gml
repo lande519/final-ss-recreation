@@ -4,6 +4,7 @@ function state_player_fairy(){
     var maxspeed = 10;
     var hspaccel = 0.8;
     var vspaccel = 0.8;	
+	image_speed = 0.35
 	move2 = key_down - key_up;
 	
 	if hsp != 0{
@@ -15,9 +16,11 @@ function state_player_fairy(){
 	
 	if sprite_index != spr_player_PZ_fairy_dash
 		sprite_index = spr_player_PZ_fairy
-		
+	
 	if sprite_index = spr_player_PZ_fairy_dash{
-		instance_destroy(position_meeting(x,y,obj_parent_enemy))
+		var _inst = instance_place(x, y, obj_parent_enemy);
+		if (_inst != noone)
+		    instance_destroy(_inst);
 		
 		if move != 0
 			movespeed = 10 * move

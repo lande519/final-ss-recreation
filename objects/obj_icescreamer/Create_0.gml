@@ -29,11 +29,8 @@ enemyState_Attack = function()
 {
    scr_enemyThrowDefault(spr_icescreamer_shoot, 15, 0.35, function()
     {
-        with instance_create((x + image_xscale * 50), y, obj_crushertrail)
+        with instance_create((x + image_xscale * 50), y, obj_icescreamer_cone)
             image_xscale = other.image_xscale
-			
-        with instance_create((x + image_xscale / 50), y, obj_crushertrail)
-            image_xscale = other.image_xscale * -1
     }
 )
 }
