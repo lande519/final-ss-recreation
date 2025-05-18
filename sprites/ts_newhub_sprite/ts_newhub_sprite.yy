@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8b39a91d-cd9b-474d-b0c5-118b89f79204",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2597b532-3268-4e5c-b87f-7ae3fba0ce27",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1080,
+  "height": 896,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cd2e65b3-1122-45f3-9a6c-b95eac33fdae","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d6bb6e0d-e180-4519-aeb5-3ab814cba29c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8b39a91d-cd9b-474d-b0c5-118b89f79204","path":"sprites/ts_newhub_sprite/ts_newhub_sprite.yy",},},},"Disabled":false,"id":"abef871c-5841-48b7-afea-b313e76dd4b9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2597b532-3268-4e5c-b87f-7ae3fba0ce27","path":"sprites/ts_newhub_sprite/ts_newhub_sprite.yy",},},},"Disabled":false,"id":"51f5cd21-a236-42c5-984e-6b2266901b1f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1080,
+  "width": 1024,
 }

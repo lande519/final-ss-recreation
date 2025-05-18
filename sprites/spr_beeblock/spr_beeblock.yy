@@ -32,8 +32,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Bee Block (this kinda counts as an enemy ig)",
+    "path": "folders/Sprites/Enemies/Bee Block (this kinda counts as an enemy ig).yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,8 +79,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Backgrounds",
-    "path": "texturegroups/Backgrounds",
+    "name": "Bee",
+    "path": "texturegroups/Bee",
   },
   "type": 0,
   "VTile": false,

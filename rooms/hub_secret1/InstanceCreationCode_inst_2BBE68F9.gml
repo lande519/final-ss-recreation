@@ -1,0 +1,1 @@
+text = "Hey kiddo! if you're like your pal icepop, then you should be capable of remembering things! I dug out this gate from the basements massive pile of junk, It might seem familiar to you. I know how much you hate this thing so I left a little gift for you to make the level a tad more fun. Cheers!"

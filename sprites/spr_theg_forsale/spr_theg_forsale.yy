@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "stupid guy and his goons",
+    "path": "folders/Sprites/stupid guy and his goons.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
