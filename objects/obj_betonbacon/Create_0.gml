@@ -10,8 +10,9 @@ enemyAttackTimerMax = 200
 defaultMovespeed = 1.5
 enemyAttack_TriggerEvent = function()
 {
-	if (scr_enemy_playerisnear(200, 20) && grounded && state == (0 << 0) && sprite_index != spr_betonbacon_attack)
+	if (enemyAttackTimer <= 0 && scr_enemy_playerisnear(200, 20) && grounded && state == (0 << 0) && sprite_index != spr_betonbacon_attack)
 	{
+		enemyAttackTimer = enemyAttackTimerMax;
 	    state = (2 << 0)
 		sprite_index = spr_betonbacon_attack;
 		

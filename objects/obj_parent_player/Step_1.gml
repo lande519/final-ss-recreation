@@ -27,7 +27,21 @@ if (vsp < 0)
 if global.playerCharacter != Characters.Coneboy
 	can_jump = (grounded && vsp > 0) || (!grounded && coyoteTime > 0 && vsp > 0);
 else
-	can_jump = (grounded && vsp > 0) || (!grounded && coyoteTime > 0 && vsp > 0) || (jumped != 2);
+	can_jump = (grounded && vsp > 0) || (!grounded && coyoteTime > 0 && vsp > 0) || (jumped != 1);
+	
+if key_jump{
+	if jumppressed = false{
+		if jumped != 1
+			jumped += 1		
+		jumppressed = true	
+	}
+}
+else
+	jumppressed = false
+
+if grounded{
+	jumped = 0	
+}
 
 scr_playerstate();
 hspCarry += slideHsp;

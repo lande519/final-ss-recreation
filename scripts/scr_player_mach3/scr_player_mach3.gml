@@ -1,5 +1,14 @@
 function state_player_mach3()
 {
+	if global.Cane{
+		image_index = 0
+		sprite_index = spr_playerN_pogostart		
+		state = States.cane
+		exit;
+	}	
+	if global.instamach && movespeed < 20
+		movespeed = 20
+		
     var maxspd, _ledge;
     
     windingAnim = min(windingAnim + 1, 2000);
@@ -42,7 +51,7 @@ function state_player_mach3()
     
     if (move == xscale && grounded)
     {
-        if (movespeed < maxspd)
+        if (movespeed < maxspd) or global.uncappedspeed = true
             movespeed += (machFourMode ? 0.1 : 0.025);
     }
     

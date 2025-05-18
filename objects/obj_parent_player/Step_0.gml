@@ -300,17 +300,6 @@ slideHsp = clamp(abs(slideHsp), 0, 3) * sign(slideHsp);
 if (state == States.climbwall)
     slideHsp = 0;
 
-if grounded{
-	jumped = 0	
-}
-
-
-if inputBufferJump > 0{
-	if jumped != 2
-		jumped += 1		
-	inputBufferJump = 0
-}
-
 dashpadBuffer = max(dashpadBuffer - 1, 0);
 kungBuffer = max(kungBuffer - 1, 0);
 global.HighestCombo = max(global.Combo, global.HighestCombo);

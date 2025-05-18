@@ -83,6 +83,10 @@ function draw_option(argument0, argument1, argument2, argument3)
 function init_option()
 {
     ini_open("optionData.ini");
+    global.Gun = ini_read_real("Settings", "gun", 0);
+    global.instamach = ini_read_real("Settings", "instamach4", 0);
+    global.uncappedspeed = ini_read_real("Settings", "uncappedspeed", 0);
+    global.Cane = ini_read_real("Settings", "cane", 0);
     global.fullscreen = ini_read_real("Settings", "fullscrn", 0);
     global.selectedResolution = ini_read_real("Settings", "resolution", 1);
     global.smoothcam = false;

@@ -490,6 +490,10 @@ function scr_playerstate()
         case States.licoricespin:
             state_function = state_player_licoricespin;
             break;
+			
+        case States.cane:
+            state_function = state_player_cane;
+            break;
     }
     
     stateName = string("State : {0}", state);

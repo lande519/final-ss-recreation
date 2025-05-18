@@ -27,6 +27,9 @@ switch (optionMenu)
         }).add_icon(spr_newpause_icons, 8), new option_button("opt_controls", function()
         {
             option_goto(OptionMenu.Controls);
+        }).add_icon(spr_newpause_icons, 7), new option_button("opt_cheats", function()
+        {
+            option_goto(OptionMenu.Cheats);
         }).add_icon(spr_newpause_icons, 7)];
         break;
     
@@ -280,5 +283,28 @@ switch (optionMenu)
             quick_write_option("Settings", "deadzoneCrouch", global.deadzones[Deadzones.Crouch]);
         }, round(global.deadzones[Deadzones.Crouch] * 100))];
         break;
+
+    case OptionMenu.Cheats:
+        backMenu = OptionMenu.Base;
+        backOption = 2;
+        alignCenter = false;
+        options = [toMainPage, new option_normal("opt_cheats_gun", onOffToggle, function(argument0)
+        {
+            quick_write_option("Settings", "gun", argument0);
+            global.Gun = argument0;
+        }, global.Gun), new option_normal("opt_cheats_cane", onOffToggle, function(argument0)
+        {
+            quick_write_option("Settings", "cane", argument0);
+            global.Cane = argument0;
+        }, global.Cane), new option_normal("opt_cheats_mach", onOffToggle, function(argument0)
+        {
+            quick_write_option("Settings", "instamach4", argument0);
+            global.instamach = argument0;
+        }, global.instamach), new option_normal("opt_cheats_uncap", onOffToggle, function(argument0)
+        {
+            quick_write_option("Settings", "instamach4", argument0);
+            global.uncappedspeed = argument0;
+        }, global.uncappedspeed)];
+	break;
 }
 

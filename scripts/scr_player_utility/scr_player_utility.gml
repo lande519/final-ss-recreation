@@ -129,7 +129,7 @@ function do_grab(argument0 = state)
     {
         inputBufferSlap = 0;
 		
-		if global.InternalLevelName ="oldmines"{
+		if global.InternalLevelName ="oldmines" or global.Gun{
 			with instance_create(x,y,obj_shotgunblast){
 				image_xscale = other.xscale	
 			}

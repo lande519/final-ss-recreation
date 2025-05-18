@@ -1,5 +1,16 @@
 function state_player_mach2()
 {
+	if global.Cane{
+		image_index = 0
+		sprite_index = spr_playerN_pogostart
+		state = States.cane
+		exit;
+	}
+	if global.instamach{
+		movespeed = 20
+		sprite_index = spr_mach3player
+		state = States.mach3		
+	}
     var mach_sprite, mach_jumpsprite, _ledge;
     
     windingAnim = min(windingAnim + 1, 2000);

@@ -451,6 +451,7 @@
 "opt_video"         : "VIDEO"
 "opt_game"          : "GAME"
 "opt_controls"      : "CONTROLS"
+"opt_cheats"	    : "CHEATS"
 "opt_accessibility" : "ACCESSIBILITY"
 "opt_back"          : "BACK"
 "opt_on"            : "ON"
@@ -536,6 +537,13 @@
 "opt_keyconfig_cancel"		 : "CANCEL"
 "opt_keyconfig_deny"		 : "EXIT WITHOUT SAVING"
 "opt_keyconfig_save"		 : "SAVE CHANGES"
+
+
+# Cheats UI Text
+"opt_cheats_gun"             : "GUN"
+"opt_cheats_cane"            : "CANE"
+"opt_cheats_mach"            : "INSTANT MACH 4"
+"opt_cheats_uncap"           : "UNCAPPED SPEED"
 
 # Keyconfig Controller Input Names
 "opt_keyconfig_upc"          : "upc"

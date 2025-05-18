@@ -116,7 +116,8 @@ enum States
 	fairy = 118,
 	minesoldcutscene = 119,
 	shotgun = 120,
-	licoricespin = 121
+	licoricespin = 121,
+	cane = 122
 }
 
 enum bossstates{
@@ -167,7 +168,8 @@ enum OptionMenu
 	Controls = 5,
 	Keyboard = 6,
 	Gamepad = 7,
-	Deadzones = 8
+	Deadzones = 8,
+	Cheats = 9
 }
 
 enum OldOptionType
