@@ -16,6 +16,7 @@ else
     mask_index = spr_crouchmask;
 
 scr_getinput();
+
 inputBufferJump = key_jump ? 15 : max(inputBufferJump - 1, 0);
 inputBufferSlap = key_slap2 ? 12 : max(inputBufferSlap - 1, 0);
 coyoteTime = (grounded && vsp >= 0) ? 8 : max(coyoteTime - 1, 0);

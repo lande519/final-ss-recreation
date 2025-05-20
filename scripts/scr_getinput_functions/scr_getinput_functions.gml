@@ -67,36 +67,67 @@ function scr_getinput()
     
     if (global.shellactivate)
         exit;
-    
-    key_up = input_check("up");
-    key_up2 = input_check_pressed("up");
-    key_right = input_check("right");
-    key_right2 = input_check_pressed("right");
-    key_left = -input_check("left");
-    key_left2 = -input_check_pressed("left");
-    key_down = input_check("down");
-    key_down_release = input_check_released("down");
-    key_down2 = input_check_pressed("down");
-    key_jump2 = input_check("jump");
-    key_jump = input_check_pressed("jump");
-    key_jump_release = input_check_released("jump");
-    key_slap = input_check("slap");
-    key_slap2 = input_check_pressed("slap");
-    key_taunt = input_check("taunt");
-    key_taunt2 = input_check_pressed("taunt");
-    key_attack = input_check("attack");
-    key_attack2 = input_check_pressed("attack");
-    key_shoot = input_check("shoot");
-    key_shoot2 = input_check_pressed("shoot");
-    key_start = input_check("start");
-    key_start2 = input_check_pressed("start");
-    key_special = input_check("special");
-    key_special2 = input_check_pressed("special");
-    key_escape = input_check("start");
-    key_superjump = input_check("superjump");
-    key_groundpound = input_check("groundpound");
-    return true;
+    if object_index != obj_player2{
+	    key_up = input_check("up");
+	    key_up2 = input_check_pressed("up");
+	    key_right = input_check("right");
+	    key_right2 = input_check_pressed("right");
+	    key_left = -input_check("left");
+	    key_left2 = -input_check_pressed("left");
+	    key_down = input_check("down");
+	    key_down_release = input_check_released("down");
+	    key_down2 = input_check_pressed("down");
+	    key_jump2 = input_check("jump");
+	    key_jump = input_check_pressed("jump");
+	    key_jump_release = input_check_released("jump");
+	    key_slap = input_check("slap");
+	    key_slap2 = input_check_pressed("slap");
+	    key_taunt = input_check("taunt");
+	    key_taunt2 = input_check_pressed("taunt");
+	    key_attack = input_check("attack");
+	    key_attack2 = input_check_pressed("attack");
+	    key_shoot = input_check("shoot");
+	    key_shoot2 = input_check_pressed("shoot");
+	    key_start = input_check("start");
+	    key_start2 = input_check_pressed("start");
+	    key_special = input_check("special");
+	    key_special2 = input_check_pressed("special");
+	    key_escape = input_check("start");
+	    key_superjump = input_check("superjump");
+	    key_groundpound = input_check("groundpound");
+	}
+	else{
+	    key_up = keyboard_check(ord("W"))
+	    key_up2 = keyboard_check_pressed(ord("W"))
+	    key_right = keyboard_check(ord("D"))
+	    key_right2 = input_check_pressed("right");
+	    key_left = -keyboard_check(ord("A"))
+	    key_left2 = -input_check_pressed("left");
+	    key_down = keyboard_check(ord("S"))
+	    key_down_release = input_check_released("down");
+	    key_down2 = input_check("down");
+	    key_jump2 = keyboard_check(ord("K"))
+	    key_jump = keyboard_check_pressed(ord("K"))
+	    key_jump_release = input_check_released("jump");
+	    key_slap = input_check("slap");
+	    key_slap2 = keyboard_check_pressed(ord("J"))
+	    key_taunt = input_check("taunt");
+	    key_taunt2 = input_check_pressed("taunt");
+	    key_attack = keyboard_check(ord("L"))
+	    key_attack2 = input_check_pressed("attack");
+	    key_shoot = input_check("shoot");
+	    key_shoot2 = input_check_pressed("shoot");
+	    key_start = input_check("start");
+	    key_start2 = input_check_pressed("start");
+	    key_special = input_check("special");
+	    key_special2 = input_check_pressed("special");
+	    key_escape = input_check("start");
+	    key_superjump = input_check("superjump");
+	    key_groundpound = input_check("groundpound");		
+	}
+	return true;	
 }
+
 
 function input_check(argument0)
 {
