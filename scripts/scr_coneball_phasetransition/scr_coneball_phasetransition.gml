@@ -45,7 +45,7 @@ function scr_coneball_phasetrans(){
 	
 	if sprite_index = spr_coneball_phasetrans1 && image_index > 40{
 		phase = 1
-		state = bossstates.phasetranssetup
+		state = bossstates.introsetup
 	}
 	
 	

@@ -1,9 +1,9 @@
 event_inherited()
 grabbed_spr = spr_coneball_hit
 hurt_spr = spr_coneball_hit
-normal_spr = spr_coneball_new
+normal_spr = spr_stupidrat_idle
 vulnerable_spr = spr_coneball_hit
-fall_spr = spr_coneball_new
+fall_spr = spr_stupidrat_idle
 image_speed = 0.35
 depth = -30
 state = bossstates.intro

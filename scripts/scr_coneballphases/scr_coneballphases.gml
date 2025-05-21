@@ -41,11 +41,13 @@ function scr_coneballphase2(){
 		case bossstates.frozen:
 			scr_boss_frozen()
 		break;
+		case bossstates.nothing:
+			grav = 0
+			vsp = 0
+			hsp = 0
+		break;
 		case bossstates.normal:
 			scr_boss_normal()
-		break;
-		case bossstates.intro:
-			scr_boss_introconeballpt1()
 		break;
 			case bossstates.hurt:
 			scr_boss_hurt()
@@ -56,14 +58,20 @@ function scr_coneballphase2(){
 		case bossstates.grabbed:
 			scr_boss_grabbed()
 		break;
-		case bossstates.phasetranssetup:
-			scr_coneball_phasetranssetuppt2()
+		case bossstates.introsetup:
+			scr_coneball_setupintropt2()
 		break;
-		case bossstates.phasetrans:
-			scr_coneball_phasetranspt2()
+		case bossstates.intro:
+			scr_coneball_intropt2()
 		break;		
 		case bossstates.cook:
 			scr_coneball_cook()
-		break;		
+		break;	
+		case bossstates.phasetranssetup:
+			scr_coneball_transetuppt2()
+		break;
+		case bossstates.phasetrans:
+			scr_coneball_transpt2()
+		break;				
 	}
 }

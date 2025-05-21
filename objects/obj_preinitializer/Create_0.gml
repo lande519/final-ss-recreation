@@ -149,7 +149,8 @@ enum bossstates{
 	cottondash, //25
 	headkick, //26
 	dog, //27
-	cook //27
+	cook, //27
+	introsetup //27
 }
 
 enum Characters

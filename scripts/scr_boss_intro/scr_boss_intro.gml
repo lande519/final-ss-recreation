@@ -35,6 +35,8 @@ function scr_boss_intro(){
 
 function scr_boss_introconeballpt1(){
 	grav = 0
+	obj_player1.x = obj_player1.roomStartX
+	obj_player1.y = obj_player1.roomStartY	
 	if y != topy{
 		y += 1
 		obj_player1.sprite_index = spr_player_PZ_bossintro1
