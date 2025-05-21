@@ -204,11 +204,6 @@ with (HUDObject_TV)
             case States.fairy:
                 queuedSprite = global.TvSprPlayer_Fairy;
                 break;
-				
-            case States.normal:
-				if global.InternalLevelName = "oldmine" 
-					queuedSprite = global.TvSprPlayer_Gun;
-                break;
         }
     };
     
