@@ -79,6 +79,9 @@
 			<destination>{399c5a9f-c444-4db6-9950-a1c29cd9d372}</destination>
 			<destination>{c69ccb2a-4af5-4958-864a-9319f07b1b67}</destination>
 			<destination>{c0c262b1-882e-4b58-a70b-869e7450a5eb}</destination>
+			<destination>{a3eca418-c27b-4280-bbc9-697c4d633c82}</destination>
+			<destination>{cb54d2cb-0ad5-4a0e-8fc1-2c9370e3853b}</destination>
+			<destination>{92faa4d7-b247-45da-b9e9-a81a27f3958d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ea40b391-4fac-4673-a9c1-4d2e6873d1eb}">
@@ -206,6 +209,48 @@
 		</property>
 		<property name="length">
 			<value>126.35428571428571</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{65888778-7c78-4d2b-8cac-0a29aa5e385b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{14037eed-7c0c-42dc-9bf1-67ead9f39cfe}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{a3eca418-c27b-4280-bbc9-697c4d633c82}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>203.15428571428569</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{65888778-7c78-4d2b-8cac-0a29aa5e385b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{14037eed-7c0c-42dc-9bf1-67ead9f39cfe}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{cb54d2cb-0ad5-4a0e-8fc1-2c9370e3853b}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>203.15428571428569</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{65888778-7c78-4d2b-8cac-0a29aa5e385b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{14037eed-7c0c-42dc-9bf1-67ead9f39cfe}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{92faa4d7-b247-45da-b9e9-a81a27f3958d}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>203.15428571428569</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{65888778-7c78-4d2b-8cac-0a29aa5e385b}</destination>
