@@ -6,7 +6,7 @@ function scr_painter_paintball(){
 	movespeed = 0
 	hsp = approach(hsp, 0, 0.15)
 	// Start Attack
-	if sprite_index == spr_painter_idle
+	if sprite_index == normal_spr
 	{
 		sprite_index = spr_painter_paintballcharge
 		image_index = 0

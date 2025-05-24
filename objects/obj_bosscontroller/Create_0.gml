@@ -4,6 +4,9 @@ bossmusic = "event:/music/w2/coneboyboss"
 if room = boss_painter{
 	bosshp = 10
 }
+if room = boss_bushranger{
+	bosshp = 10
+}
 if room = boss_gumbob
 	bosshp = 10
 if room = boss_pizzano{

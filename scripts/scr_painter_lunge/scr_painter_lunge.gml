@@ -45,7 +45,7 @@ function scr_painter_lunge(){
 		}
 	}
 	
-	if sprite_index == spr_painter_idle
+	if sprite_index == normal_spr
 	{
 		image_index = 0
 		sprite_index = spr_painter_lungestart

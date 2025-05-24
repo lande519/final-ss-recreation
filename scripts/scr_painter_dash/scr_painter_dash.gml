@@ -2,7 +2,7 @@ function scr_painter_dash(){
 	image_speed = 0.35
 	hsp = movespeed * xscale
 	// Start Dash State
-	if sprite_index == spr_painter_idle
+	if sprite_index == normal_spr
 	{
 		hsp = 0
 		xscale = face_center_room()

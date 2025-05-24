@@ -10,7 +10,7 @@ function scr_painter_floatbomb(){
 	var _y = wave(-20, 20, 5, 10)
 	
 	// Start Attack
-	if sprite_index == spr_painter_idle
+	if sprite_index == normal_spr
 	{
 		sprite_index = spr_painter_paintballcharge
 		image_index = 0
